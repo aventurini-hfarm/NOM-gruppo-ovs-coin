@@ -1,0 +1,24 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:getPointsResponse xmlns:ns2="http://cls.service.esb.sopragroup.com">
+            <ns2:getPointsResponse>
+                <resultCode>OK</resultCode>
+                <pinCode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <cardStatus>A</cardStatus>
+                <points>0</points>
+                <customerFirstName>SIMONETTA</customerFirstName>
+                <customerLastName>GIURIN</customerLastName>
+                <birthDate>1971-09-24</birthDate>
+                <address>VIA SILVIO TRENTIN 37</address>
+                <city>VENEZIA</city>
+                <zipCode>30171</zipCode>
+                <province>VE</province>
+                <country>Italia</country>
+                <telephoneNumber xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <mobileNumber xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <errorCode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <errorMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </ns2:getPointsResponse>
+        </ns2:getPointsResponse>
+    </soap:Body>
+</soap:Envelope>

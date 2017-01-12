@@ -1,0 +1,709 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: vincenzosambucaro
+ * Date: 16/05/15
+ * Time: 16:33
+ */
+
+require_once realpath(dirname(__FILE__))."/../../common/OMDBManager.php";
+require_once realpath(dirname(__FILE__))."/../../common/ConfigManager.php";
+require_once realpath(dirname(__FILE__))."/../../common/KLogger.php";
+require_once realpath(dirname(__FILE__))."/../../common/CountersHelper.php";
+require_once realpath(dirname(__FILE__))."/../../common/FileGenerator.php";
+require_once realpath(dirname(__FILE__))."/../../omdb/OrderDBHelper.php";
+require_once realpath(dirname(__FILE__))."/../../omdb/PaymentDBHelper.php";
+require_once realpath(dirname(__FILE__))."/../../dw2om/orders/MagentoOrderHelper.php";
+require_once realpath(dirname(__FILE__)) . "/../../creditmemo/CreditMemoHelper.php";
+require_once realpath(dirname(__FILE__))."/../../omdb/CountryDBHelper.php";
+
+require_once '/var/www/magento/shell/abstract.php';
+require_once('/var/www/magento/app/Mage.php');
+
+
+Mage::app();
+
+
+class InvoiceExport {
+
+    private $status_to_export = "complete";
+
+    private $log;
+    private $config;
+
+    public function __construct()
+    {
+        $this->config = new ConfigManager();
+        $this->log = new KLogger('/var/log/nom/invoice_export.log',KLogger::DEBUG);
+
+    }
+
+    /**
+     * Inizia export flusso scontrini in base al range temporale
+     * @param $start data inizio
+     * @param $end data fine
+     */
+    public function export($start, $end, $start_date_cm, $end_date_cm) {
+
+        $this->log->LogInfo("Start");
+        $lista_ordini = $this->getListaOrdiniDaExportare($start, $end, $this->status_to_export);
+        $lista_creditmemo = $this->getListaCreditMemoDaExportare($start_date_cm, $end_date_cm);
+
+        if ($lista_ordini || $lista_creditmemo) {  // RINO 31/07/2016   mancava " || $lista_creditmemo "
+            $records = $this->generateInvoiceExport($lista_ordini, $lista_creditmemo);
+
+            $this->writeRecordToFile($records);
+        }
+        else
+            $this->log->LogInfo("Nessun ordine da esportare");
+
+    }
+
+
+    public function parseStores() {
+
+
+        $stores = Mage::getModel('core/store')->getCollection()->getData();
+
+        foreach ($stores as $store) {
+
+            print_r($store);
+        }
+
+    }
+
+    private function getInfoFiscale($increment_id)
+    {
+        $order = Mage::getModel('sales/order')->load($increment_id, 'increment_id');
+
+        $billingAddress = Mage::getModel('sales/order_address')->load($order->getBillingAddressId());
+        $billing_country = $billingAddress->getData('country_id');
+
+        $country_details = CountryDBHelper::getCountryDetails($billing_country);
+        $country = $country_details->sopra_soglia == '1' ? $billing_country : 'it';
+        $rapprFiscale = $country_details->sopra_soglia == '1' ? $country_details->rappr_fiscale : '';
+
+
+        $infoFiscale  = new stdClass();
+        $infoFiscale->country = $country;
+        $infoFiscale->rapprFiscale = $rapprFiscale;
+        $infoFiscale->sopra_soglia = $country_details->sopra_soglia;
+
+        return $infoFiscale;
+    }
+
+
+    private function generateInvoiceExport($lista_ordini,$lista_creditmemo) {
+        $lista_record = array();
+        $start_date = date('d/m/Y H:i:s');
+        $codice_cassa = $this->config->getEcommerceShopCodiceCassa();
+
+
+        foreach ($lista_ordini as $increment_id) {
+            $order = Mage::getModel('sales/order')->load($increment_id, 'increment_id');
+
+            $infoFiscale = $this->getInfoFiscale($increment_id);
+
+            if ($order->getData('needInvoice')=='true' || $infoFiscale->sopra_soglia=='1') {
+
+                $orderDBHelper = new OrderDBHelper($order->getDwOrderNumber());
+                $order_custom_attributes = $orderDBHelper->getCustomAttributes();
+
+                $pManager = new PaymentDBHelper($order->getDwOrderNumber());
+                $paymentObj = $pManager->getPaymentInfo();
+
+                //print_r($order_custom_attributes);
+
+                $bill_to_info = $order->getBillingAddress();
+                //$trx_header_id = CountersHelper::getTrxHeaderId();  RINO 31/07/2016 remmato
+                // TODO COMUNICARE A COIN . Possibile anomalie nell'incremento della sequenza di scontrini quando si esportano fatture
+
+
+                //$this->parseStores();
+
+                $societa = 'N000'; //Rino 01/07/2016 mofificato come da specifiche
+
+                $country_details = CountryDBHelper::getCountryDetails($bill_to_info->getCountryId());
+                $centro_costo = $country_details->sopra_soglia == '1' ? $country_details->codice_ente . '0 ' : '37370 ';
+                $registro_iva = $country_details->country_id == 'it' ? "0" : "E"; // RINO 9/07/2016 todo quali sono i valori per gli altri Paesi?
+
+                $trx_date = $paymentObj->timestamp;
+                $payment = $order->getPayment();
+                $payment_method_selected = $payment->getMethod();
+                if ($payment_method_selected == 'cashondelivery') {
+                    //$trx_date = date('Y-m-d');
+                    //$trx_date = date('d/m/Y',strtotime($order->getData('bill_date')));
+                    $newDate_trx_date = date_format(date_create_from_format('d/m/Y', $order->getData('invoice_date')), 'Ymd');
+
+                    //$trx_date = '2015-11-04';
+                } else
+                    $newDate_trx_date = date("Ymd", strtotime($trx_date));
+                /* END FIX per CO*/
+
+                //$numero_doc = str_pad(CountersHelper::getInvoiceNumber(date('Y')), 4,'0', STR_PAD_LEFT);
+                $numero_doc = str_pad(ltrim($order->getData('invoice_number'), '0'), 7, '0', STR_PAD_LEFT);  // Rino 01/07/2016 modifiche 7 pad
+                $data_documento_fattura = $order->getData('invoice_date');
+
+                $ragione_sociale = $order_custom_attributes['ragioneSociale'];
+                $ragione_sociale_1 = $bill_to_info->getFirstname();
+                $ragione_sociale_2 = $bill_to_info->getLastname();
+
+                if ($ragione_sociale) {
+                    if (strlen($ragione_sociale > 40)) {
+                        $ragione_sociale_1 = substr($ragione_sociale, 0, 39);
+                        $ragione_sociale_2 = substr($ragione_sociale, 40);
+                    } else {
+                        $ragione_sociale_1 = $ragione_sociale;
+                        $ragione_sociale_2 = "";
+
+                    }
+                }
+                $rag_sociale_nome = $ragione_sociale_1;
+                $rag_sociale_cognome = $ragione_sociale_2;
+
+                $indirizzo = $bill_to_info->getStreet(1);
+                $cap = $bill_to_info->getPostcode();
+                $localita = $bill_to_info->getCity();
+                $provincia = $bill_to_info->getRegion();
+                //$nazione = "ITALIA";  // RINO 30/08/2016
+                $piva = $order_custom_attributes['partitaIva'] ? "IT" . $order_custom_attributes['partitaIva'] : "";
+                $cf = $order_custom_attributes['codiceFiscale'];
+                //$tipo_documento = "10"; //TODO in caso di reso il valore è 50
+                //$tipo_fattura = "V"; // RINO 31/07/2016
+                $tipo_fattura = "M"; // RINO 30/08/2016 Fix Zennaro del 30 Agosto 2016
+                $divisa = "EUR";
+                $numero_aliquote = "01";
+
+                // RINO 31/07/2017  TODO Generalizzare codici 1va
+                echo $infoFiscale->country;
+                if ($infoFiscale->country == 'ES') {
+                    $codice_iva1 = "150";
+                    $aliquota_iva1 = "21000";
+                    $nazione = "SPAGNA";  // RINO 30/08/2016
+                    $tipo_documento = "27";// RINO 30/08/2016 Fix Zennaro del 30 Agosto 2016
+                } else {
+                    $codice_iva1 = "184";
+                    $aliquota_iva1 = "22000";
+                    $nazione = "ITALIA";  // RINO 30/08/2016
+                    $tipo_documento = "10";// RINO 30/08/2016 Fix Zennaro del 30 Agosto 2016
+                }
+
+                /* // RINO 30/07/2016
+                //$imponibile1=str_pad(str_replace('.','', number_format($order->getBaseTaxAmount(),3)),13,'0',STR_PAD_LEFT);
+                $imponibile1 = str_pad(str_replace(',', '', str_replace('.', '', number_format($order->getBaseTaxAmount(), 3))), 13, '0', STR_PAD_LEFT);
+
+                //$imposta1 =str_pad(str_replace('.','', number_format($order->getTaxAmount(),3)),13,'0',STR_PAD_LEFT);
+                $imposta1 = str_pad(str_replace(',', '', str_replace('.', '', number_format($order->getTaxAmount(), 3))), 13, '0', STR_PAD_LEFT);
+                */
+
+                $imponibile_tmp = $order->getBaseGrandTotal() - $order->getBaseTaxAmount();     // RINO 30/07/2016
+                $imposta_tmp = $order->getBaseTaxAmount();                                      // RINO 30/07/2016
+                $imponibile1 = str_pad(str_replace(',', '', str_replace('.', '', number_format($imponibile_tmp, 3))), 13, '0', STR_PAD_LEFT);   // RINO 30/07/2016
+                $imposta1    = str_pad(str_replace(',', '', str_replace('.', '', number_format($imposta_tmp, 3))), 13, '0', STR_PAD_LEFT);      // RINO 30/07/2016
+
+                $codice_iva2 = "000";
+                $imponibile2 = "0000000000000";
+                $aliquota_iva2 = "00000";
+                $imposta2 = "0000000000000";
+
+                $codice_iva3 = "000";
+                $imponibile3 = "0000000000000";
+                $aliquota_iva3 = "00000";
+                $imposta3 = "0000000000000";
+
+                $codice_iva4 = "000";
+                $imponibile4 = "0000000000000";
+                $aliquota_iva4 = "00000";
+                $imposta4 = "0000000000000";
+
+                $codice_iva5 = "000";
+                $imponibile5 = "0000000000000";
+                $aliquota_iva5 = "00000";
+                $imposta5 = "0000000000000";
+
+
+                $cassa1 = "0001";
+                //$num_transazione1=str_pad(CountersHelper::getTransactionNumber(date('Y')),4,'0',STR_PAD_LEFT);
+
+                //$num_transazione1=str_pad(ltrim($order->getData('bill_number'),'0'),4,'0',STR_PAD_LEFT);
+                $num_transazione1 = str_pad(substr(ltrim($order->getData('bill_number'), '0'), -4), 4, '0', STR_PAD_LEFT); //RINO 30/08/2016 TODO verificare perchè il numero dello scontrino debba essere troncato a quattro cifre
+
+
+                $num_transazione_fiscale1 = "0000";
+
+                $cassa2 = "0000";
+                $num_transazione2 = "0000";
+                $num_transazione_fiscale2 = "0000";
+
+                $cassa3 = "0000";
+                $num_transazione3 = "0000";
+                $num_transazione_fiscale3 = "0000";
+
+                $cassa4 = "0000";
+                $num_transazione4 = "0000";
+                $num_transazione_fiscale4 = "0000";
+
+                $cassa5 = "0000";
+                $num_transazione5 = "0000";
+                $num_transazione_fiscale5 = "0000";
+
+                $tipo_persona = ($piva != '' ? 'G' : 'F'); //vale P se ha piva
+                $nazione_nascita = "                                   ";
+                $data_nascita = "00000000";
+                $codice_nazione_estera_iso = "IT ";
+                $codice_nazione_estera_unico = "000";
+
+                $codice_nazione_estera_iso_nascita = "   ";
+                $codice_nazione_estera_unico_nascita = "000";
+
+
+                /**
+                 * CREA STRUTTURA RECORD DA SCRIVERE
+                 */
+                $record = array();
+                $record['societa'] = $societa;
+                $record['centro_costo'] = $centro_costo;
+                $record['data'] = $newDate_trx_date;
+                $record['registro_iva'] = $registro_iva; //Rino 01/07/2016 aggiunto secondo specifiche
+                $record['numero_doc'] = $numero_doc;
+
+                $record['rag_sociale_cognome'] = $rag_sociale_cognome;
+                $record['rag_sociale_nome'] = $rag_sociale_nome;
+
+
+                $record['indirizzo'] = $indirizzo;
+                $record['cap'] = $cap;
+                $record['localita'] = $localita;
+                $record['provincia'] = $provincia;
+                $record['nazione'] = $nazione;
+                $record['piva'] = $piva;
+                $record['cf'] = $cf;
+                $record['tipo_documento'] = $tipo_documento;
+                $record['tipo_fattura'] = $tipo_fattura;
+                $record['divisa'] = $divisa;
+                $record['numero_aliquote'] = $numero_aliquote;
+
+                $record['codice_iva1'] = $codice_iva1;
+                $record['imponibile1'] = $imponibile1;
+                $record['aliquota_iva1'] = $aliquota_iva1;
+                $record['imposta1'] = $imposta1;
+
+                $record['codice_iva2'] = $codice_iva2;
+                $record['imponibile2'] = $imponibile2;
+                $record['aliquota_iva2'] = $aliquota_iva2;
+                $record['imposta2'] = $imposta2;
+
+                $record['codice_iva3'] = $codice_iva3;
+                $record['imponibile3'] = $imponibile3;
+                $record['aliquota_iva3'] = $aliquota_iva3;
+                $record['imposta3'] = $imposta3;
+
+                $record['codice_iva4'] = $codice_iva4;
+                $record['imponibile4'] = $imponibile4;
+                $record['aliquota_iva4'] = $aliquota_iva4;
+                $record['imposta4'] = $imposta4;
+
+                $record['codice_iva5'] = $codice_iva5;
+                $record['imponibile5'] = $imponibile5;
+                $record['aliquota_iva5'] = $aliquota_iva5;
+                $record['imposta5'] = $imposta5;
+
+                $record['cassa1'] = $cassa1;
+                $record['num_transazione1'] = $num_transazione1;
+                $record['num_transazione_fiscale1'] = $num_transazione_fiscale1;
+
+                $record['cassa2'] = $cassa2;
+                $record['num_transazione2'] = $num_transazione2;
+                $record['num_transazione_fiscale2'] = $num_transazione_fiscale2;
+
+                $record['cassa3'] = $cassa3;
+                $record['num_transazione3'] = $num_transazione3;
+                $record['num_transazione_fiscale3'] = $num_transazione_fiscale3;
+
+                $record['cassa4'] = $cassa4;
+                $record['num_transazione4'] = $num_transazione4;
+                $record['num_transazione_fiscale4'] = $num_transazione_fiscale4;
+
+                $record['cassa5'] = $cassa5;
+                $record['num_transazione5'] = $num_transazione5;
+                $record['num_transazione_fiscale5'] = $num_transazione_fiscale5;
+
+                $record['tipo_persona'] = $tipo_persona;
+                $record['nazione_nascita'] = $nazione_nascita;
+                $record['data_nascita'] = $data_nascita;
+                $record['codice_nazione_estera_iso'] = $infoFiscale->country;
+                $record['codice_nazione_estera_unico'] = $codice_nazione_estera_unico;
+                $record['codice_nazione_estera_iso_nascita'] = $codice_nazione_estera_iso_nascita;
+                $record['codice_nazione_estera_unico_nascita'] = $codice_nazione_estera_unico_nascita;
+
+                // RINO 30/08/2016
+                $record['rif_registro_iva']="";
+                $record['rif_num_fattura']="";
+                $record['rif_data_fattura']="";
+                // RINO 30/08/2016
+
+
+                $lista_record[] = $record;
+                unset($paymentManager);
+                unset($orderDBHelper);
+            }
+        }
+
+
+        /**
+         * SEZIONE CREDITMEMO
+         *
+         */
+
+        foreach ($lista_creditmemo as $obj) {
+            $order_id = $obj->order_id;
+            $creditmemo_id = $obj->creditmemo_id;
+            $info_creditmemo = CreditMemoHelper::getCreditMemoDetails($creditmemo_id);
+
+            $order = Mage::getModel('sales/order')->load($order_id);
+
+            $orderDBHelper = new OrderDBHelper($order->getDwOrderNumber());
+            $order_custom_attributes = $orderDBHelper->getCustomAttributes();
+
+            $pManager = new PaymentDBHelper($order->getDwOrderNumber());
+            $paymentObj = $pManager->getPaymentInfo();
+
+            //print_r($order_custom_attributes);
+
+            $bill_to_info= $order->getBillingAddress();
+            //$trx_header_id = CountersHelper::getTrxHeaderId(); // RINO 31/07/2016
+            // TODO COMUNICARE A COIN . Possibile anomalie nell'incremento della sequenza di scontrini quando si esportano fatture
+
+
+            $societa = 'N000';
+
+            $country_details = CountryDBHelper::getCountryDetails($bill_to_info->getCountryId());
+            $centro_costo = $country_details->sopra_soglia=='1' ? $country_details->codice_ente . '0 ' : '37370 ';
+            $registro_iva = $country_details->country_id == 'it' ? "0" : "E"; // RINO 9/07/2016 todo quali sono i valori per gli altri Paesi?
+
+
+
+            $trx_date = $paymentObj->timestamp;
+            $newDate_trx_date = date("Ymd", strtotime($trx_date));
+            $trx_date = $paymentObj->timestamp;
+            $newDate_trx_date = date_format(date_create_from_format('d/m/Y', $info_creditmemo->invoice_date), 'Ymd');//In realtà per le note di credito occorre prendere la data dello scontrino di nota di credito
+
+
+            /* FIX 05112015*/
+            /* per CO perchè la data non esiste */
+
+            $payment = $order->getPayment();
+            $payment_method_selected = $payment->getMethod();
+
+
+            //$numero_doc = str_pad(CountersHelper::getInvoiceNumber(date('Y')), 4,'0', STR_PAD_LEFT);
+            //$numero_doc = $order->getData('invoice_number');
+            $numero_doc = str_pad(ltrim($info_creditmemo->invoice_number,'0'),7,'0',STR_PAD_LEFT);    // RINO 30/08/2016
+
+            //$data_documento_fattura = $order->getData('invoice_date');
+            $data_documento_fattura = $info_creditmemo->invoice_date;
+
+            $ragione_sociale = $order_custom_attributes['ragioneSociale'];
+            $ragione_sociale_1 = $bill_to_info->getFirstname();
+            $ragione_sociale_2 = $bill_to_info->getLastname();
+
+            if ($ragione_sociale) {
+                if (strlen($ragione_sociale>40)) {
+                    $ragione_sociale_1 = substr($ragione_sociale, 0, 39);
+                    $ragione_sociale_2 = substr($ragione_sociale, 40);
+                } else {
+                    $ragione_sociale_1 = $ragione_sociale;
+                    $ragione_sociale_2 = "";
+
+                }
+            }
+            $rag_sociale_nome = $ragione_sociale_1;
+            $rag_sociale_cognome = $ragione_sociale_2;
+
+            $indirizzo = $bill_to_info->getStreet(1);
+            $cap = $bill_to_info->getPostcode();
+            $localita = $bill_to_info->getCity();
+            $provincia = $bill_to_info->getRegion();
+            //$nazione = "ITALIA";  //RINO 30/08/2016
+            $piva = $order_custom_attributes['partitaIva'] ? "IT".$order_custom_attributes['partitaIva']: "";
+            $cf = $order_custom_attributes['codiceFiscale'];
+            //$tipo_documento="50"; //TODO in caso di reso il valore è 50
+            //$tipo_fattura="R";  //RINO 31/07/2016
+            $tipo_fattura="M";// RINO 30/08/2016 Fix Zennaro del 30 Agosto 2016
+            $divisa="EUR";
+            $numero_aliquote="01"; //TODO   RIN0 01/07/2016 verificare il numero di aliquote
+
+
+
+
+
+            if ($infoFiscale->country == 'ES') {   //RINO 31/07/2016 TODO generalizzare codici iva ed aliquote
+                $codice_iva1 = "150";
+                $aliquota_iva1 = "21000";
+                $fatt_iva="1.21";
+                $nazione="SPAGNA";
+                $tipo_documento="67";// RINO 30/08/2016 Fix Zennaro del 30 Agosto 2016
+            } else {
+                $codice_iva1 = "184";
+                $aliquota_iva1 = "22000";
+                $fatt_iva="1.22";
+                $nazione="ITALIA";
+                $tipo_documento="50";// RINO 30/08/2016 Fix Zennaro del 30 Agosto 2016
+            }
+
+            $imponibile_tmp = round($info_creditmemo->grand_total/$fatt_iva, 2);   // RINO 31/07/2016
+            $iva_tmp = round($info_creditmemo->grand_total - $imponibile_tmp,2);
+            $imponibile1=str_pad(str_replace('.','', number_format($imponibile_tmp,3)),13,'0',STR_PAD_LEFT);
+            $imposta1 =str_pad(str_replace('.','', number_format($iva_tmp,3)),13,'0',STR_PAD_LEFT);
+
+
+
+            $codice_iva2="000";
+            $imponibile2="0000000000000";
+            $aliquota_iva2="00000";
+            $imposta2 ="0000000000000";
+
+            $codice_iva3="000";
+            $imponibile3="0000000000000";
+            $aliquota_iva3="00000";
+            $imposta3 ="0000000000000";
+
+            $codice_iva4="000";
+            $imponibile4="0000000000000";
+            $aliquota_iva4="00000";
+            $imposta4 ="0000000000000";
+
+            $codice_iva5="000";
+            $imponibile5="0000000000000";
+            $aliquota_iva5="00000";
+            $imposta5 ="0000000000000";
+
+
+            $cassa1="0001";
+            //$num_transazione1=str_pad(ltrim($info_creditmemo->bill_number,'0'),4,'0',STR_PAD_LEFT);
+            $num_transazione1 = str_pad(substr(ltrim($info_creditmemo->bill_number,'0'),-4),4,'0',STR_PAD_LEFT);  //RINO 30/08/2016 TODO verificare perchè il numero dello scontrino debba essere troncato a quattro cifre
+
+            $num_transazione_fiscale1="0000";
+
+            $cassa2="0000";
+            $num_transazione2="0000";
+            $num_transazione_fiscale2="0000";
+
+            $cassa3="0000";
+            $num_transazione3="0000";
+            $num_transazione_fiscale3="0000";
+
+            $cassa4="0000";
+            $num_transazione4="0000";
+            $num_transazione_fiscale4="0000";
+
+            $cassa5="0000";
+            $num_transazione5="0000";
+            $num_transazione_fiscale5="0000";
+
+            $tipo_persona= ($piva!='' ? 'G':'F'); //vale P se ha piva
+            $nazione_nascita="                                   ";
+            $data_nascita="00000000";
+            $codice_nazione_estera_iso="IT ";
+            $codice_nazione_estera_unico="000";
+
+            $codice_nazione_estera_iso_nascita="   ";
+            $codice_nazione_estera_unico_nascita="000";
+
+
+            /**
+             * CREA STRUTTURA RECORD DA SCRIVERE
+             */
+            $record = array();
+            $record['societa'] = $societa;
+            $record['centro_costo'] = $centro_costo;
+            $record['data'] = $newDate_trx_date;
+            $record['registro_iva'] = $registro_iva; //Rino 01/07/2016 aggiunto secondo specifiche
+            $record['numero_doc'] = $numero_doc;
+
+            $record['rag_sociale_cognome'] = $rag_sociale_cognome;
+            $record['rag_sociale_nome'] = $rag_sociale_nome;
+
+
+            $record['indirizzo'] = $indirizzo;
+            $record['cap'] = $cap;
+            $record['localita'] = $localita;
+            $record['provincia'] = $provincia;
+            $record['nazione'] = $nazione;
+            $record['piva'] = $piva;
+            $record['cf'] = $cf;
+            $record['tipo_documento'] = $tipo_documento;
+            $record['tipo_fattura'] = $tipo_fattura;
+            $record['divisa'] = $divisa;
+            $record['numero_aliquote'] = $numero_aliquote;
+
+            $record['codice_iva1'] = $codice_iva1;
+            $record['imponibile1'] = $imponibile1;
+            $record['aliquota_iva1'] = $aliquota_iva1;
+            $record['imposta1'] = $imposta1;
+
+            $record['codice_iva2'] = $codice_iva2;
+            $record['imponibile2'] = $imponibile2;
+            $record['aliquota_iva2'] = $aliquota_iva2;
+            $record['imposta2'] = $imposta2;
+
+            $record['codice_iva3'] = $codice_iva3;
+            $record['imponibile3'] = $imponibile3;
+            $record['aliquota_iva3'] = $aliquota_iva3;
+            $record['imposta3'] = $imposta3;
+
+            $record['codice_iva4'] = $codice_iva4;
+            $record['imponibile4'] = $imponibile4;
+            $record['aliquota_iva4'] = $aliquota_iva4;
+            $record['imposta4'] = $imposta4;
+
+            $record['codice_iva5'] = $codice_iva5;
+            $record['imponibile5'] = $imponibile5;
+            $record['aliquota_iva5'] = $aliquota_iva5;
+            $record['imposta5'] = $imposta5;
+
+            $record['cassa1'] = $cassa1;
+            $record['num_transazione1'] = $num_transazione1;
+            $record['num_transazione_fiscale1'] = $num_transazione_fiscale1;
+
+            $record['cassa2'] = $cassa2;
+            $record['num_transazione2'] = $num_transazione2;
+            $record['num_transazione_fiscale2'] = $num_transazione_fiscale2;
+
+            $record['cassa3'] = $cassa3;
+            $record['num_transazione3'] = $num_transazione3;
+            $record['num_transazione_fiscale3'] = $num_transazione_fiscale3;
+
+            $record['cassa4'] = $cassa4;
+            $record['num_transazione4'] = $num_transazione4;
+            $record['num_transazione_fiscale4'] = $num_transazione_fiscale4;
+
+            $record['cassa5'] = $cassa5;
+            $record['num_transazione5'] = $num_transazione5;
+            $record['num_transazione_fiscale5'] = $num_transazione_fiscale5;
+
+            $record['tipo_persona'] = $tipo_persona;
+            $record['nazione_nascita'] = $nazione_nascita;
+            $record['data_nascita'] = $data_nascita;
+            $record['codice_nazione_estera_iso'] = $infoFiscale->country;
+            $record['codice_nazione_estera_unico'] = $codice_nazione_estera_unico;
+            $record['codice_nazione_estera_iso_nascita'] = $codice_nazione_estera_iso_nascita;
+            $record['codice_nazione_estera_unico_nascita'] = $codice_nazione_estera_unico_nascita;
+
+            // RINO 31/07/2016
+            $record['rif_registro_iva']=$registro_iva;
+            $record['rif_num_fattura']=$info_creditmemo->rif_invoice_number;
+            $record['rif_data_fattura']=$info_creditmemo->rif_invoice_date;
+            // RINO 31/07/2016
+
+            $lista_record[] = $record;
+            unset($paymentManager);
+            unset($orderDBHelper);
+        }
+
+        //scrive i record
+        return $lista_record;
+    }
+
+
+    private function writeRecordToFile($lista_record) {
+
+        $content = array();
+        $testata = "**INIT**FATT      3737";
+        $content[] = $testata;
+        echo "\n$testata";
+        foreach ($lista_record as $record) {
+            $riga = implode("|", $record)."|";
+            $content[] = $riga;
+            echo "\n$riga";
+        }
+
+        $counter = str_pad(sizeof($lista_record) + 2,7,'0',STR_PAD_LEFT);
+        $footer = "**FINE**".$counter;
+        $content[]=$footer;
+        echo "\n$footer";
+
+
+        $timestamp = date('YmdHis');
+        $codiceShop = $this->config->getEcommerceShopCode();
+        //$file_name = $timestamp."-EFT_".$codiceShop."_".$timestamp.".xml";
+        $file_name = "EFT_".$codiceShop."_".$timestamp.".TXT";
+        $directory = $this->config->getInvoiceExportOutboundDir();
+        $full_name = $directory."/".$file_name;
+        //echo "\nFullPath: ".$full_name;
+        $fileGenerator = new FileGenerator();
+        $fileGenerator->createFile($full_name);
+
+        $fileGenerator->writeRecord($content);
+        $fileGenerator->closeFile();
+
+        unset($content);
+    }
+
+
+    /**
+     * Estrae la lista ordini direttamente da magento
+     * @param null $start
+     * @param null $end
+     * @return mixed
+     */
+    private function getListaOrdiniDaExportare($start = null, $end = null, $status='complete') {
+
+        $con = OMDBManager::getMagentoConnection();
+
+        //$sql ="SELECT increment_id FROM sales_flat_order WHERE (created_at BETWEEN '$start' AND '$end')
+        // AND status='$status' AND needInvoice='true'";
+        $sql ="SELECT increment_id FROM sales_flat_order WHERE bill_date = '$start'
+         AND status='$status'"; //AND needInvoice='true'";
+        // RINO 30/07/2016 tolto needIvoice ='true' sono presi tutti compresi gli scontrini. Saranno filtrati
+        // successivamente gli ordini italiani che hanno chiesto fattura e quelli esteri in gestione soprasoglia
+        // per cui servirà ugualmente la fattura anche se non l'hanno chiesta
+
+        // echo "\nLog: ".$sql;
+        $res = mysql_query($sql);
+        $lista = array();
+        while ($row = mysql_fetch_object($res)) {
+            $lista[] = $row->increment_id;
+        }
+        OMDBManager::closeConnection($con);
+
+        $this->log->LogDebug("\nRecord trovati:");
+        // print_r($lista);
+        return $lista;
+    }
+
+    private function getListaCreditMemoDaExportare($start = null, $end = null) {
+
+        $t = new CreditMemoHelper();
+        $lista = $t->getListaCreditMemoExportare($start, $end);
+
+        return $lista;
+    }
+
+}
+
+//TODO SISTEMARE LA DATA AUTOMATICA
+$t = new InvoiceExport();
+
+
+$date= date('Y-m-d');
+$start_date = date('d/m/Y', strtotime('-1 day', strtotime($date)));
+$end_date = date('d/m/Y', strtotime('-1 day', strtotime($date)));
+
+$start_date_cm = date('Y-m-d', strtotime('-1 day', strtotime($date))) . " 00:00:00";
+$end_date_cm = date('Y-m-d', strtotime('-1 day', strtotime($date))) . " 23:59:59";
+
+
+for ($i=26;$i < 27; $i++) {
+    $data = str_pad($i, 2, '0', STR_PAD_LEFT);
+    $start_date = $data."/08/2016";
+    $end_date = $data."/08/2016";
+    $start_date_cm = "2016-08-".$data." 00:00:00";
+    $end_date_cm = "2016-08-".$data." 23:59:59";
+
+    $t->export($start_date, $end_date, $start_date_cm, $end_date_cm );
+}
+
+
+
+//$t->export($start_date, $end_date, $start_date_cm, $end_date_cm );

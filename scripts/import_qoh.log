@@ -1,0 +1,21 @@
+2015-06-16 14:09:25 - DEBUG --> Processing qoh file: 20150616040223-qoh_cc_it_WH_SG_20150616040049.xml 
+2015-06-16 14:09:25 - DEBUG --> Processing qoh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150616040223-qoh_cc_it_WH_SG_20150616040049.xml 
+2015-06-16 15:07:54 - DEBUG --> Processing qoh file: 20150616040223-qoh_cc_it_WH_SG_20150616040049.xml 
+2015-06-16 15:07:54 - DEBUG --> Processing qoh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150616040223-qoh_cc_it_WH_SG_20150616040049.xml 
+2015-07-27 07:22:43 - INFO  --> Start importing inventory 
+2015-07-27 07:22:43 - INFO  --> Nessun file da processare 
+2015-07-27 07:23:50 - INFO  --> Start importing inventory 
+2015-07-27 07:23:50 - INFO  --> Processing qoh file: 20150725040224-qoh_cc_it_WH_SG_20150725040049.xml.backup 
+2015-07-27 07:23:50 - DEBUG --> Processing qoh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150725040224-qoh_cc_it_WH_SG_20150725040049.xml.backup 
+2015-07-27 07:39:46 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/20150725040224-qoh_cc_it_WH_SG_20150725040049.xml.backup-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/20150725040224-qoh_cc_it_WH_SG_20150725040049.xml.backup 
+2015-07-27 07:39:46 - INFO  --> Order file20150725040224-qoh_cc_it_WH_SG_20150725040049.xml.backup ARCHIVED 
+2015-07-27 13:02:32 - INFO  --> Start importing inventory 
+2015-07-27 13:02:32 - INFO  --> Processing qoh file: 20150725040224-qoh_cc_it_WH_SG_20150725040049.xml.backup 
+2015-07-27 13:02:32 - DEBUG --> Processing qoh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150725040224-qoh_cc_it_WH_SG_20150725040049.xml.backup 
+2015-07-27 13:18:39 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/20150725040224-qoh_cc_it_WH_SG_20150725040049.xml.backup-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/20150725040224-qoh_cc_it_WH_SG_20150725040049.xml.backup 
+2015-07-27 13:18:39 - INFO  --> QOH file20150725040224-qoh_cc_it_WH_SG_20150725040049.xml.backup ARCHIVED 
+2015-07-28 05:13:19 - INFO  --> Start importing inventory 
+2015-07-28 05:13:19 - INFO  --> Processing qoh file: 20150728040242-qoh_cc_it_WH_SG_20150728040050.xml.backup 
+2015-07-28 05:13:19 - DEBUG --> Processing qoh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150728040242-qoh_cc_it_WH_SG_20150728040050.xml.backup 
+2015-07-28 05:29:31 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/20150728040242-qoh_cc_it_WH_SG_20150728040050.xml.backup-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/20150728040242-qoh_cc_it_WH_SG_20150728040050.xml.backup 
+2015-07-28 05:29:31 - INFO  --> QOH file20150728040242-qoh_cc_it_WH_SG_20150728040050.xml.backup ARCHIVED 

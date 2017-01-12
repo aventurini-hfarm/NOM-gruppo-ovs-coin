@@ -1,0 +1,512 @@
+  <?xml version="1.0" encoding="utf-8" ?> 
+- <wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://loyalty.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://loyalty.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+- <wsdl:types>
+- <s:schema elementFormDefault="qualified" targetNamespace="http://loyalty.org/">
+- <s:element name="Inquiry">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="InInquiry" type="tns:InquiryRequest" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:complexType name="InquiryRequest">
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="Source_ID" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="TokenNumber" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:element name="InquiryResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="InquiryResult" type="tns:InquiryResponse" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:complexType name="InquiryResponse">
+- <s:complexContent mixed="false">
+- <s:extension base="tns:Master">
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="MyCardInfo" type="tns:CardInfo" /> 
+  </s:sequence>
+  </s:extension>
+  </s:complexContent>
+  </s:complexType>
+- <s:complexType name="Master">
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="MyServiceStatus" type="tns:ServiceStatus" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:complexType name="ServiceStatus">
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="Error" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="MessageError" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="StatCode" nillable="true" type="tns:ApplicationStatCode" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="StatDescr" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:simpleType name="ApplicationStatCode">
+- <s:restriction base="s:string">
+  <s:enumeration value="None" /> 
+  <s:enumeration value="Running" /> 
+  <s:enumeration value="Suspend" /> 
+  <s:enumeration value="Terminated" /> 
+  <s:enumeration value="Error" /> 
+  </s:restriction>
+  </s:simpleType>
+- <s:complexType name="CardInfo">
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="TokenStatus" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="NewToken" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="CustName" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="CustSurname" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="CardType" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="TokenType" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="CustomerType" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="Wallet" type="tns:ArrayOfNAFWallet" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="PointsBalance" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="MissingPoints" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="FirstReward" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:complexType name="ArrayOfNAFWallet">
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="unbounded" name="NAFWallet" nillable="true" type="tns:NAFWallet" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:complexType name="NAFWallet">
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="WltAmount" type="tns:Amount" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="CollectionCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="DiscountCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="DiscountValue" type="tns:Amount" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="Target" type="tns:Amount" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="PrevYearSpend" type="tns:Amount" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="CurrYearSpend" type="tns:Amount" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="DeltaTarget" type="tns:Amount" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:complexType name="Amount">
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="Value" type="s:decimal" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="DescrCurrency" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:element name="RewardList">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="InRewardRequest" type="tns:RewardRequest" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:complexType name="RewardRequest">
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="Source_ID" type="s:int" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:element name="RewardListResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="RewardListResult" type="tns:RewardResponse" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:complexType name="RewardResponse">
+- <s:complexContent mixed="false">
+- <s:extension base="tns:Master">
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="MyRewardList" type="tns:ArrayOfRewardInfo" /> 
+  </s:sequence>
+  </s:extension>
+  </s:complexContent>
+  </s:complexType>
+- <s:complexType name="ArrayOfRewardInfo">
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="unbounded" name="RewardInfo" nillable="true" type="tns:RewardInfo" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:complexType name="RewardInfo">
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="PointsValue" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="EndDate" type="s:dateTime" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:element name="Authorize">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="InAuthorizeRequest" type="tns:AuthorizeRequest" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:complexType name="AuthorizeRequest">
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="Source_ID" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="TokenNumber" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="OrderNumber" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="RedPoints" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="RedNAF" type="s:decimal" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:element name="AuthorizeResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="AuthorizeResult" type="tns:AuthorizeResponse" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:complexType name="AuthorizeResponse">
+- <s:complexContent mixed="false">
+- <s:extension base="tns:Master">
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="MyAutorisation" type="tns:Autorisation" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="MyCardInfo" type="tns:CardInfo" /> 
+  </s:sequence>
+  </s:extension>
+  </s:complexContent>
+  </s:complexType>
+- <s:complexType name="Autorisation">
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="CurrentWallet" type="tns:NAFWallet" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="PreviousWallet" type="tns:NAFWallet" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="Token" nillable="true" type="s:int" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:element name="Commit">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="InCommitRequest" type="tns:CommitRequest" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:complexType name="CommitRequest">
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="Source_ID" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="Token" type="s:int" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:element name="CommitResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="CommitResult" type="tns:CommitteResponse" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:complexType name="CommitteResponse">
+- <s:complexContent mixed="false">
+  <s:extension base="tns:Master" /> 
+  </s:complexContent>
+  </s:complexType>
+- <s:element name="Rollback">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="InRollbackRequest" type="tns:RollbackRequest" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:complexType name="RollbackRequest">
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="Source_ID" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="Token" type="s:int" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:element name="RollbackResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="RollbackResult" type="tns:RollbackResponse" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:complexType name="RollbackResponse">
+- <s:complexContent mixed="false">
+  <s:extension base="tns:Master" /> 
+  </s:complexContent>
+  </s:complexType>
+- <s:element name="Add">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="InAddRequest" type="tns:AddRequest" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:complexType name="AddRequest">
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="Source_ID" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="TokenNumber" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="OrderNumber" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="AddPoints" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="AddNAFTransAmt" type="s:decimal" /> 
+  </s:sequence>
+  </s:complexType>
+- <s:element name="AddResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="AddResult" type="tns:AddResponse" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:complexType name="AddResponse">
+- <s:complexContent mixed="false">
+- <s:extension base="tns:Master">
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="MyCardInfo" type="tns:CardInfo" /> 
+  </s:sequence>
+  </s:extension>
+  </s:complexContent>
+  </s:complexType>
+- <s:element name="Adjustment">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="InAdjustmentRequest" type="tns:AdjustmentRequest" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:complexType name="AdjustmentRequest">
+- <s:complexContent mixed="false">
+- <s:extension base="tns:AddRequest">
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="NAFDiscount" type="s:decimal" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="TimeAdj" type="s:string" /> 
+  </s:sequence>
+  </s:extension>
+  </s:complexContent>
+  </s:complexType>
+- <s:element name="AdjustmentResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="AdjustmentResult" type="tns:AdjustmentResponse" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:complexType name="AdjustmentResponse">
+- <s:complexContent mixed="false">
+- <s:extension base="tns:Master">
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="MyCardInfo" type="tns:CardInfo" /> 
+  </s:sequence>
+  </s:extension>
+  </s:complexContent>
+  </s:complexType>
+  </s:schema>
+  </wsdl:types>
+- <wsdl:message name="InquirySoapIn">
+  <wsdl:part name="parameters" element="tns:Inquiry" /> 
+  </wsdl:message>
+- <wsdl:message name="InquirySoapOut">
+  <wsdl:part name="parameters" element="tns:InquiryResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="RewardListSoapIn">
+  <wsdl:part name="parameters" element="tns:RewardList" /> 
+  </wsdl:message>
+- <wsdl:message name="RewardListSoapOut">
+  <wsdl:part name="parameters" element="tns:RewardListResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="AuthorizeSoapIn">
+  <wsdl:part name="parameters" element="tns:Authorize" /> 
+  </wsdl:message>
+- <wsdl:message name="AuthorizeSoapOut">
+  <wsdl:part name="parameters" element="tns:AuthorizeResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="CommitSoapIn">
+  <wsdl:part name="parameters" element="tns:Commit" /> 
+  </wsdl:message>
+- <wsdl:message name="CommitSoapOut">
+  <wsdl:part name="parameters" element="tns:CommitResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="RollbackSoapIn">
+  <wsdl:part name="parameters" element="tns:Rollback" /> 
+  </wsdl:message>
+- <wsdl:message name="RollbackSoapOut">
+  <wsdl:part name="parameters" element="tns:RollbackResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="AddSoapIn">
+  <wsdl:part name="parameters" element="tns:Add" /> 
+  </wsdl:message>
+- <wsdl:message name="AddSoapOut">
+  <wsdl:part name="parameters" element="tns:AddResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="AdjustmentSoapIn">
+  <wsdl:part name="parameters" element="tns:Adjustment" /> 
+  </wsdl:message>
+- <wsdl:message name="AdjustmentSoapOut">
+  <wsdl:part name="parameters" element="tns:AdjustmentResponse" /> 
+  </wsdl:message>
+- <wsdl:portType name="ServicesSoap">
+- <wsdl:operation name="Inquiry">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Interrogazione tessera</wsdl:documentation> 
+  <wsdl:input message="tns:InquirySoapIn" /> 
+  <wsdl:output message="tns:InquirySoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="RewardList">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Lista premi riscattabili con punti</wsdl:documentation> 
+  <wsdl:input message="tns:RewardListSoapIn" /> 
+  <wsdl:output message="tns:RewardListSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="Authorize">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Autorizzzazione punti e borsellino elettronico</wsdl:documentation> 
+  <wsdl:input message="tns:AuthorizeSoapIn" /> 
+  <wsdl:output message="tns:AuthorizeSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="Commit">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Conferma utilizzo punti e/o borsellino elettronico</wsdl:documentation> 
+  <wsdl:input message="tns:CommitSoapIn" /> 
+  <wsdl:output message="tns:CommitSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="Rollback">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Annullla utilizzo punti e/o borsellino elettronico</wsdl:documentation> 
+  <wsdl:input message="tns:RollbackSoapIn" /> 
+  <wsdl:output message="tns:RollbackSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="Add">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Incrementa saldo punti e spesa utile per il calcolo del NAF</wsdl:documentation> 
+  <wsdl:input message="tns:AddSoapIn" /> 
+  <wsdl:output message="tns:AddSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="Adjustment">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Aggiustamenti saldo punti, spesa utile per il calcolo del NAF, sconto NAF</wsdl:documentation> 
+  <wsdl:input message="tns:AdjustmentSoapIn" /> 
+  <wsdl:output message="tns:AdjustmentSoapOut" /> 
+  </wsdl:operation>
+  </wsdl:portType>
+- <wsdl:binding name="ServicesSoap" type="tns:ServicesSoap">
+  <soap:binding transport="http://schemas.xmlsoap.org/soap/http" /> 
+- <wsdl:operation name="Inquiry">
+  <soap:operation soapAction="http://loyalty.org/Inquiry" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="RewardList">
+  <soap:operation soapAction="http://loyalty.org/RewardList" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="Authorize">
+  <soap:operation soapAction="http://loyalty.org/Authorize" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="Commit">
+  <soap:operation soapAction="http://loyalty.org/Commit" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="Rollback">
+  <soap:operation soapAction="http://loyalty.org/Rollback" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="Add">
+  <soap:operation soapAction="http://loyalty.org/Add" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="Adjustment">
+  <soap:operation soapAction="http://loyalty.org/Adjustment" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+  </wsdl:binding>
+- <wsdl:binding name="ServicesSoap12" type="tns:ServicesSoap">
+  <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" /> 
+- <wsdl:operation name="Inquiry">
+  <soap12:operation soapAction="http://loyalty.org/Inquiry" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="RewardList">
+  <soap12:operation soapAction="http://loyalty.org/RewardList" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="Authorize">
+  <soap12:operation soapAction="http://loyalty.org/Authorize" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="Commit">
+  <soap12:operation soapAction="http://loyalty.org/Commit" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="Rollback">
+  <soap12:operation soapAction="http://loyalty.org/Rollback" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="Add">
+  <soap12:operation soapAction="http://loyalty.org/Add" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="Adjustment">
+  <soap12:operation soapAction="http://loyalty.org/Adjustment" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+  </wsdl:binding>
+- <wsdl:service name="Services">
+- <wsdl:port name="ServicesSoap" binding="tns:ServicesSoap">
+  <soap:address location="http://localhost/NafServices/Services.asmx" /> 
+  </wsdl:port>
+- <wsdl:port name="ServicesSoap12" binding="tns:ServicesSoap12">
+  <soap12:address location="http://localhost/NafServices/Services.asmx" /> 
+  </wsdl:port>
+  </wsdl:service>
+  </wsdl:definitions>

@@ -1,0 +1,74 @@
+2015-06-16 14:04:46 - INFO  --> Starting exporting stock 
+2015-06-16 14:04:50 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/20150616020450-stock_cc_it_SG_DW_20150616020450.xml 
+2015-06-16 14:04:50 - INFO  --> End stock export 
+2015-06-16 14:24:33 - INFO  --> Starting exporting stock 
+2015-06-16 14:24:37 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/20150616022437-stock_cc_it_SG_DW_20150616022437.xml 
+2015-06-16 14:24:37 - INFO  --> End stock export 
+2015-06-16 14:34:08 - INFO  --> Starting exporting stock 
+2015-06-16 14:34:12 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/20150616023412-stock_cc_it_SG_DW_20150616023412.xml 
+2015-06-16 14:34:12 - INFO  --> End stock export 
+2015-06-16 15:00:50 - INFO  --> Starting exporting stock 
+2015-06-16 15:00:51 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/20150616030051-stock_cc_it_SG_DW_20150616030051.xml 
+2015-06-16 15:00:51 - INFO  --> End stock export 
+2015-06-16 15:22:19 - INFO  --> Starting exporting stock 
+2015-06-16 15:22:21 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/20150616032221-stock_cc_it_SG_DW_20150616032221.xml 
+2015-06-16 15:22:21 - INFO  --> End stock export 
+2015-07-27 10:18:14 - INFO  --> Starting exporting stock 
+2015-07-27 10:18:19 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/stock_cc_it_SG_DW_20150727101819.xml 
+2015-07-27 10:18:19 - INFO  --> End stock export 
+2015-07-27 12:49:15 - INFO  --> Starting exporting stock 
+2015-07-27 12:49:16 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/stock_cc_it_SG_DW_20150727124916.xml 
+2015-07-27 12:49:16 - INFO  --> End stock export 
+2015-07-27 12:53:09 - INFO  --> Starting exporting stock 
+2015-07-27 12:53:10 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/stock_cc_it_SG_DW_20150727125310.xml 
+2015-07-27 12:53:10 - INFO  --> End stock export 
+2015-07-27 12:55:04 - INFO  --> Starting exporting stock 
+2015-07-27 12:55:05 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/stock_cc_it_SG_DW_20150727125505.xml 
+2015-07-27 12:55:05 - INFO  --> End stock export 
+2015-07-27 12:55:50 - INFO  --> Starting exporting stock 
+2015-07-27 12:55:51 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/stock_cc_it_SG_DW_20150727125551.xml 
+2015-07-27 12:55:51 - INFO  --> End stock export 
+2015-07-27 12:58:20 - INFO  --> Starting exporting stock 
+2015-07-27 12:58:21 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/stock_cc_it_SG_DW_20150727125821.xml 
+2015-07-27 12:58:21 - INFO  --> End stock export 
+2015-07-27 13:00:35 - INFO  --> Starting exporting stock 
+2015-07-27 13:00:36 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/stock_cc_it_SG_DW_20150727130036.xml 
+2015-07-27 13:00:36 - INFO  --> End stock export 
+2015-07-27 13:18:45 - INFO  --> Starting exporting stock 
+2015-07-27 13:18:46 - WARN  --> Stock File is empty 
+2015-07-27 13:18:46 - INFO  --> End stock export 
+2015-07-28 05:45:49 - INFO  --> Starting exporting stock 
+2015-07-28 05:45:51 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/stock_cc_it_SG_DW_20150728054551.xml 
+2015-07-28 05:45:51 - INFO  --> End stock export 
+2015-07-28 06:06:00 - INFO  --> Starting exporting stock 
+2015-07-28 06:06:05 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/stock_cc_it_SG_DW_20150728060605.xml 
+2015-07-28 06:06:05 - INFO  --> End stock export 
+2015-07-28 08:29:34 - INFO  --> Starting exporting stock 
+2015-07-28 08:29:35 - WARN  --> Attenzione sku: 000493242-000, qty negativa: -1.0000 
+2015-07-28 08:29:36 - WARN  --> Attenzione sku: 000493500-000, qty negativa: -2.0000 
+2015-07-28 08:29:37 - WARN  --> Attenzione sku: 006677664-000, qty negativa: -2.0000 
+2015-07-28 08:29:37 - WARN  --> Attenzione sku: 006678407-000, qty negativa: -2.0000 
+2015-07-28 08:29:37 - WARN  --> Attenzione sku: 006678412-000, qty negativa: -1.0000 
+2015-07-28 08:29:38 - WARN  --> Attenzione sku: 000493529-000, qty negativa: -1.0000 
+2015-07-28 08:29:38 - WARN  --> Attenzione sku: 006680511-000, qty negativa: -1.0000 
+2015-07-28 08:29:38 - WARN  --> Attenzione sku: 007079430-000, qty negativa: -1.0000 
+2015-07-28 08:29:38 - WARN  --> Attenzione sku: 007079441-000, qty negativa: -1.0000 
+2015-07-28 08:29:39 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/stock_cc_it_SG_DW_20150728082939.xml 
+2015-07-28 08:29:39 - INFO  --> End stock export 
+2015-07-28 09:12:07 - INFO  --> Starting exporting stock 
+2015-07-28 09:12:08 - WARN  --> Stock File is empty 
+2015-07-28 09:12:08 - INFO  --> End stock export 
+2015-07-28 09:12:08 - INFO  --> Starting exporting stock 
+2015-07-28 09:12:09 - WARN  --> Attenzione sku: 006586953-000, qty negativa: -1.0000 
+2015-07-28 09:12:09 - DEBUG --> Stock File: /home/OrderManagement/testFiles/stock_export/outbound/stock_cc_it_SG_DW_20150728091209.xml 
+2015-07-28 09:12:09 - INFO  --> End stock export 
+2015-07-28 09:20:06 - INFO  --> Starting exporting stock 
+2015-07-28 09:20:07 - INFO  --> End stock export 
+2015-07-28 09:20:07 - INFO  --> Starting exporting stock 
+2015-07-28 09:20:08 - WARN  --> Attenzione sku: 006586953-000, qty negativa: -1.0000 
+2015-07-28 09:20:08 - INFO  --> End stock export 
+2015-07-28 09:20:53 - INFO  --> Starting exporting stock 
+2015-07-28 09:20:55 - INFO  --> End stock export 
+2015-07-28 09:20:55 - INFO  --> Starting exporting stock 
+2015-07-28 09:20:56 - WARN  --> Attenzione sku: 006586953-000, qty negativa: -1.0000 
+2015-07-28 09:20:56 - INFO  --> End stock export 

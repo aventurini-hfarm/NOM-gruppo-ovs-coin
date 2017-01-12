@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions name="ClsServiceService" targetNamespace="http://cls.service.esb.sopragroup.com" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://cls.service.esb.sopragroup.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <wsdl:types>
+        <xs:schema elementFormDefault="unqualified" targetNamespace="http://cls.service.esb.sopragroup.com" version="1.0" xmlns:tns="http://cls.service.esb.sopragroup.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <xs:element name="getPoints" type="tns:getPoints"/>
+            <xs:element name="getPointsResponse" type="tns:getPointsResponse"/>
+            <xs:element name="operationPoints" type="tns:operationPoints"/>
+            <xs:element name="operationPointsResponse" type="tns:operationPointsResponse"/>
+            <xs:complexType name="operationPoints">
+                <xs:sequence>
+                    <xs:element form="qualified" minOccurs="0" name="operationPointsRequest" type="tns:OperationPointsRequest"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="OperationPointsRequest">
+                <xs:sequence>
+                    <xs:element name="cardCode" type="xs:string"/>
+                    <xs:element name="operation" type="tns:OperationEnumType"/>
+                    <xs:element minOccurs="0" name="storeId" nillable="true" type="xs:string"/>
+                    <xs:element name="transactionId" type="xs:int"/>
+                    <xs:element name="points" type="xs:int"/>
+                    <xs:element name="retryOnError" type="xs:boolean"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="operationPointsResponse">
+                <xs:sequence>
+                    <xs:element form="qualified" minOccurs="0" name="operationPointsResponse" type="tns:OperationPointsResult"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="OperationPointsResult">
+                <xs:sequence>
+                    <xs:element name="resultCode" type="xs:string"/>
+                    <xs:element minOccurs="0" name="errorCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="getPoints">
+                <xs:sequence>
+                    <xs:element form="qualified" minOccurs="0" name="getPointsRequest" type="tns:GetPointsRequest"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="GetPointsRequest">
+                <xs:sequence>
+                    <xs:element name="cardCode" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="getPointsResponse">
+                <xs:sequence>
+                    <xs:element form="qualified" minOccurs="0" name="getPointsResponse" type="tns:GetPointsResult"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="GetPointsResult">
+                <xs:sequence>
+                    <xs:element name="resultCode" type="xs:string"/>
+                    <xs:element minOccurs="0" name="pinCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="cardStatus" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="points" nillable="true" type="xs:int"/>
+                    <xs:element minOccurs="0" name="customerFirstName" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="customerLastName" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="birthDate" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="address" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="city" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="zipCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="province" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="country" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="telephoneNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="mobileNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="errorCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:simpleType name="OperationEnumType">
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="ADD"/>
+                    <xs:enumeration value="REMOVE"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="getPointsResponse">
+        <wsdl:part element="tns:getPointsResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="operationPoints">
+        <wsdl:part element="tns:operationPoints" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getPoints">
+        <wsdl:part element="tns:getPoints" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="operationPointsResponse">
+        <wsdl:part element="tns:operationPointsResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:portType name="ClsService">
+        <wsdl:operation name="operationPoints">
+            <wsdl:input message="tns:operationPoints" name="operationPoints">
+            </wsdl:input>
+            <wsdl:output message="tns:operationPointsResponse" name="operationPointsResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getPoints">
+            <wsdl:input message="tns:getPoints" name="getPoints">
+            </wsdl:input>
+            <wsdl:output message="tns:getPointsResponse" name="getPointsResponse">
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="ClsServiceServiceSoapBinding" type="tns:ClsService">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="operationPoints">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="operationPoints">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="operationPointsResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getPoints">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="getPoints">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getPointsResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="ClsServiceService">
+        <wsdl:port binding="tns:ClsServiceServiceSoapBinding" name="ClsServicePort">
+            <!--soap:address location="http://127.0.0.1:8081/services/cls"/-->
+            <soap:address location="http://213.215.155.154/ovs/services/cls"/>
+
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

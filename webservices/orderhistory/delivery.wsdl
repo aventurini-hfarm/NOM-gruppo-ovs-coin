@@ -1,0 +1,264 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:oh="http://www.sopragroup.com/deliverymanager" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ListDeliveries" targetNamespace="http://www.sopragroup.com/deliverymanager">
+    <types>
+        <xsd:schema targetNamespace="http://www.sopragroup.com/deliverymanager">
+            <xsd:element name="GetListDeliveries">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="brand" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="storeCodePick" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="orderNumber" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="customerFullName" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="customerEmail" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="orderStatus" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="dateFrom" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="dateTo" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="orderBy" type="xsd:int" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="orderType" type="xsd:boolean" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="alertR" type="xsd:int" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="alertG" type="xsd:int" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="alertY" type="xsd:int" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="offSet" type="xsd:int" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="numLines" type="xsd:int" maxOccurs="1" minOccurs="0"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="GetListDeliveriesResponse">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="deliveryResponse" type="oh:DeliveryResponseType" maxOccurs="1" minOccurs="1"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:complexType name="DeliveryResponseType">
+                <xsd:sequence>
+                    <xsd:element name="totalLines" type="xsd:int" maxOccurs="1" minOccurs="1"/>
+                    <xsd:element name="delivery" type="oh:DeliveryType" maxOccurs="unbounded" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="DeliveryType">
+                <xsd:sequence>
+                    <xsd:element name="brand" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="orderStatus" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="storeCodePick" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="orderAmount" type="xsd:decimal" minOccurs="1"/>
+                    <xsd:element name="billToPhoneNumber" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="orderNumber" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="orderDate" type="xsd:dateTime" minOccurs="1"/>
+                    <xsd:element name="trackingUrl" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="deliveryNumber" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="firstName" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="lastName" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="shippingDate" type="xsd:dateTime" minOccurs="0"/>
+                    <xsd:element name="deliveredDate" type="xsd:dateTime" minOccurs="0"/>
+                    <xsd:element name="custDeliveredDate" type="xsd:dateTime" minOccurs="0"/>
+                    <xsd:element name="fidelityFlag" type="xsd:boolean" minOccurs="1"/>
+                    <xsd:element name="alertRGY" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="nColli" type="xsd:int" minOccurs="1"/>
+                    <xsd:element name="headerId" type="xsd:string" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="DetailType">
+                <xsd:sequence>
+                    <xsd:element name="storeCodePick" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="orderNumber" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="nColli" type="xsd:int" minOccurs="1"/>
+                    <xsd:element name="trackingUrl" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="firstName" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="lastName" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="accountNumber" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="billToPhoneNumber" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="billToAddress" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="paymentType" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="paymentDetail" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="invoiceNumber" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="fidelityCard" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="loyaltyPoints" type="xsd:int" minOccurs="1"/>
+                    <xsd:element name="orderStatus" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="orderDate" type="xsd:dateTime" minOccurs="1"/>
+                    <xsd:element name="shippingDate" type="xsd:dateTime" minOccurs="0"/>
+                    <xsd:element name="deliveredDate" type="xsd:dateTime" minOccurs="0"/>
+                    <xsd:element name="custDeliveredDate" type="xsd:dateTime" minOccurs="0"/>
+                    <xsd:element name="alertRGY" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="custDeliveredNote" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="totalQty" type="xsd:int" minOccurs="1"/>
+                    <xsd:element name="totalAmount" type="xsd:decimal" minOccurs="1"/>
+                    <xsd:element name="refundNote" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                    <xsd:element name="enableRefundFlag" type="xsd:boolean" maxOccurs="1" minOccurs="1"/>
+                    <xsd:element name="reasonCode" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                    <xsd:element maxOccurs="unbounded" minOccurs="1" name="lines" type="oh:DeliveryLine"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="DeliveryLine">
+                <xsd:sequence>
+                    <xsd:element name="sku" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="longDescription" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="unitSellingPrice" type="xsd:decimal" minOccurs="1"/>
+                    <xsd:element name="promotion" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="promotionAmount" type="xsd:decimal" minOccurs="1"/>
+                    <xsd:element name="quantity" type="xsd:int" minOccurs="1"/>
+                    <xsd:element name="lineAmount" type="xsd:decimal" minOccurs="1"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:element name="GetDetailsDelivery">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="headerId" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+                        <xsd:element name="deliveryNumber" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="alertR" type="xsd:int" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="alertG" type="xsd:int" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="alertY" type="xsd:int" maxOccurs="1" minOccurs="0"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="GetDetailsDeliveryResponse">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="detail" type="oh:DetailType" maxOccurs="1" minOccurs="1"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:complexType name="UpdateType">
+                <xsd:sequence>
+                    <xsd:element name="status" type="xsd:string" minOccurs="1"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="UpdateDeliveryType">
+                <xsd:sequence>
+                    <xsd:element name="deliveryNumber" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+                    <xsd:element name="orderStatus" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+                    <xsd:element name="custDeliveredNote" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                    <xsd:element name="clerckName" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="RefundType">
+                <xsd:sequence>
+                    <xsd:element name="status" type="xsd:string" minOccurs="1"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="RefundDeliveryType">
+                <xsd:sequence>
+                    <xsd:element name="headerId" type="xsd:string" minOccurs="1"/>
+                    <xsd:element name="refundStatus" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+                    <xsd:element name="reasonCode" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                    <xsd:element name="refundNote" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                    <xsd:element name="clerckName" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:element name="UpdateDelivery">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="updateDeliveries" type="oh:UpdateDeliveryType" maxOccurs="unbounded" minOccurs="1"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="UpdateDeliveryResponse">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="update" type="oh:UpdateType" maxOccurs="1" minOccurs="1"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="RefundDelivery">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="refundDelivery" type="oh:RefundDeliveryType" maxOccurs="1" minOccurs="1"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="RefundDeliveryResponse">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="refund" type="oh:RefundType" maxOccurs="1" minOccurs="1"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:schema>
+    </types>
+    <message name="GetListDeliveriesRequest">
+        <part name="parameters" element="oh:GetListDeliveries"/>
+    </message>
+    <message name="GetListDeliveriesResponse">
+        <part name="parameters" element="oh:GetListDeliveriesResponse"/>
+    </message>
+    <message name="GetDetailsDeliveryRequest">
+        <part name="parameters" element="oh:GetDetailsDelivery"/>
+    </message>
+    <message name="GetDetailsDeliveryResponse">
+        <part name="parameters" element="oh:GetDetailsDeliveryResponse"/>
+    </message>
+    <message name="UpdateDeliveryRequest">
+        <part name="parameters" element="oh:UpdateDelivery"/>
+    </message>
+    <message name="UpdateDeliveryResponse">
+        <part name="parameters" element="oh:UpdateDeliveryResponse"/>
+    </message>
+    <message name="RefundDeliveryRequest">
+        <part name="parameters" element="oh:RefundDelivery"/>
+    </message>
+    <message name="RefundDeliveryResponse">
+        <part name="parameters" element="oh:RefundDeliveryResponse"/>
+    </message>
+    <portType name="DeliveryManager">
+        <operation name="GetListDeliveries">
+            <input message="oh:GetListDeliveriesRequest"/>
+            <output message="oh:GetListDeliveriesResponse"/>
+        </operation>
+        <operation name="GetDetailsDelivery">
+            <input message="oh:GetDetailsDeliveryRequest"/>
+            <output message="oh:GetDetailsDeliveryResponse"/>
+        </operation>
+        <operation name="UpdateDelivery">
+            <input message="oh:UpdateDeliveryRequest"/>
+            <output message="oh:UpdateDeliveryResponse"/>
+        </operation>
+        <operation name="RefundDelivery">
+            <input message="oh:RefundDeliveryRequest"/>
+            <output message="oh:RefundDeliveryResponse"/>
+        </operation>
+    </portType>
+    <binding name="DeliveryManagerSOAP" type="oh:DeliveryManager">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="GetListDeliveries">
+            <soap:operation soapAction="http://104.155.21.52/soap/DeliveryService.php/GetListDeliveries"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+        <operation name="GetDetailsDelivery">
+            <soap:operation soapAction="http://104.155.21.52/soap/DeliveryService.php/GetDetailsDelivery"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+        <operation name="UpdateDelivery">
+            <soap:operation soapAction="http://104.155.21.52/soap/DeliveryService.php/UpdateDelivery"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+        <operation name="RefundDelivery">
+            <soap:operation soapAction="http://104.155.21.52/soap/DeliveryService.php/RefundDelivery"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+    </binding>
+    <service name="DeliveryManager">
+        <port name="DeliveryManagerSOAP" binding="oh:DeliveryManagerSOAP">
+            <soap:address location="http://104.155.21.52/soap/DeliveryService.php"/>
+        </port>
+    </service>
+</definitions>

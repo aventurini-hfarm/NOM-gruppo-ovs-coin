@@ -1,0 +1,6 @@
+
+DATA: da 2016-10-01 00:00:00 a 2016-10-31 23:59:59
+SELECT increment_id FROM sales_flat_order WHERE str_to_date(CONCAT(bill_date,' 00:00:00') ,'%d/%m/%Y %H:%i:%s') BETWEEN '2016-10-01 00:00:00' AND '2016-10-31 23:59:59'
+         AND (status='complete' or status='closed')
+SELECT order_id, entity_id FROM sales_flat_creditmemo WHERE str_to_date(CONCAT(bill_date,' 00:00:00') ,'%d/%m/%Y %H:%i:%s') BETWEEN '2016-10-01 00:00:00' AND '2016-10-31 23:59:59'
+Invio Email

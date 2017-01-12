@@ -1,0 +1,4865 @@
+
+Start importing order to update
+
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019063001.xml
+
+FOUND 0
+Aggiornato ordine: 00290367
+Order file: order_ov_it_DW_SG_20161019063001.xml PROCESSED (1)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019131501.xml
+
+FOUND 0
+Aggiornato ordine: 00290830
+FOUND 1
+Aggiornato ordine: 00290831
+FOUND 2
+Aggiornato ordine: 00290832
+Order file: order_ov_it_DW_SG_20161019131501.xml PROCESSED (2)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161017221001.xml
+
+FOUND 0
+Aggiornato ordine: 00289045
+FOUND 1
+Aggiornato ordine: 00289046
+FOUND 2
+Aggiornato ordine: 00289047
+Order file: order_ov_it_DW_SG_20161017221001.xml PROCESSED (3)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019130001.xml
+
+FOUND 0
+Aggiornato ordine: 00290823
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290826
+FOUND 3
+Aggiornato ordine: 00290924
+Order file: order_ov_it_DW_SG_20161019130001.xml PROCESSED (4)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161008082501.xml
+
+FOUND 0
+Aggiornato ordine: 00285546
+FOUND 1
+Order file: order_ov_it_DW_SG_20161008082501.xml PROCESSED (5)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018164001.xml
+
+FOUND 0
+Aggiornato ordine: 00290039
+FOUND 1
+Aggiornato ordine: 00290040
+FOUND 2
+Aggiornato ordine: 00290125
+Order file: order_ov_it_DW_SG_20161018164001.xml PROCESSED (6)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019134501.xml
+
+FOUND 0
+Aggiornato ordine: 00290846
+FOUND 1
+Aggiornato ordine: 00290847
+Order file: order_ov_it_DW_SG_20161019134501.xml PROCESSED (7)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019133001.xml
+
+FOUND 0
+Aggiornato ordine: 00290838
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290840
+FOUND 3
+Order file: order_ov_it_DW_SG_20161019133001.xml PROCESSED (8)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019144501.xml
+
+FOUND 0
+Aggiornato ordine: 00290875
+Order file: order_ov_it_DW_SG_20161019144501.xml PROCESSED (9)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018042001.xml
+
+FOUND 0
+Aggiornato ordine: 00289228
+FOUND 1
+Aggiornato ordine: 00289229
+Order file: order_ov_it_DW_SG_20161018042001.xml PROCESSED (10)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019112501.xml
+
+FOUND 0
+Aggiornato ordine: 00290683
+FOUND 1
+Aggiornato ordine: 00290684
+FOUND 2
+Aggiornato ordine: 00290685
+FOUND 3
+Aggiornato ordine: 00290686
+FOUND 4
+Aggiornato ordine: 00290785
+FOUND 5
+Aggiornato ordine: 00290786
+FOUND 6
+Aggiornato ordine: 00290789
+Order file: order_ov_it_DW_SG_20161019112501.xml PROCESSED (11)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161007133001.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00284694
+Order file: order_ov_it_DW_SG_20161007133001.xml PROCESSED (12)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019155501.xml
+
+FOUND 0
+Aggiornato ordine: 00290899
+FOUND 1
+Aggiornato ordine: 00290901
+FOUND 2
+Aggiornato ordine: 00290985
+Order file: order_ov_it_DW_SG_20161019155501.xml PROCESSED (13)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018235001.xml
+
+FOUND 0
+Aggiornato ordine: 00290351
+Order file: order_ov_it_DW_SG_20161018235001.xml PROCESSED (14)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018095501.xml
+
+FOUND 0
+Aggiornato ordine: 00289567
+FOUND 1
+Aggiornato ordine: 00289568
+FOUND 2
+Aggiornato ordine: 00289570
+FOUND 3
+Aggiornato ordine: 00289572
+Order file: order_ov_it_DW_SG_20161018095501.xml PROCESSED (15)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018214501.xml
+
+FOUND 0
+Aggiornato ordine: 00290295
+FOUND 1
+Aggiornato ordine: 00290296
+FOUND 2
+Aggiornato ordine: 00290340
+Order file: order_ov_it_DW_SG_20161018214501.xml PROCESSED (16)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018125001.xml
+
+FOUND 0
+Aggiornato ordine: 00289690
+FOUND 1
+Aggiornato ordine: 00289691
+FOUND 2
+Aggiornato ordine: 00289692
+FOUND 3
+Aggiornato ordine: 00289693
+FOUND 4
+Aggiornato ordine: 00289694
+FOUND 5
+Aggiornato ordine: 00289789
+FOUND 6
+Aggiornato ordine: 00289790
+FOUND 7
+Aggiornato ordine: 00289791
+Order file: order_ov_it_DW_SG_20161018125001.xml PROCESSED (17)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019165501.xml
+
+FOUND 0
+Aggiornato ordine: 00291041
+FOUND 1
+Aggiornato ordine: 00291042
+Order file: order_ov_it_DW_SG_20161019165501.xml PROCESSED (18)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_es_DW_SG_20161003222001.xml
+
+FOUND 0
+Aggiornato ordine: 00282415
+Order file: order_ov_es_DW_SG_20161003222001.xml PROCESSED (19)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161017225001.xml
+
+FOUND 0
+Aggiornato ordine: 00289119
+FOUND 1
+Aggiornato ordine: 00289120
+FOUND 2
+Aggiornato ordine: 00289121
+FOUND 3
+Aggiornato ordine: 00289122
+FOUND 4
+Aggiornato ordine: 00289123
+Order file: order_ov_it_DW_SG_20161017225001.xml PROCESSED (20)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161013103001.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00287478
+Order file: order_ov_it_DW_SG_20161013103001.xml PROCESSED (21)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019090001.xml
+
+FOUND 0
+Aggiornato ordine: 00290588
+FOUND 1
+Aggiornato ordine: 00290589
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00290624
+FOUND 4
+Aggiornato ordine: 00290625
+Order file: order_ov_it_DW_SG_20161019090001.xml PROCESSED (22)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018192501.xml
+
+FOUND 0
+Aggiornato ordine: 00290178
+FOUND 1
+Aggiornato ordine: 00290222
+FOUND 2
+Aggiornato ordine: 00290223
+Order file: order_ov_it_DW_SG_20161018192501.xml PROCESSED (23)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018175001.xml
+
+FOUND 0
+Aggiornato ordine: 00290074
+FOUND 1
+Aggiornato ordine: 00290140
+FOUND 2
+Aggiornato ordine: 00290141
+Order file: order_ov_it_DW_SG_20161018175001.xml PROCESSED (24)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019205501.xml
+
+FOUND 0
+Aggiornato ordine: 00291215
+FOUND 1
+Aggiornato ordine: 00291237
+FOUND 2
+Aggiornato ordine: 00291238
+FOUND 3
+Aggiornato ordine: 00291239
+FOUND 4
+Aggiornato ordine: 00291240
+FOUND 5
+Aggiornato ordine: 00291241
+Order file: order_ov_it_DW_SG_20161019205501.xml PROCESSED (25)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018162501.xml
+
+FOUND 0
+Aggiornato ordine: 00289918
+FOUND 1
+Aggiornato ordine: 00290029
+FOUND 2
+Aggiornato ordine: 00290030
+FOUND 3
+Aggiornato ordine: 00290119
+FOUND 4
+Aggiornato ordine: 00290120
+Order file: order_ov_it_DW_SG_20161018162501.xml PROCESSED (26)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161007072001.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00284332
+Order file: order_ov_it_DW_SG_20161007072001.xml PROCESSED (27)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018152001.xml
+
+FOUND 0
+Aggiornato ordine: 00289883
+FOUND 1
+Aggiornato ordine: 00289884
+FOUND 2
+Aggiornato ordine: 00289993
+FOUND 3
+Aggiornato ordine: 00289994
+Order file: order_ov_it_DW_SG_20161018152001.xml PROCESSED (28)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_es_DW_SG_20161019103002.xml
+
+FOUND 0
+Aggiornato ordine: 00290663
+Order file: order_ov_es_DW_SG_20161019103002.xml PROCESSED (29)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019083501.xml
+
+FOUND 0
+Aggiornato ordine: 00290416
+FOUND 1
+Aggiornato ordine: 00290573
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00290575
+FOUND 4
+Aggiornato ordine: 00290576
+FOUND 5
+Aggiornato ordine: 00290577
+Order file: order_ov_it_DW_SG_20161019083501.xml PROCESSED (30)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018203501.xml
+
+FOUND 0
+Aggiornato ordine: 00290216
+FOUND 1
+Aggiornato ordine: 00290217
+FOUND 2
+Aggiornato ordine: 00290218
+FOUND 3
+Aggiornato ordine: 00290319
+Order file: order_ov_it_DW_SG_20161018203501.xml PROCESSED (31)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018074001.xml
+
+FOUND 0
+Aggiornato ordine: 00289273
+FOUND 1
+Aggiornato ordine: 00289389
+FOUND 2
+Aggiornato ordine: 00289392
+FOUND 3
+Aggiornato ordine: 00289393
+FOUND 4
+Aggiornato ordine: 00289394
+FOUND 5
+Aggiornato ordine: 00289395
+Order file: order_ov_it_DW_SG_20161018074001.xml PROCESSED (32)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_es_DW_SG_20161019121502.xml
+
+FOUND 0
+Aggiornato ordine: 00290807
+Order file: order_ov_es_DW_SG_20161019121502.xml PROCESSED (33)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019135001.xml
+
+FOUND 0
+Aggiornato ordine: 00290850
+FOUND 1
+Aggiornato ordine: 00290944
+Order file: order_ov_it_DW_SG_20161019135001.xml PROCESSED (34)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019143501.xml
+
+FOUND 0
+Aggiornato ordine: 00290868
+FOUND 1
+Aggiornato ordine: 00290869
+FOUND 2
+Aggiornato ordine: 00290870
+FOUND 3
+Aggiornato ordine: 00290871
+Order file: order_ov_it_DW_SG_20161019143501.xml PROCESSED (35)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019190501.xml
+
+FOUND 0
+Aggiornato ordine: 00291084
+FOUND 1
+Aggiornato ordine: 00291149
+FOUND 2
+Aggiornato ordine: 00291150
+FOUND 3
+Aggiornato ordine: 00291151
+Order file: order_ov_it_DW_SG_20161019190501.xml PROCESSED (36)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018084501.xml
+
+FOUND 0
+Aggiornato ordine: 00289311
+FOUND 1
+Aggiornato ordine: 00289312
+FOUND 2
+Aggiornato ordine: 00289313
+FOUND 3
+Aggiornato ordine: 00289314
+FOUND 4
+Aggiornato ordine: 00289449
+Order file: order_ov_it_DW_SG_20161018084501.xml PROCESSED (37)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_es_DW_SG_20160916100001.xml
+
+FOUND 0
+Aggiornato ordine: 00275151
+Order file: order_ov_es_DW_SG_20160916100001.xml PROCESSED (38)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161011094501.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00286730
+Order file: order_ov_it_DW_SG_20161011094501.xml PROCESSED (39)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019162501.xml
+
+FOUND 0
+Aggiornato ordine: 00290992
+FOUND 1
+Aggiornato ordine: 00291022
+FOUND 2
+Aggiornato ordine: 00291025
+Order file: order_ov_it_DW_SG_20161019162501.xml PROCESSED (40)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018135001.xml
+
+FOUND 0
+Aggiornato ordine: 00289836
+FOUND 1
+Aggiornato ordine: 00289837
+FOUND 2
+Aggiornato ordine: 00289935
+FOUND 3
+Aggiornato ordine: 00289936
+FOUND 4
+Aggiornato ordine: 00289937
+Order file: order_ov_it_DW_SG_20161018135001.xml PROCESSED (41)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019084001.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00290578
+FOUND 2
+Aggiornato ordine: 00290579
+FOUND 3
+Aggiornato ordine: 00290580
+FOUND 4
+Aggiornato ordine: 00290581
+Order file: order_ov_it_DW_SG_20161019084001.xml PROCESSED (42)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018161001.xml
+
+FOUND 0
+Aggiornato ordine: 00290021
+Order file: order_ov_it_DW_SG_20161018161001.xml PROCESSED (43)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018123001.xml
+
+FOUND 0
+Aggiornato ordine: 00289682
+FOUND 1
+Aggiornato ordine: 00289683
+Order file: order_ov_it_DW_SG_20161018123001.xml PROCESSED (44)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019065002.xml
+
+FOUND 0
+Aggiornato ordine: 00290370
+FOUND 1
+Aggiornato ordine: 00290530
+Order file: order_ov_it_DW_SG_20161019065002.xml PROCESSED (45)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019115501.xml
+
+FOUND 0
+Aggiornato ordine: 00290692
+FOUND 1
+Aggiornato ordine: 00290693
+FOUND 2
+Aggiornato ordine: 00290694
+FOUND 3
+Order file: order_ov_it_DW_SG_20161019115501.xml PROCESSED (46)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018113001.xml
+
+FOUND 0
+Aggiornato ordine: 00289647
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00289741
+FOUND 3
+Aggiornato ordine: 00289743
+FOUND 4
+Aggiornato ordine: 00289744
+Order file: order_ov_it_DW_SG_20161018113001.xml PROCESSED (47)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019122001.xml
+
+FOUND 0
+Aggiornato ordine: 00290709
+FOUND 1
+Aggiornato ordine: 00290808
+FOUND 2
+Aggiornato ordine: 00290809
+Order file: order_ov_it_DW_SG_20161019122001.xml PROCESSED (48)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019173001.xml
+
+FOUND 0
+Aggiornato ordine: 00291053
+FOUND 1
+Aggiornato ordine: 00291054
+FOUND 2
+Aggiornato ordine: 00291055
+FOUND 3
+Aggiornato ordine: 00291128
+Order file: order_ov_it_DW_SG_20161019173001.xml PROCESSED (49)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20160924085001.xml
+
+FOUND 0
+Order file: order_ov_it_DW_SG_20160924085001.xml PROCESSED (50)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018180001.xml
+
+FOUND 0
+Aggiornato ordine: 00290077
+FOUND 1
+Aggiornato ordine: 00290079
+FOUND 2
+Aggiornato ordine: 00290080
+FOUND 3
+Aggiornato ordine: 00290148
+Order file: order_ov_it_DW_SG_20161018180001.xml PROCESSED (51)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018212002.xml
+
+FOUND 0
+Aggiornato ordine: 00290336
+FOUND 1
+Aggiornato ordine: 00290337
+Order file: order_ov_it_DW_SG_20161018212002.xml PROCESSED (52)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019102001.xml
+
+FOUND 0
+Aggiornato ordine: 00290659
+FOUND 1
+Aggiornato ordine: 00290753
+FOUND 2
+Aggiornato ordine: 00290755
+FOUND 3
+Aggiornato ordine: 00290756
+Order file: order_ov_it_DW_SG_20161019102001.xml PROCESSED (53)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019160001.xml
+
+FOUND 0
+Aggiornato ordine: 00290986
+Order file: order_ov_it_DW_SG_20161019160001.xml PROCESSED (54)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019194501.xml
+
+FOUND 0
+Aggiornato ordine: 00291173
+Order file: order_ov_it_DW_SG_20161019194501.xml PROCESSED (55)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018220501.xml
+
+FOUND 0
+Aggiornato ordine: 00290308
+FOUND 1
+Aggiornato ordine: 00290309
+FOUND 2
+Aggiornato ordine: 00290343
+FOUND 3
+Aggiornato ordine: 00290344
+Order file: order_ov_it_DW_SG_20161018220501.xml PROCESSED (56)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018072001.xml
+
+FOUND 0
+Aggiornato ordine: 00289267
+FOUND 1
+Aggiornato ordine: 00289364
+FOUND 2
+Aggiornato ordine: 00289365
+FOUND 3
+Aggiornato ordine: 00289366
+FOUND 4
+Aggiornato ordine: 00289367
+FOUND 5
+Aggiornato ordine: 00289369
+Order file: order_ov_it_DW_SG_20161018072001.xml PROCESSED (57)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161005084001.xml
+
+FOUND 0
+Aggiornato ordine: 00282918
+FOUND 1
+FOUND 2
+FOUND 3
+Order file: order_ov_it_DW_SG_20161005084001.xml PROCESSED (58)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019051501.xml
+
+FOUND 0
+Aggiornato ordine: 00290520
+Order file: order_ov_it_DW_SG_20161019051501.xml PROCESSED (59)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018204001.xml
+
+FOUND 0
+Aggiornato ordine: 00290264
+FOUND 1
+Aggiornato ordine: 00290265
+FOUND 2
+Aggiornato ordine: 00290320
+FOUND 3
+Order file: order_ov_it_DW_SG_20161018204001.xml PROCESSED (60)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018115501.xml
+
+FOUND 0
+Aggiornato ordine: 00289658
+FOUND 1
+Aggiornato ordine: 00289659
+FOUND 2
+Aggiornato ordine: 00289660
+FOUND 3
+Aggiornato ordine: 00289661
+FOUND 4
+Aggiornato ordine: 00289662
+FOUND 5
+Aggiornato ordine: 00289759
+FOUND 6
+Aggiornato ordine: 00289760
+FOUND 7
+Aggiornato ordine: 00289761
+Order file: order_ov_it_DW_SG_20161018115501.xml PROCESSED (61)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161008123001.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00285820
+Order file: order_ov_it_DW_SG_20161008123001.xml PROCESSED (62)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019091001.xml
+
+FOUND 0
+Aggiornato ordine: 00290594
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290629
+FOUND 3
+Aggiornato ordine: 00290630
+FOUND 4
+Aggiornato ordine: 00290631
+Order file: order_ov_it_DW_SG_20161019091001.xml PROCESSED (63)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018144501.xml
+
+FOUND 0
+Aggiornato ordine: 00289871
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00289973
+Order file: order_ov_it_DW_SG_20161018144501.xml PROCESSED (64)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018194501.xml
+
+FOUND 0
+Aggiornato ordine: 00290184
+FOUND 1
+Aggiornato ordine: 00290185
+FOUND 2
+Aggiornato ordine: 00290187
+FOUND 3
+Aggiornato ordine: 00290188
+FOUND 4
+Aggiornato ordine: 00290231
+FOUND 5
+Aggiornato ordine: 00290232
+FOUND 6
+Aggiornato ordine: 00290233
+Order file: order_ov_it_DW_SG_20161018194501.xml PROCESSED (65)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161013170001.xml
+
+FOUND 0
+Aggiornato ordine: 00287627
+FOUND 1
+Order file: order_ov_it_DW_SG_20161013170001.xml PROCESSED (66)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018075501.xml
+
+FOUND 0
+Aggiornato ordine: 00289280
+FOUND 1
+Aggiornato ordine: 00289281
+FOUND 2
+Aggiornato ordine: 00289282
+FOUND 3
+Aggiornato ordine: 00289283
+FOUND 4
+Aggiornato ordine: 00289413
+FOUND 5
+Aggiornato ordine: 00289414
+FOUND 6
+Aggiornato ordine: 00289415
+Order file: order_ov_it_DW_SG_20161018075501.xml PROCESSED (67)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018151501.xml
+
+FOUND 0
+Aggiornato ordine: 00289881
+FOUND 1
+FOUND 2
+Order file: order_ov_it_DW_SG_20161018151501.xml PROCESSED (68)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018094001.xml
+
+FOUND 0
+Aggiornato ordine: 00289478
+FOUND 1
+Aggiornato ordine: 00289479
+FOUND 2
+Aggiornato ordine: 00289480
+FOUND 3
+Aggiornato ordine: 00289553
+FOUND 4
+Aggiornato ordine: 00289554
+FOUND 5
+Aggiornato ordine: 00289555
+Order file: order_ov_it_DW_SG_20161018094001.xml PROCESSED (69)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161011120501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00286757
+FOUND 2
+FOUND 3
+Order file: order_ov_it_DW_SG_20161011120501.xml PROCESSED (70)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019123501.xml
+
+FOUND 0
+Aggiornato ordine: 00290713
+FOUND 1
+Aggiornato ordine: 00290714
+FOUND 2
+Aggiornato ordine: 00290715
+FOUND 3
+Aggiornato ordine: 00290816
+FOUND 4
+Aggiornato ordine: 00290817
+Order file: order_ov_it_DW_SG_20161019123501.xml PROCESSED (71)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161006103001.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+FOUND 3
+FOUND 4
+FOUND 5
+Aggiornato ordine: 00283607
+FOUND 6
+Order file: order_ov_it_DW_SG_20161006103001.xml PROCESSED (72)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019150001.xml
+
+FOUND 0
+Aggiornato ordine: 00290967
+Order file: order_ov_it_DW_SG_20161019150001.xml PROCESSED (73)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161002082001.xml
+
+FOUND 0
+Aggiornato ordine: 00281826
+Order file: order_ov_it_DW_SG_20161002082001.xml PROCESSED (74)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019060001.xml
+
+FOUND 0
+Aggiornato ordine: 00290522
+Order file: order_ov_it_DW_SG_20161019060001.xml PROCESSED (75)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161003075001.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00282159
+FOUND 2
+Order file: order_ov_it_DW_SG_20161003075001.xml PROCESSED (76)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018045501.xml
+
+FOUND 0
+Aggiornato ordine: 00289234
+FOUND 1
+Aggiornato ordine: 00289322
+Order file: order_ov_it_DW_SG_20161018045501.xml PROCESSED (77)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019132001.xml
+
+FOUND 0
+Aggiornato ordine: 00290932
+Order file: order_ov_it_DW_SG_20161019132001.xml PROCESSED (78)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018190501.xml
+
+FOUND 0
+Aggiornato ordine: 00290110
+FOUND 1
+Aggiornato ordine: 00290111
+FOUND 2
+Aggiornato ordine: 00290167
+Order file: order_ov_it_DW_SG_20161018190501.xml PROCESSED (79)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018083501.xml
+
+FOUND 0
+Aggiornato ordine: 00289439
+FOUND 1
+Aggiornato ordine: 00289440
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00289442
+FOUND 4
+Aggiornato ordine: 00289443
+Order file: order_ov_it_DW_SG_20161018083501.xml PROCESSED (80)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018103501.xml
+
+FOUND 0
+Aggiornato ordine: 00289512
+FOUND 1
+Aggiornato ordine: 00289608
+FOUND 2
+Aggiornato ordine: 00289610
+FOUND 3
+Aggiornato ordine: 00289611
+FOUND 4
+Aggiornato ordine: 00289612
+Order file: order_ov_it_DW_SG_20161018103501.xml PROCESSED (81)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019103001.xml
+
+FOUND 0
+Aggiornato ordine: 00290662
+Order file: order_ov_it_DW_SG_20161019103001.xml PROCESSED (82)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018073001.xml
+
+FOUND 0
+Aggiornato ordine: 00289272
+FOUND 1
+Aggiornato ordine: 00289377
+FOUND 2
+Aggiornato ordine: 00289378
+FOUND 3
+Order file: order_ov_it_DW_SG_20161018073001.xml PROCESSED (83)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018071001.xml
+
+FOUND 0
+Aggiornato ordine: 00289261
+FOUND 1
+Aggiornato ordine: 00289262
+FOUND 2
+Aggiornato ordine: 00289263
+FOUND 3
+Aggiornato ordine: 00289358
+Order file: order_ov_it_DW_SG_20161018071001.xml PROCESSED (84)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018202501.xml
+
+FOUND 0
+Aggiornato ordine: 00290207
+FOUND 1
+Aggiornato ordine: 00290208
+FOUND 2
+Aggiornato ordine: 00290209
+FOUND 3
+Aggiornato ordine: 00290210
+FOUND 4
+Aggiornato ordine: 00290211
+FOUND 5
+Aggiornato ordine: 00290212
+FOUND 6
+Aggiornato ordine: 00290259
+FOUND 7
+Aggiornato ordine: 00290260
+Order file: order_ov_it_DW_SG_20161018202501.xml PROCESSED (85)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018171001.xml
+
+FOUND 0
+Aggiornato ordine: 00290051
+FOUND 1
+Aggiornato ordine: 00290130
+FOUND 2
+Aggiornato ordine: 00290131
+FOUND 3
+Aggiornato ordine: 00290132
+FOUND 4
+Aggiornato ordine: 00290133
+Order file: order_ov_it_DW_SG_20161018171001.xml PROCESSED (86)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018100001.xml
+
+FOUND 0
+Aggiornato ordine: 00289488
+FOUND 1
+Aggiornato ordine: 00289575
+FOUND 2
+Aggiornato ordine: 00289578
+FOUND 3
+Aggiornato ordine: 00289580
+Order file: order_ov_it_DW_SG_20161018100001.xml PROCESSED (87)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161017231501.xml
+
+FOUND 0
+Aggiornato ordine: 00289057
+Order file: order_ov_it_DW_SG_20161017231501.xml PROCESSED (88)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161005103501.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00283012
+Order file: order_ov_it_DW_SG_20161005103501.xml PROCESSED (89)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019180001.xml
+
+FOUND 0
+Aggiornato ordine: 00291136
+Order file: order_ov_it_DW_SG_20161019180001.xml PROCESSED (90)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019060501.xml
+
+FOUND 0
+Aggiornato ordine: 00290366
+FOUND 1
+Aggiornato ordine: 00290523
+FOUND 2
+Aggiornato ordine: 00290524
+Order file: order_ov_it_DW_SG_20161019060501.xml PROCESSED (91)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161012164001.xml
+
+FOUND 0
+Aggiornato ordine: 00287155
+FOUND 1
+Aggiornato ordine: 00287221
+Order file: order_ov_it_DW_SG_20161012164001.xml PROCESSED (92)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018115001.xml
+
+FOUND 0
+Aggiornato ordine: 00289655
+FOUND 1
+Aggiornato ordine: 00289656
+FOUND 2
+Aggiornato ordine: 00289657
+FOUND 3
+Aggiornato ordine: 00289756
+FOUND 4
+Aggiornato ordine: 00289757
+FOUND 5
+Aggiornato ordine: 00289758
+Order file: order_ov_it_DW_SG_20161018115001.xml PROCESSED (93)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018091502.xml
+
+FOUND 0
+Aggiornato ordine: 00289462
+FOUND 1
+Aggiornato ordine: 00289463
+FOUND 2
+Aggiornato ordine: 00289464
+FOUND 3
+Aggiornato ordine: 00289465
+FOUND 4
+Aggiornato ordine: 00289528
+FOUND 5
+Aggiornato ordine: 00289529
+FOUND 6
+Aggiornato ordine: 00289530
+FOUND 7
+Aggiornato ordine: 00289531
+FOUND 8
+Aggiornato ordine: 00289532
+FOUND 9
+Aggiornato ordine: 00289533
+FOUND 10
+Aggiornato ordine: 00289534
+Order file: order_ov_it_DW_SG_20161018091502.xml PROCESSED (94)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019064501.xml
+
+FOUND 0
+Aggiornato ordine: 00290369
+Order file: order_ov_it_DW_SG_20161019064501.xml PROCESSED (95)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019033501.xml
+
+FOUND 0
+Aggiornato ordine: 00290361
+Order file: order_ov_it_DW_SG_20161019033501.xml PROCESSED (96)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_es_DW_SG_20161018095502.xml
+
+FOUND 0
+Aggiornato ordine: 00289487
+Order file: order_ov_es_DW_SG_20161018095502.xml PROCESSED (97)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018132001.xml
+
+FOUND 0
+Aggiornato ordine: 00289713
+FOUND 1
+Aggiornato ordine: 00289714
+FOUND 2
+Aggiornato ordine: 00289816
+Order file: order_ov_it_DW_SG_20161018132001.xml PROCESSED (98)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019105001.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00290672
+FOUND 2
+Aggiornato ordine: 00290773
+FOUND 3
+Aggiornato ordine: 00290774
+FOUND 4
+Aggiornato ordine: 00290775
+Order file: order_ov_it_DW_SG_20161019105001.xml PROCESSED (99)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018195501.xml
+
+FOUND 0
+Aggiornato ordine: 00290190
+FOUND 1
+Aggiornato ordine: 00290191
+FOUND 2
+Aggiornato ordine: 00290192
+FOUND 3
+Aggiornato ordine: 00290193
+FOUND 4
+Aggiornato ordine: 00290194
+FOUND 5
+Aggiornato ordine: 00290238
+FOUND 6
+Aggiornato ordine: 00290239
+FOUND 7
+Aggiornato ordine: 00290240
+FOUND 8
+Aggiornato ordine: 00290241
+FOUND 9
+Aggiornato ordine: 00290242
+FOUND 10
+Aggiornato ordine: 00290243
+Order file: order_ov_it_DW_SG_20161018195501.xml PROCESSED (100)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019210014.xml
+
+FOUND 0
+Aggiornato ordine: 00291216
+FOUND 1
+Aggiornato ordine: 00291217
+FOUND 2
+Aggiornato ordine: 00291242
+FOUND 3
+Aggiornato ordine: 00291243
+Order file: order_ov_it_DW_SG_20161019210014.xml PROCESSED (101)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018063001.xml
+
+FOUND 0
+Aggiornato ordine: 00289242
+FOUND 1
+Aggiornato ordine: 00289243
+Order file: order_ov_it_DW_SG_20161018063001.xml PROCESSED (102)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018065001.xml
+
+FOUND 0
+Aggiornato ordine: 00289343
+FOUND 1
+Aggiornato ordine: 00289344
+FOUND 2
+Aggiornato ordine: 00289345
+Order file: order_ov_it_DW_SG_20161018065001.xml PROCESSED (103)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018205002.xml
+
+FOUND 0
+Aggiornato ordine: 00290266
+FOUND 1
+Aggiornato ordine: 00290267
+FOUND 2
+Aggiornato ordine: 00290268
+FOUND 3
+Aggiornato ordine: 00290323
+FOUND 4
+Order file: order_ov_it_DW_SG_20161018205002.xml PROCESSED (104)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018134501.xml
+
+FOUND 0
+Aggiornato ordine: 00289832
+FOUND 1
+Aggiornato ordine: 00289833
+FOUND 2
+Aggiornato ordine: 00289834
+FOUND 3
+Aggiornato ordine: 00289835
+FOUND 4
+Aggiornato ordine: 00289930
+FOUND 5
+Aggiornato ordine: 00289931
+Order file: order_ov_it_DW_SG_20161018134501.xml PROCESSED (105)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018081501.xml
+
+FOUND 0
+Aggiornato ordine: 00289293
+FOUND 1
+Aggiornato ordine: 00289294
+FOUND 2
+Aggiornato ordine: 00289295
+FOUND 3
+Aggiornato ordine: 00289296
+FOUND 4
+Aggiornato ordine: 00289297
+FOUND 5
+Aggiornato ordine: 00289298
+FOUND 6
+Aggiornato ordine: 00289299
+FOUND 7
+Aggiornato ordine: 00289300
+FOUND 8
+Aggiornato ordine: 00289426
+FOUND 9
+Aggiornato ordine: 00289427
+FOUND 10
+Aggiornato ordine: 00289428
+FOUND 11
+Aggiornato ordine: 00289429
+Order file: order_ov_it_DW_SG_20161018081501.xml PROCESSED (106)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019125002.xml
+
+FOUND 0
+Aggiornato ordine: 00290820
+FOUND 1
+Aggiornato ordine: 00290821
+FOUND 2
+Aggiornato ordine: 00290919
+FOUND 3
+Aggiornato ordine: 00290920
+FOUND 4
+Aggiornato ordine: 00290921
+FOUND 5
+Aggiornato ordine: 00290922
+Order file: order_ov_it_DW_SG_20161019125002.xml PROCESSED (107)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019094501.xml
+
+FOUND 0
+Aggiornato ordine: 00290646
+FOUND 1
+Aggiornato ordine: 00290647
+FOUND 2
+Aggiornato ordine: 00290731
+FOUND 3
+Aggiornato ordine: 00290732
+Order file: order_ov_it_DW_SG_20161019094501.xml PROCESSED (108)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161017230001.xml
+
+FOUND 0
+Aggiornato ordine: 00289125
+FOUND 1
+Aggiornato ordine: 00289126
+Order file: order_ov_it_DW_SG_20161017230001.xml PROCESSED (109)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019070003.xml
+
+FOUND 0
+Aggiornato ordine: 00290374
+FOUND 1
+Aggiornato ordine: 00290375
+FOUND 2
+Aggiornato ordine: 00290536
+Order file: order_ov_it_DW_SG_20161019070003.xml PROCESSED (110)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018153001.xml
+
+FOUND 0
+Aggiornato ordine: 00289887
+FOUND 1
+Aggiornato ordine: 00289888
+FOUND 2
+Aggiornato ordine: 00289889
+FOUND 3
+Aggiornato ordine: 00289997
+FOUND 4
+Aggiornato ordine: 00289998
+FOUND 5
+Aggiornato ordine: 00289999
+Order file: order_ov_it_DW_SG_20161018153001.xml PROCESSED (111)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018114501.xml
+
+FOUND 0
+Aggiornato ordine: 00289751
+FOUND 1
+Aggiornato ordine: 00289752
+FOUND 2
+Aggiornato ordine: 00289753
+FOUND 3
+Aggiornato ordine: 00289754
+FOUND 4
+Aggiornato ordine: 00289755
+Order file: order_ov_it_DW_SG_20161018114501.xml PROCESSED (112)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019140501.xml
+
+FOUND 0
+Aggiornato ordine: 00290950
+FOUND 1
+Aggiornato ordine: 00290951
+Order file: order_ov_it_DW_SG_20161019140501.xml PROCESSED (113)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018122001.xml
+
+FOUND 0
+Aggiornato ordine: 00289670
+FOUND 1
+Aggiornato ordine: 00289671
+FOUND 2
+Aggiornato ordine: 00289672
+FOUND 3
+FOUND 4
+Aggiornato ordine: 00289768
+FOUND 5
+Aggiornato ordine: 00289769
+FOUND 6
+Aggiornato ordine: 00289770
+Order file: order_ov_it_DW_SG_20161018122001.xml PROCESSED (114)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161006210001.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00284119
+FOUND 2
+FOUND 3
+Order file: order_ov_it_DW_SG_20161006210001.xml PROCESSED (115)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019200501.xml
+
+FOUND 0
+Aggiornato ordine: 00291102
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00291184
+FOUND 3
+Aggiornato ordine: 00291185
+FOUND 4
+Aggiornato ordine: 00291186
+Order file: order_ov_it_DW_SG_20161019200501.xml PROCESSED (116)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018175501.xml
+
+FOUND 0
+Aggiornato ordine: 00290075
+FOUND 1
+Aggiornato ordine: 00290142
+FOUND 2
+Aggiornato ordine: 00290143
+FOUND 3
+Aggiornato ordine: 00290144
+FOUND 4
+Aggiornato ordine: 00290146
+Order file: order_ov_it_DW_SG_20161018175501.xml PROCESSED (117)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019204502.xml
+
+FOUND 0
+Aggiornato ordine: 00291208
+FOUND 1
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00291230
+Order file: order_ov_it_DW_SG_20161019204502.xml PROCESSED (118)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018163501.xml
+
+FOUND 0
+Aggiornato ordine: 00290037
+FOUND 1
+Aggiornato ordine: 00290038
+FOUND 2
+Aggiornato ordine: 00290123
+Order file: order_ov_it_DW_SG_20161018163501.xml PROCESSED (119)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019082501.xml
+
+FOUND 0
+Aggiornato ordine: 00290411
+FOUND 1
+Aggiornato ordine: 00290412
+FOUND 2
+Aggiornato ordine: 00290569
+FOUND 3
+Aggiornato ordine: 00290570
+Order file: order_ov_it_DW_SG_20161019082501.xml PROCESSED (120)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_es_DW_SG_20161018151502.xml
+
+FOUND 0
+Aggiornato ordine: 00289990
+Order file: order_ov_es_DW_SG_20161018151502.xml PROCESSED (121)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018050001.xml
+
+FOUND 0
+Aggiornato ordine: 00289235
+Order file: order_ov_it_DW_SG_20161018050001.xml PROCESSED (122)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019215001.xml
+
+FOUND 0
+Aggiornato ordine: 00291334
+FOUND 1
+Aggiornato ordine: 00291335
+Order file: order_ov_it_DW_SG_20161019215001.xml PROCESSED (123)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161013140501.xml
+
+FOUND 0
+Aggiornato ordine: 00287395
+FOUND 1
+Order file: order_ov_it_DW_SG_20161013140501.xml PROCESSED (124)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018130001.xml
+
+FOUND 0
+Aggiornato ordine: 00289701
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00289803
+FOUND 3
+Aggiornato ordine: 00289805
+Order file: order_ov_it_DW_SG_20161018130001.xml PROCESSED (125)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018054501.xml
+
+FOUND 0
+Aggiornato ordine: 00289239
+FOUND 1
+Aggiornato ordine: 00289331
+Order file: order_ov_it_DW_SG_20161018054501.xml PROCESSED (126)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018215001.xml
+
+FOUND 0
+Aggiornato ordine: 00290298
+FOUND 1
+Aggiornato ordine: 00290299
+FOUND 2
+Aggiornato ordine: 00290300
+Order file: order_ov_it_DW_SG_20161018215001.xml PROCESSED (127)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018110501.xml
+
+FOUND 0
+Aggiornato ordine: 00289629
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00289631
+FOUND 3
+Aggiornato ordine: 00289724
+FOUND 4
+Aggiornato ordine: 00289725
+FOUND 5
+Aggiornato ordine: 00289726
+FOUND 6
+Aggiornato ordine: 00289728
+FOUND 7
+Aggiornato ordine: 00289729
+FOUND 8
+Aggiornato ordine: 00289730
+Order file: order_ov_it_DW_SG_20161018110501.xml PROCESSED (128)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019100001.xml
+
+FOUND 0
+Aggiornato ordine: 00290652
+FOUND 1
+Aggiornato ordine: 00290653
+FOUND 2
+Aggiornato ordine: 00290735
+FOUND 3
+Aggiornato ordine: 00290736
+FOUND 4
+Aggiornato ordine: 00290737
+FOUND 5
+Aggiornato ordine: 00290738
+FOUND 6
+Aggiornato ordine: 00290739
+Order file: order_ov_it_DW_SG_20161019100001.xml PROCESSED (129)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018094501.xml
+
+FOUND 0
+Aggiornato ordine: 00289481
+FOUND 1
+Aggiornato ordine: 00289482
+FOUND 2
+Aggiornato ordine: 00289483
+FOUND 3
+Aggiornato ordine: 00289556
+FOUND 4
+Aggiornato ordine: 00289557
+Order file: order_ov_it_DW_SG_20161018094501.xml PROCESSED (130)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019193501.xml
+
+FOUND 0
+Aggiornato ordine: 00291164
+FOUND 1
+Aggiornato ordine: 00291165
+Order file: order_ov_it_DW_SG_20161019193501.xml PROCESSED (131)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161013121001.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00287376
+FOUND 3
+FOUND 4
+Order file: order_ov_it_DW_SG_20161013121001.xml PROCESSED (132)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018063501.xml
+
+FOUND 0
+Aggiornato ordine: 00289244
+FOUND 1
+Aggiornato ordine: 00289245
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00289247
+FOUND 4
+Aggiornato ordine: 00289338
+FOUND 5
+Aggiornato ordine: 00289339
+Order file: order_ov_it_DW_SG_20161018063501.xml PROCESSED (133)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018151001.xml
+
+FOUND 0
+Aggiornato ordine: 00289879
+FOUND 1
+Aggiornato ordine: 00289880
+FOUND 2
+Aggiornato ordine: 00289986
+FOUND 3
+Aggiornato ordine: 00289987
+FOUND 4
+Aggiornato ordine: 00289988
+Order file: order_ov_it_DW_SG_20161018151001.xml PROCESSED (134)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019172001.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00291123
+Order file: order_ov_it_DW_SG_20161019172001.xml PROCESSED (135)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018201501.xml
+
+FOUND 0
+Aggiornato ordine: 00290199
+FOUND 1
+Aggiornato ordine: 00290200
+FOUND 2
+Aggiornato ordine: 00290201
+FOUND 3
+Aggiornato ordine: 00290202
+FOUND 4
+Aggiornato ordine: 00290203
+FOUND 5
+Aggiornato ordine: 00290255
+FOUND 6
+Aggiornato ordine: 00290256
+FOUND 7
+Aggiornato ordine: 00290257
+Order file: order_ov_it_DW_SG_20161018201501.xml PROCESSED (136)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018150501.xml
+
+FOUND 0
+Aggiornato ordine: 00289878
+Order file: order_ov_it_DW_SG_20161018150501.xml PROCESSED (137)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018103001.xml
+
+FOUND 0
+Aggiornato ordine: 00289511
+FOUND 1
+Aggiornato ordine: 00289605
+FOUND 2
+Aggiornato ordine: 00289606
+Order file: order_ov_it_DW_SG_20161018103001.xml PROCESSED (138)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018120501.xml
+
+FOUND 0
+Aggiornato ordine: 00289665
+Order file: order_ov_it_DW_SG_20161018120501.xml PROCESSED (139)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019124501.xml
+
+FOUND 0
+Aggiornato ordine: 00290718
+Order file: order_ov_it_DW_SG_20161019124501.xml PROCESSED (140)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018142001.xml
+
+FOUND 0
+Aggiornato ordine: 00289851
+FOUND 1
+Aggiornato ordine: 00289854
+FOUND 2
+Aggiornato ordine: 00289855
+FOUND 3
+Aggiornato ordine: 00289964
+FOUND 4
+Aggiornato ordine: 00289965
+Order file: order_ov_it_DW_SG_20161018142001.xml PROCESSED (141)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018120001.xml
+
+FOUND 0
+Aggiornato ordine: 00289663
+FOUND 1
+Aggiornato ordine: 00289664
+FOUND 2
+Aggiornato ordine: 00289762
+FOUND 3
+Aggiornato ordine: 00289763
+FOUND 4
+Aggiornato ordine: 00289764
+FOUND 5
+Aggiornato ordine: 00289765
+Order file: order_ov_it_DW_SG_20161018120001.xml PROCESSED (142)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019071001.xml
+
+FOUND 0
+Aggiornato ordine: 00290377
+FOUND 1
+Aggiornato ordine: 00290537
+Order file: order_ov_it_DW_SG_20161019071001.xml PROCESSED (143)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161008065501.xml
+
+FOUND 0
+Aggiornato ordine: 00285621
+FOUND 1
+Order file: order_ov_it_DW_SG_20161008065501.xml PROCESSED (144)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018163001.xml
+
+FOUND 0
+Aggiornato ordine: 00290031
+FOUND 1
+Aggiornato ordine: 00290033
+FOUND 2
+Aggiornato ordine: 00290035
+FOUND 3
+Aggiornato ordine: 00290121
+FOUND 4
+Aggiornato ordine: 00290122
+Order file: order_ov_it_DW_SG_20161018163001.xml PROCESSED (145)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019150501.xml
+
+FOUND 0
+Aggiornato ordine: 00290881
+FOUND 1
+Aggiornato ordine: 00290883
+FOUND 2
+Aggiornato ordine: 00290968
+FOUND 3
+Aggiornato ordine: 00290970
+FOUND 4
+Aggiornato ordine: 00290971
+Order file: order_ov_it_DW_SG_20161019150501.xml PROCESSED (146)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018190001.xml
+
+FOUND 0
+Aggiornato ordine: 00290108
+FOUND 1
+Aggiornato ordine: 00290109
+Order file: order_ov_it_DW_SG_20161018190001.xml PROCESSED (147)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018221501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00290312
+Order file: order_ov_it_DW_SG_20161018221501.xml PROCESSED (148)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019142501.xml
+
+FOUND 0
+Aggiornato ordine: 00290958
+FOUND 1
+Aggiornato ordine: 00290960
+FOUND 2
+Aggiornato ordine: 00290961
+Order file: order_ov_it_DW_SG_20161019142501.xml PROCESSED (149)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019175501.xml
+
+FOUND 0
+Aggiornato ordine: 00291133
+FOUND 1
+Aggiornato ordine: 00291134
+FOUND 2
+Aggiornato ordine: 00291135
+Order file: order_ov_it_DW_SG_20161019175501.xml PROCESSED (150)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018105501.xml
+
+FOUND 0
+Aggiornato ordine: 00289625
+FOUND 1
+Aggiornato ordine: 00289626
+FOUND 2
+Aggiornato ordine: 00289719
+FOUND 3
+Aggiornato ordine: 00289720
+FOUND 4
+Aggiornato ordine: 00289721
+Order file: order_ov_it_DW_SG_20161018105501.xml PROCESSED (151)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019191501.xml
+
+FOUND 0
+Aggiornato ordine: 00291154
+Order file: order_ov_it_DW_SG_20161019191501.xml PROCESSED (152)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161004073501.xml
+
+FOUND 0
+Aggiornato ordine: 00282534
+Order file: order_ov_it_DW_SG_20161004073501.xml PROCESSED (153)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018193501.xml
+
+FOUND 0
+Aggiornato ordine: 00290180
+FOUND 1
+Aggiornato ordine: 00290181
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00290226
+Order file: order_ov_it_DW_SG_20161018193501.xml PROCESSED (154)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019204001.xml
+
+FOUND 0
+Aggiornato ordine: 00291206
+FOUND 1
+Aggiornato ordine: 00291207
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00291226
+FOUND 4
+Aggiornato ordine: 00291227
+Order file: order_ov_it_DW_SG_20161019204001.xml PROCESSED (155)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018220001.xml
+
+FOUND 0
+Aggiornato ordine: 00290304
+FOUND 1
+Aggiornato ordine: 00290305
+FOUND 2
+Aggiornato ordine: 00290306
+FOUND 3
+Aggiornato ordine: 00290307
+Order file: order_ov_it_DW_SG_20161018220001.xml PROCESSED (156)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018133501.xml
+
+FOUND 0
+Aggiornato ordine: 00289831
+FOUND 1
+Aggiornato ordine: 00289921
+FOUND 2
+Aggiornato ordine: 00289924
+FOUND 3
+Aggiornato ordine: 00289925
+Order file: order_ov_it_DW_SG_20161018133501.xml PROCESSED (157)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018200501.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290249
+FOUND 3
+FOUND 4
+Aggiornato ordine: 00290251
+FOUND 5
+Aggiornato ordine: 00290252
+FOUND 6
+Aggiornato ordine: 00290253
+Order file: order_ov_it_DW_SG_20161018200501.xml PROCESSED (158)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018195001.xml
+
+FOUND 0
+Aggiornato ordine: 00290189
+FOUND 1
+Aggiornato ordine: 00290235
+FOUND 2
+Aggiornato ordine: 00290236
+FOUND 3
+Aggiornato ordine: 00290237
+Order file: order_ov_it_DW_SG_20161018195001.xml PROCESSED (159)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019065501.xml
+
+FOUND 0
+Aggiornato ordine: 00290371
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290373
+FOUND 3
+FOUND 4
+Aggiornato ordine: 00290533
+FOUND 5
+Aggiornato ordine: 00290534
+FOUND 6
+Aggiornato ordine: 00290535
+Order file: order_ov_it_DW_SG_20161019065501.xml PROCESSED (160)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018213001.xml
+
+FOUND 0
+Aggiornato ordine: 00290285
+FOUND 1
+Aggiornato ordine: 00290286
+FOUND 2
+Aggiornato ordine: 00290287
+FOUND 3
+Aggiornato ordine: 00290338
+Order file: order_ov_it_DW_SG_20161018213001.xml PROCESSED (161)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161017224501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00289054
+FOUND 2
+Order file: order_ov_it_DW_SG_20161017224501.xml PROCESSED (162)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019054501.xml
+
+FOUND 0
+Aggiornato ordine: 00290363
+Order file: order_ov_it_DW_SG_20161019054501.xml PROCESSED (163)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018070001.xml
+
+FOUND 0
+Aggiornato ordine: 00289257
+FOUND 1
+Aggiornato ordine: 00289258
+FOUND 2
+Aggiornato ordine: 00289259
+FOUND 3
+Aggiornato ordine: 00289351
+FOUND 4
+Aggiornato ordine: 00289352
+FOUND 5
+Aggiornato ordine: 00289353
+Order file: order_ov_it_DW_SG_20161018070001.xml PROCESSED (164)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018141001.xml
+
+FOUND 0
+Aggiornato ordine: 00289845
+FOUND 1
+Aggiornato ordine: 00289846
+FOUND 2
+Aggiornato ordine: 00289955
+FOUND 3
+Aggiornato ordine: 00289956
+FOUND 4
+Aggiornato ordine: 00289957
+FOUND 5
+Aggiornato ordine: 00289958
+FOUND 6
+Aggiornato ordine: 00289959
+Order file: order_ov_it_DW_SG_20161018141001.xml PROCESSED (165)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019121001.xml
+
+FOUND 0
+Aggiornato ordine: 00290804
+FOUND 1
+Aggiornato ordine: 00290805
+Order file: order_ov_it_DW_SG_20161019121001.xml PROCESSED (166)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018013501.xml
+
+FOUND 0
+Aggiornato ordine: 00289221
+Order file: order_ov_it_DW_SG_20161018013501.xml PROCESSED (167)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019215501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00291254
+Order file: order_ov_it_DW_SG_20161019215501.xml PROCESSED (168)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019173501.xml
+
+FOUND 0
+Aggiornato ordine: 00291056
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00291061
+Order file: order_ov_it_DW_SG_20161019173501.xml PROCESSED (169)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019062001.xml
+
+FOUND 0
+Aggiornato ordine: 00290527
+Order file: order_ov_it_DW_SG_20161019062001.xml PROCESSED (170)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161006212501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00284133
+FOUND 2
+FOUND 3
+FOUND 4
+FOUND 5
+Order file: order_ov_it_DW_SG_20161006212501.xml PROCESSED (171)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018210001.xml
+
+FOUND 0
+Aggiornato ordine: 00290270
+FOUND 1
+Aggiornato ordine: 00290271
+FOUND 2
+Aggiornato ordine: 00290272
+FOUND 3
+Aggiornato ordine: 00290327
+FOUND 4
+FOUND 5
+Aggiornato ordine: 00290329
+Order file: order_ov_it_DW_SG_20161018210001.xml PROCESSED (172)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019072501.xml
+
+FOUND 0
+Aggiornato ordine: 00290381
+FOUND 1
+Aggiornato ordine: 00290382
+FOUND 2
+Aggiornato ordine: 00290383
+FOUND 3
+FOUND 4
+Aggiornato ordine: 00290540
+Order file: order_ov_it_DW_SG_20161019072501.xml PROCESSED (173)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019171001.xml
+
+FOUND 0
+Aggiornato ordine: 00291017
+FOUND 1
+Aggiornato ordine: 00291018
+FOUND 2
+Aggiornato ordine: 00291051
+Order file: order_ov_it_DW_SG_20161019171001.xml PROCESSED (174)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018184001.xml
+
+FOUND 0
+Aggiornato ordine: 00290099
+FOUND 1
+Aggiornato ordine: 00290157
+FOUND 2
+Aggiornato ordine: 00290158
+Order file: order_ov_it_DW_SG_20161018184001.xml PROCESSED (175)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018122501.xml
+
+FOUND 0
+Aggiornato ordine: 00289674
+FOUND 1
+Aggiornato ordine: 00289675
+FOUND 2
+Aggiornato ordine: 00289676
+FOUND 3
+Aggiornato ordine: 00289677
+FOUND 4
+Aggiornato ordine: 00289678
+FOUND 5
+Aggiornato ordine: 00289679
+FOUND 6
+Aggiornato ordine: 00289680
+FOUND 7
+Aggiornato ordine: 00289681
+FOUND 8
+Aggiornato ordine: 00289771
+FOUND 9
+Aggiornato ordine: 00289773
+FOUND 10
+Aggiornato ordine: 00289774
+Order file: order_ov_it_DW_SG_20161018122501.xml PROCESSED (176)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018062501.xml
+
+FOUND 0
+Aggiornato ordine: 00289241
+Order file: order_ov_it_DW_SG_20161018062501.xml PROCESSED (177)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019213501.xml
+
+FOUND 0
+Aggiornato ordine: 00291248
+Order file: order_ov_it_DW_SG_20161019213501.xml PROCESSED (178)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018124501.xml
+
+FOUND 0
+Aggiornato ordine: 00289787
+FOUND 1
+Aggiornato ordine: 00289788
+Order file: order_ov_it_DW_SG_20161018124501.xml PROCESSED (179)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018223501.xml
+
+FOUND 0
+Aggiornato ordine: 00290315
+FOUND 1
+Aggiornato ordine: 00290316
+FOUND 2
+Aggiornato ordine: 00290317
+Order file: order_ov_it_DW_SG_20161018223501.xml PROCESSED (180)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018172001.xml
+
+FOUND 0
+Aggiornato ordine: 00290055
+FOUND 1
+Aggiornato ordine: 00290056
+FOUND 2
+Aggiornato ordine: 00290134
+Order file: order_ov_it_DW_SG_20161018172001.xml PROCESSED (181)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018095001.xml
+
+FOUND 0
+Aggiornato ordine: 00289484
+FOUND 1
+Aggiornato ordine: 00289485
+FOUND 2
+Aggiornato ordine: 00289486
+FOUND 3
+FOUND 4
+Aggiornato ordine: 00289560
+Order file: order_ov_it_DW_SG_20161018095001.xml PROCESSED (182)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019213001.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00291247
+FOUND 2
+Aggiornato ordine: 00291327
+Order file: order_ov_it_DW_SG_20161019213001.xml PROCESSED (183)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018093002.xml
+
+FOUND 0
+Aggiornato ordine: 00289541
+FOUND 1
+Aggiornato ordine: 00289542
+FOUND 2
+Aggiornato ordine: 00289544
+FOUND 3
+Aggiornato ordine: 00289545
+FOUND 4
+Aggiornato ordine: 00289547
+Order file: order_ov_it_DW_SG_20161018093002.xml PROCESSED (184)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018083001.xml
+
+FOUND 0
+Aggiornato ordine: 00289304
+FOUND 1
+Aggiornato ordine: 00289305
+FOUND 2
+Aggiornato ordine: 00289306
+FOUND 3
+Aggiornato ordine: 00289307
+FOUND 4
+FOUND 5
+Aggiornato ordine: 00289437
+Order file: order_ov_it_DW_SG_20161018083001.xml PROCESSED (185)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018184501.xml
+
+FOUND 0
+Aggiornato ordine: 00290100
+FOUND 1
+Aggiornato ordine: 00290101
+Order file: order_ov_it_DW_SG_20161018184501.xml PROCESSED (186)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019124001.xml
+
+FOUND 0
+Aggiornato ordine: 00290716
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290819
+Order file: order_ov_it_DW_SG_20161019124001.xml PROCESSED (187)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20160930100501.xml
+
+FOUND 0
+Aggiornato ordine: 00280751
+FOUND 1
+FOUND 2
+Order file: order_ov_it_DW_SG_20160930100501.xml PROCESSED (188)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161007220501.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00285364
+FOUND 3
+FOUND 4
+FOUND 5
+FOUND 6
+FOUND 7
+Order file: order_ov_it_DW_SG_20161007220501.xml PROCESSED (189)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019151001.xml
+
+FOUND 0
+Aggiornato ordine: 00290885
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290975
+Order file: order_ov_it_DW_SG_20161019151001.xml PROCESSED (190)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018084001.xml
+
+FOUND 0
+Aggiornato ordine: 00289308
+FOUND 1
+Aggiornato ordine: 00289309
+FOUND 2
+Aggiornato ordine: 00289310
+FOUND 3
+Aggiornato ordine: 00289444
+FOUND 4
+Aggiornato ordine: 00289446
+FOUND 5
+Aggiornato ordine: 00289447
+FOUND 6
+Aggiornato ordine: 00289448
+Order file: order_ov_it_DW_SG_20161018084001.xml PROCESSED (191)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019202001.xml
+
+FOUND 0
+Aggiornato ordine: 00291107
+FOUND 1
+Aggiornato ordine: 00291109
+FOUND 2
+Aggiornato ordine: 00291196
+FOUND 3
+Aggiornato ordine: 00291197
+FOUND 4
+Aggiornato ordine: 00291199
+Order file: order_ov_it_DW_SG_20161019202001.xml PROCESSED (192)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018224501.xml
+
+FOUND 0
+Aggiornato ordine: 00290348
+FOUND 1
+Aggiornato ordine: 00290421
+Order file: order_ov_it_DW_SG_20161018224501.xml PROCESSED (193)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019104001.xml
+
+FOUND 0
+Aggiornato ordine: 00290668
+FOUND 1
+Aggiornato ordine: 00290761
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00290763
+Order file: order_ov_it_DW_SG_20161019104001.xml PROCESSED (194)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018165501.xml
+
+FOUND 0
+Aggiornato ordine: 00290043
+FOUND 1
+Aggiornato ordine: 00290127
+FOUND 2
+Aggiornato ordine: 00290128
+Order file: order_ov_it_DW_SG_20161018165501.xml PROCESSED (195)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018204501.xml
+
+FOUND 0
+Aggiornato ordine: 00290322
+Order file: order_ov_it_DW_SG_20161018204501.xml PROCESSED (196)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019080501.xml
+
+FOUND 0
+Aggiornato ordine: 00290406
+FOUND 1
+Aggiornato ordine: 00290407
+FOUND 2
+Aggiornato ordine: 00290408
+FOUND 3
+Aggiornato ordine: 00290554
+Order file: order_ov_it_DW_SG_20161019080501.xml PROCESSED (197)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019190001.xml
+
+FOUND 0
+Aggiornato ordine: 00291081
+FOUND 1
+Aggiornato ordine: 00291082
+FOUND 2
+Aggiornato ordine: 00291083
+FOUND 3
+Aggiornato ordine: 00291147
+FOUND 4
+Aggiornato ordine: 00291148
+Order file: order_ov_it_DW_SG_20161019190001.xml PROCESSED (198)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018155501.xml
+
+FOUND 0
+Aggiornato ordine: 00289901
+FOUND 1
+Order file: order_ov_it_DW_SG_20161018155501.xml PROCESSED (199)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018071501.xml
+
+FOUND 0
+Aggiornato ordine: 00289264
+FOUND 1
+Aggiornato ordine: 00289265
+FOUND 2
+Aggiornato ordine: 00289266
+FOUND 3
+Aggiornato ordine: 00289359
+FOUND 4
+Aggiornato ordine: 00289360
+FOUND 5
+Aggiornato ordine: 00289361
+FOUND 6
+Aggiornato ordine: 00289362
+FOUND 7
+Aggiornato ordine: 00289363
+Order file: order_ov_it_DW_SG_20161018071501.xml PROCESSED (200)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019091501.xml
+
+FOUND 0
+Aggiornato ordine: 00290632
+Order file: order_ov_it_DW_SG_20161019091501.xml PROCESSED (201)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019090501.xml
+
+FOUND 0
+Aggiornato ordine: 00290591
+FOUND 1
+Aggiornato ordine: 00290592
+FOUND 2
+Aggiornato ordine: 00290593
+FOUND 3
+Aggiornato ordine: 00290626
+FOUND 4
+Aggiornato ordine: 00290627
+Order file: order_ov_it_DW_SG_20161019090501.xml PROCESSED (202)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018090001.xml
+
+FOUND 0
+Aggiornato ordine: 00289453
+FOUND 1
+Aggiornato ordine: 00289454
+FOUND 2
+Aggiornato ordine: 00289520
+Order file: order_ov_it_DW_SG_20161018090001.xml PROCESSED (203)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018185501.xml
+
+FOUND 0
+Aggiornato ordine: 00290105
+FOUND 1
+Aggiornato ordine: 00290106
+FOUND 2
+Aggiornato ordine: 00290107
+FOUND 3
+Aggiornato ordine: 00290162
+FOUND 4
+Aggiornato ordine: 00290163
+FOUND 5
+Aggiornato ordine: 00290164
+FOUND 6
+FOUND 7
+Aggiornato ordine: 00290166
+Order file: order_ov_it_DW_SG_20161018185501.xml PROCESSED (204)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019100501.xml
+
+FOUND 0
+Aggiornato ordine: 00290655
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290740
+FOUND 3
+Aggiornato ordine: 00290741
+FOUND 4
+FOUND 5
+Aggiornato ordine: 00290743
+FOUND 6
+Aggiornato ordine: 00290744
+Order file: order_ov_it_DW_SG_20161019100501.xml PROCESSED (205)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161017225501.xml
+
+FOUND 0
+Aggiornato ordine: 00289056
+FOUND 1
+Order file: order_ov_it_DW_SG_20161017225501.xml PROCESSED (206)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018010501.xml
+
+FOUND 0
+Aggiornato ordine: 00289130
+Order file: order_ov_it_DW_SG_20161018010501.xml PROCESSED (207)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019214501.xml
+
+FOUND 0
+Aggiornato ordine: 00291252
+FOUND 1
+Aggiornato ordine: 00291330
+FOUND 2
+Aggiornato ordine: 00291332
+FOUND 3
+Aggiornato ordine: 00291333
+Order file: order_ov_it_DW_SG_20161019214501.xml PROCESSED (208)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018043501.xml
+
+FOUND 0
+Aggiornato ordine: 00289231
+FOUND 1
+Aggiornato ordine: 00289320
+Order file: order_ov_it_DW_SG_20161018043501.xml PROCESSED (209)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018124001.xml
+
+FOUND 0
+Aggiornato ordine: 00289688
+FOUND 1
+Aggiornato ordine: 00289782
+FOUND 2
+Aggiornato ordine: 00289783
+FOUND 3
+FOUND 4
+Aggiornato ordine: 00289785
+FOUND 5
+Aggiornato ordine: 00289786
+Order file: order_ov_it_DW_SG_20161018124001.xml PROCESSED (210)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019161001.xml
+
+FOUND 0
+Aggiornato ordine: 00290914
+Order file: order_ov_it_DW_SG_20161019161001.xml PROCESSED (211)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161017220501.xml
+
+FOUND 0
+Aggiornato ordine: 00289044
+Order file: order_ov_it_DW_SG_20161017220501.xml PROCESSED (212)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018213501.xml
+
+FOUND 0
+Aggiornato ordine: 00290289
+FOUND 1
+Aggiornato ordine: 00290290
+FOUND 2
+Aggiornato ordine: 00290291
+Order file: order_ov_it_DW_SG_20161018213501.xml PROCESSED (213)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019081501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00290560
+FOUND 2
+Aggiornato ordine: 00290561
+FOUND 3
+Aggiornato ordine: 00290562
+FOUND 4
+Aggiornato ordine: 00290563
+Order file: order_ov_it_DW_SG_20161019081501.xml PROCESSED (214)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018112502.xml
+
+FOUND 0
+Aggiornato ordine: 00289646
+Order file: order_ov_it_DW_SG_20161018112502.xml PROCESSED (215)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161008095001.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00285692
+FOUND 4
+FOUND 5
+FOUND 6
+Order file: order_ov_it_DW_SG_20161008095001.xml PROCESSED (216)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018144001.xml
+
+FOUND 0
+Aggiornato ordine: 00289868
+FOUND 1
+Aggiornato ordine: 00289869
+FOUND 2
+Aggiornato ordine: 00289870
+FOUND 3
+Aggiornato ordine: 00289969
+FOUND 4
+Aggiornato ordine: 00289970
+FOUND 5
+FOUND 6
+Aggiornato ordine: 00289972
+Order file: order_ov_it_DW_SG_20161018144001.xml PROCESSED (217)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019114501.xml
+
+FOUND 0
+Aggiornato ordine: 00290688
+Order file: order_ov_it_DW_SG_20161019114501.xml PROCESSED (218)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018143001.xml
+
+FOUND 0
+Aggiornato ordine: 00289864
+FOUND 1
+Aggiornato ordine: 00289967
+FOUND 2
+Aggiornato ordine: 00289968
+Order file: order_ov_it_DW_SG_20161018143001.xml PROCESSED (219)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019192501.xml
+
+FOUND 0
+Aggiornato ordine: 00291158
+FOUND 1
+Aggiornato ordine: 00291159
+Order file: order_ov_it_DW_SG_20161019192501.xml PROCESSED (220)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019164501.xml
+
+FOUND 0
+Aggiornato ordine: 00291001
+FOUND 1
+Aggiornato ordine: 00291002
+Order file: order_ov_it_DW_SG_20161019164501.xml PROCESSED (221)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018060001.xml
+
+FOUND 0
+Aggiornato ordine: 00289333
+Order file: order_ov_it_DW_SG_20161018060001.xml PROCESSED (222)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019145501.xml
+
+FOUND 0
+Aggiornato ordine: 00290876
+FOUND 1
+Aggiornato ordine: 00290966
+Order file: order_ov_it_DW_SG_20161019145501.xml PROCESSED (223)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019201001.xml
+
+FOUND 0
+Aggiornato ordine: 00291103
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00291188
+FOUND 3
+Aggiornato ordine: 00291189
+FOUND 4
+Aggiornato ordine: 00291190
+Order file: order_ov_it_DW_SG_20161019201001.xml PROCESSED (224)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019134001.xml
+
+FOUND 0
+Aggiornato ordine: 00290844
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290941
+Order file: order_ov_it_DW_SG_20161019134001.xml PROCESSED (225)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018072501.xml
+
+FOUND 0
+Aggiornato ordine: 00289268
+FOUND 1
+Aggiornato ordine: 00289269
+FOUND 2
+Aggiornato ordine: 00289270
+FOUND 3
+Aggiornato ordine: 00289271
+FOUND 4
+Aggiornato ordine: 00289371
+FOUND 5
+Aggiornato ordine: 00289372
+FOUND 6
+Aggiornato ordine: 00289373
+FOUND 7
+Aggiornato ordine: 00289374
+FOUND 8
+Aggiornato ordine: 00289375
+FOUND 9
+Aggiornato ordine: 00289376
+Order file: order_ov_it_DW_SG_20161018072501.xml PROCESSED (226)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018044001.xml
+
+FOUND 0
+Aggiornato ordine: 00289232
+FOUND 1
+Aggiornato ordine: 00289233
+Order file: order_ov_it_DW_SG_20161018044001.xml PROCESSED (227)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019004001.xml
+
+FOUND 0
+Aggiornato ordine: 00290352
+Order file: order_ov_it_DW_SG_20161019004001.xml PROCESSED (228)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019092001.xml
+
+FOUND 0
+Aggiornato ordine: 00290597
+FOUND 1
+Aggiornato ordine: 00290598
+FOUND 2
+Aggiornato ordine: 00290599
+FOUND 3
+Aggiornato ordine: 00290600
+FOUND 4
+FOUND 5
+Aggiornato ordine: 00290607
+FOUND 6
+Aggiornato ordine: 00290633
+Order file: order_ov_it_DW_SG_20161019092001.xml PROCESSED (229)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018182501.xml
+
+FOUND 0
+Aggiornato ordine: 00290089
+FOUND 1
+Aggiornato ordine: 00290090
+FOUND 2
+Aggiornato ordine: 00290091
+FOUND 3
+Aggiornato ordine: 00290092
+FOUND 4
+Aggiornato ordine: 00290093
+FOUND 5
+Aggiornato ordine: 00290094
+FOUND 6
+Aggiornato ordine: 00290155
+Order file: order_ov_it_DW_SG_20161018182501.xml PROCESSED (230)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019170501.xml
+
+FOUND 0
+Aggiornato ordine: 00291012
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00291048
+FOUND 3
+Aggiornato ordine: 00291049
+FOUND 4
+Aggiornato ordine: 00291050
+Order file: order_ov_it_DW_SG_20161019170501.xml PROCESSED (231)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018145001.xml
+
+FOUND 0
+Aggiornato ordine: 00289873
+FOUND 1
+Aggiornato ordine: 00289974
+FOUND 2
+Aggiornato ordine: 00289975
+FOUND 3
+Aggiornato ordine: 00289976
+FOUND 4
+Aggiornato ordine: 00289977
+Order file: order_ov_it_DW_SG_20161018145001.xml PROCESSED (232)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019095001.xml
+
+FOUND 0
+Aggiornato ordine: 00290648
+Order file: order_ov_it_DW_SG_20161019095001.xml PROCESSED (233)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161008113001.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00285732
+Order file: order_ov_it_DW_SG_20161008113001.xml PROCESSED (234)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018215501.xml
+
+FOUND 0
+Aggiornato ordine: 00290301
+FOUND 1
+Aggiornato ordine: 00290302
+FOUND 2
+Aggiornato ordine: 00290303
+FOUND 3
+FOUND 4
+Aggiornato ordine: 00290342
+Order file: order_ov_it_DW_SG_20161018215501.xml PROCESSED (235)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018140501.xml
+
+FOUND 0
+Aggiornato ordine: 00289949
+FOUND 1
+Aggiornato ordine: 00289950
+FOUND 2
+Aggiornato ordine: 00289951
+FOUND 3
+Aggiornato ordine: 00289952
+FOUND 4
+Order file: order_ov_it_DW_SG_20161018140501.xml PROCESSED (236)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_es_DW_SG_20161019114502.xml
+
+FOUND 0
+Aggiornato ordine: 00290795
+Order file: order_ov_es_DW_SG_20161019114502.xml PROCESSED (237)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018113501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00289746
+Order file: order_ov_it_DW_SG_20161018113501.xml PROCESSED (238)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_es_DW_SG_20161018103002.xml
+
+FOUND 0
+Aggiornato ordine: 00289607
+Order file: order_ov_es_DW_SG_20161018103002.xml PROCESSED (239)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018101501.xml
+
+FOUND 0
+Aggiornato ordine: 00289497
+FOUND 1
+Aggiornato ordine: 00289500
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00289502
+FOUND 4
+Aggiornato ordine: 00289587
+FOUND 5
+Aggiornato ordine: 00289588
+FOUND 6
+Aggiornato ordine: 00289589
+FOUND 7
+Order file: order_ov_it_DW_SG_20161018101501.xml PROCESSED (240)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018131001.xml
+
+FOUND 0
+Aggiornato ordine: 00289707
+FOUND 1
+Aggiornato ordine: 00289807
+FOUND 2
+Aggiornato ordine: 00289808
+FOUND 3
+Aggiornato ordine: 00289809
+FOUND 4
+Aggiornato ordine: 00289810
+FOUND 5
+Aggiornato ordine: 00289811
+Order file: order_ov_it_DW_SG_20161018131001.xml PROCESSED (241)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018210501.xml
+
+FOUND 0
+Aggiornato ordine: 00290273
+FOUND 1
+Aggiornato ordine: 00290274
+FOUND 2
+Aggiornato ordine: 00290275
+FOUND 3
+Aggiornato ordine: 00290276
+FOUND 4
+Aggiornato ordine: 00290277
+FOUND 5
+Aggiornato ordine: 00290278
+Order file: order_ov_it_DW_SG_20161018210501.xml PROCESSED (242)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019113501.xml
+
+FOUND 0
+Aggiornato ordine: 00290791
+Order file: order_ov_it_DW_SG_20161019113501.xml PROCESSED (243)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019182501.xml
+
+FOUND 0
+Aggiornato ordine: 00291142
+Order file: order_ov_it_DW_SG_20161019182501.xml PROCESSED (244)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018081001.xml
+
+FOUND 0
+Aggiornato ordine: 00289291
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00289422
+FOUND 3
+Aggiornato ordine: 00289423
+FOUND 4
+Aggiornato ordine: 00289424
+FOUND 5
+Aggiornato ordine: 00289425
+Order file: order_ov_it_DW_SG_20161018081001.xml PROCESSED (245)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018160001.xml
+
+FOUND 0
+Aggiornato ordine: 00289903
+FOUND 1
+Aggiornato ordine: 00290011
+FOUND 2
+Aggiornato ordine: 00290012
+Order file: order_ov_it_DW_SG_20161018160001.xml PROCESSED (246)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018214001.xml
+
+FOUND 0
+Aggiornato ordine: 00290292
+FOUND 1
+Aggiornato ordine: 00290293
+FOUND 2
+Aggiornato ordine: 00290294
+FOUND 3
+Aggiornato ordine: 00290339
+Order file: order_ov_it_DW_SG_20161018214001.xml PROCESSED (247)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019070501.xml
+
+FOUND 0
+Aggiornato ordine: 00290376
+Order file: order_ov_it_DW_SG_20161019070501.xml PROCESSED (248)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161001163001.xml
+
+FOUND 0
+Aggiornato ordine: 00281517
+Order file: order_ov_it_DW_SG_20161001163001.xml PROCESSED (249)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019085501.xml
+
+FOUND 0
+Aggiornato ordine: 00290585
+FOUND 1
+Aggiornato ordine: 00290586
+FOUND 2
+Aggiornato ordine: 00290587
+FOUND 3
+FOUND 4
+Aggiornato ordine: 00290621
+FOUND 5
+Aggiornato ordine: 00290622
+FOUND 6
+Aggiornato ordine: 00290623
+Order file: order_ov_it_DW_SG_20161019085501.xml PROCESSED (250)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019094001.xml
+
+FOUND 0
+Aggiornato ordine: 00290642
+FOUND 1
+Aggiornato ordine: 00290643
+FOUND 2
+Aggiornato ordine: 00290644
+FOUND 3
+Aggiornato ordine: 00290645
+FOUND 4
+Aggiornato ordine: 00290728
+FOUND 5
+Aggiornato ordine: 00290729
+FOUND 6
+Aggiornato ordine: 00290730
+Order file: order_ov_it_DW_SG_20161019094001.xml PROCESSED (251)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161006175001.xml
+
+FOUND 0
+Aggiornato ordine: 00283944
+FOUND 1
+FOUND 2
+FOUND 3
+Order file: order_ov_it_DW_SG_20161006175001.xml PROCESSED (252)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018143501.xml
+
+FOUND 0
+Aggiornato ordine: 00289867
+Order file: order_ov_it_DW_SG_20161018143501.xml PROCESSED (253)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019161501.xml
+
+FOUND 0
+Aggiornato ordine: 00290917
+FOUND 1
+Aggiornato ordine: 00290988
+FOUND 2
+Aggiornato ordine: 00290989
+Order file: order_ov_it_DW_SG_20161019161501.xml PROCESSED (254)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019203001.xml
+
+FOUND 0
+Aggiornato ordine: 00291203
+FOUND 1
+Aggiornato ordine: 00291204
+FOUND 2
+Order file: order_ov_it_DW_SG_20161019203001.xml PROCESSED (255)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019104501.xml
+
+FOUND 0
+Aggiornato ordine: 00290669
+FOUND 1
+Aggiornato ordine: 00290670
+FOUND 2
+Aggiornato ordine: 00290766
+FOUND 3
+Aggiornato ordine: 00290767
+FOUND 4
+Aggiornato ordine: 00290771
+FOUND 5
+Aggiornato ordine: 00290772
+Order file: order_ov_it_DW_SG_20161019104501.xml PROCESSED (256)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018153501.xml
+
+FOUND 0
+Aggiornato ordine: 00289890
+FOUND 1
+Aggiornato ordine: 00289891
+FOUND 2
+Aggiornato ordine: 00289892
+FOUND 3
+Aggiornato ordine: 00289893
+FOUND 4
+Aggiornato ordine: 00289894
+Order file: order_ov_it_DW_SG_20161018153501.xml PROCESSED (257)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019143001.xml
+
+FOUND 0
+Aggiornato ordine: 00290865
+FOUND 1
+Aggiornato ordine: 00290866
+FOUND 2
+Aggiornato ordine: 00290962
+FOUND 3
+Aggiornato ordine: 00290963
+FOUND 4
+Aggiornato ordine: 00290964
+Order file: order_ov_it_DW_SG_20161019143001.xml PROCESSED (258)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019211001.xml
+
+FOUND 0
+Aggiornato ordine: 00291245
+Order file: order_ov_it_DW_SG_20161019211001.xml PROCESSED (259)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018061001.xml
+
+FOUND 0
+Aggiornato ordine: 00289334
+FOUND 1
+Aggiornato ordine: 00289335
+Order file: order_ov_it_DW_SG_20161018061001.xml PROCESSED (260)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018121001.xml
+
+FOUND 0
+Aggiornato ordine: 00289666
+FOUND 1
+Aggiornato ordine: 00289766
+Order file: order_ov_it_DW_SG_20161018121001.xml PROCESSED (261)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019201501.xml
+
+FOUND 0
+Aggiornato ordine: 00291104
+FOUND 1
+Aggiornato ordine: 00291105
+FOUND 2
+Aggiornato ordine: 00291106
+FOUND 3
+Aggiornato ordine: 00291191
+FOUND 4
+Aggiornato ordine: 00291192
+FOUND 5
+Aggiornato ordine: 00291193
+Order file: order_ov_it_DW_SG_20161019201501.xml PROCESSED (262)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019183501.xml
+
+FOUND 0
+Aggiornato ordine: 00291143
+Order file: order_ov_it_DW_SG_20161019183501.xml PROCESSED (263)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019141001.xml
+
+FOUND 0
+Aggiornato ordine: 00290855
+FOUND 1
+Aggiornato ordine: 00290856
+FOUND 2
+Aggiornato ordine: 00290857
+FOUND 3
+Aggiornato ordine: 00290952
+FOUND 4
+Aggiornato ordine: 00290953
+Order file: order_ov_it_DW_SG_20161019141001.xml PROCESSED (264)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018171501.xml
+
+FOUND 0
+Aggiornato ordine: 00290054
+Order file: order_ov_it_DW_SG_20161018171501.xml PROCESSED (265)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019205001.xml
+
+FOUND 0
+Aggiornato ordine: 00291209
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00291211
+FOUND 3
+Aggiornato ordine: 00291212
+FOUND 4
+Aggiornato ordine: 00291231
+FOUND 5
+Aggiornato ordine: 00291232
+FOUND 6
+FOUND 7
+Aggiornato ordine: 00291234
+FOUND 8
+Aggiornato ordine: 00291235
+FOUND 9
+Aggiornato ordine: 00291236
+Order file: order_ov_it_DW_SG_20161019205001.xml PROCESSED (266)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019121501.xml
+
+FOUND 0
+Aggiornato ordine: 00290706
+FOUND 1
+Aggiornato ordine: 00290707
+FOUND 2
+Aggiornato ordine: 00290806
+Order file: order_ov_it_DW_SG_20161019121501.xml PROCESSED (267)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161009153501.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+FOUND 3
+FOUND 4
+Aggiornato ordine: 00286079
+Order file: order_ov_it_DW_SG_20161009153501.xml PROCESSED (268)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019083001.xml
+
+FOUND 0
+Aggiornato ordine: 00290413
+FOUND 1
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00290572
+Order file: order_ov_it_DW_SG_20161019083001.xml PROCESSED (269)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019110501.xml
+
+FOUND 0
+Aggiornato ordine: 00290675
+FOUND 1
+Aggiornato ordine: 00290676
+Order file: order_ov_it_DW_SG_20161019110501.xml PROCESSED (270)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018090501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00289457
+FOUND 2
+Aggiornato ordine: 00289522
+Order file: order_ov_it_DW_SG_20161018090501.xml PROCESSED (271)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019135501.xml
+
+FOUND 0
+Aggiornato ordine: 00290851
+FOUND 1
+Aggiornato ordine: 00290852
+FOUND 2
+Aggiornato ordine: 00290853
+Order file: order_ov_it_DW_SG_20161019135501.xml PROCESSED (272)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019095501.xml
+
+FOUND 0
+Aggiornato ordine: 00290650
+FOUND 1
+Aggiornato ordine: 00290733
+FOUND 2
+Aggiornato ordine: 00290734
+Order file: order_ov_it_DW_SG_20161019095501.xml PROCESSED (273)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019151501.xml
+
+FOUND 0
+Aggiornato ordine: 00290886
+FOUND 1
+Aggiornato ordine: 00290887
+Order file: order_ov_it_DW_SG_20161019151501.xml PROCESSED (274)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019130501.xml
+
+FOUND 0
+Aggiornato ordine: 00290827
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290927
+FOUND 3
+Aggiornato ordine: 00290928
+FOUND 4
+Aggiornato ordine: 00290929
+FOUND 5
+Aggiornato ordine: 00290930
+Order file: order_ov_it_DW_SG_20161019130501.xml PROCESSED (275)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161017232001.xml
+
+FOUND 0
+Aggiornato ordine: 00289058
+FOUND 1
+Aggiornato ordine: 00289059
+FOUND 2
+Aggiornato ordine: 00289128
+FOUND 3
+Aggiornato ordine: 00289129
+Order file: order_ov_it_DW_SG_20161017232001.xml PROCESSED (276)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018130501.xml
+
+FOUND 0
+Aggiornato ordine: 00289702
+FOUND 1
+Aggiornato ordine: 00289703
+FOUND 2
+Aggiornato ordine: 00289704
+FOUND 3
+Aggiornato ordine: 00289705
+FOUND 4
+Aggiornato ordine: 00289806
+Order file: order_ov_it_DW_SG_20161018130501.xml PROCESSED (277)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019122501.xml
+
+FOUND 0
+Aggiornato ordine: 00290811
+Order file: order_ov_it_DW_SG_20161019122501.xml PROCESSED (278)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018112001.xml
+
+FOUND 0
+Aggiornato ordine: 00289641
+FOUND 1
+Aggiornato ordine: 00289642
+FOUND 2
+Aggiornato ordine: 00289643
+FOUND 3
+Aggiornato ordine: 00289644
+FOUND 4
+Aggiornato ordine: 00289645
+FOUND 5
+Aggiornato ordine: 00289736
+FOUND 6
+Aggiornato ordine: 00289737
+FOUND 7
+Aggiornato ordine: 00289738
+Order file: order_ov_it_DW_SG_20161018112001.xml PROCESSED (279)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018183501.xml
+
+FOUND 0
+Aggiornato ordine: 00290097
+FOUND 1
+Aggiornato ordine: 00290098
+Order file: order_ov_it_DW_SG_20161018183501.xml PROCESSED (280)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019183001.xml
+
+FOUND 0
+Aggiornato ordine: 00291073
+FOUND 1
+Aggiornato ordine: 00291074
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00291076
+Order file: order_ov_it_DW_SG_20161019183001.xml PROCESSED (281)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019211501.xml
+
+FOUND 0
+Aggiornato ordine: 00291321
+FOUND 1
+Aggiornato ordine: 00291322
+Order file: order_ov_it_DW_SG_20161019211501.xml PROCESSED (282)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019182001.xml
+
+FOUND 0
+Aggiornato ordine: 00291071
+FOUND 1
+Aggiornato ordine: 00291072
+FOUND 2
+Aggiornato ordine: 00291140
+FOUND 3
+Aggiornato ordine: 00291141
+Order file: order_ov_it_DW_SG_20161019182001.xml PROCESSED (283)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018053501.xml
+
+FOUND 0
+Aggiornato ordine: 00289238
+FOUND 1
+Aggiornato ordine: 00289329
+Order file: order_ov_it_DW_SG_20161018053501.xml PROCESSED (284)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161008093501.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+FOUND 3
+FOUND 4
+FOUND 5
+FOUND 6
+Aggiornato ordine: 00285680
+FOUND 7
+FOUND 8
+FOUND 9
+Order file: order_ov_it_DW_SG_20161008093501.xml PROCESSED (285)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019043001.xml
+
+FOUND 0
+Aggiornato ordine: 00290519
+Order file: order_ov_it_DW_SG_20161019043001.xml PROCESSED (286)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161007155501.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00284780
+FOUND 3
+FOUND 4
+FOUND 5
+Order file: order_ov_it_DW_SG_20161007155501.xml PROCESSED (287)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019115001.xml
+
+FOUND 0
+Aggiornato ordine: 00290689
+FOUND 1
+Aggiornato ordine: 00290690
+FOUND 2
+Aggiornato ordine: 00290691
+FOUND 3
+Aggiornato ordine: 00290796
+FOUND 4
+Aggiornato ordine: 00290797
+FOUND 5
+Aggiornato ordine: 00290798
+Order file: order_ov_it_DW_SG_20161019115001.xml PROCESSED (288)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019203501.xml
+
+FOUND 0
+Aggiornato ordine: 00291205
+FOUND 1
+Aggiornato ordine: 00291223
+Order file: order_ov_it_DW_SG_20161019203501.xml PROCESSED (289)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161005144501.xml
+
+FOUND 0
+Aggiornato ordine: 00283180
+FOUND 1
+FOUND 2
+Order file: order_ov_it_DW_SG_20161005144501.xml PROCESSED (290)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018154501.xml
+
+FOUND 0
+Aggiornato ordine: 00289897
+FOUND 1
+Aggiornato ordine: 00289898
+FOUND 2
+Aggiornato ordine: 00289899
+FOUND 3
+FOUND 4
+Aggiornato ordine: 00290004
+Order file: order_ov_it_DW_SG_20161018154501.xml PROCESSED (291)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018073501.xml
+
+FOUND 0
+Aggiornato ordine: 00289381
+FOUND 1
+Aggiornato ordine: 00289382
+FOUND 2
+Aggiornato ordine: 00289383
+FOUND 3
+Aggiornato ordine: 00289384
+FOUND 4
+Aggiornato ordine: 00289385
+FOUND 5
+Aggiornato ordine: 00289386
+Order file: order_ov_it_DW_SG_20161018073501.xml PROCESSED (292)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019085001.xml
+
+FOUND 0
+Aggiornato ordine: 00290584
+FOUND 1
+Aggiornato ordine: 00290619
+Order file: order_ov_it_DW_SG_20161019085001.xml PROCESSED (293)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019075001.xml
+
+FOUND 0
+Aggiornato ordine: 00290397
+FOUND 1
+Aggiornato ordine: 00290398
+FOUND 2
+Aggiornato ordine: 00290399
+FOUND 3
+Aggiornato ordine: 00290400
+FOUND 4
+Aggiornato ordine: 00290401
+FOUND 5
+Aggiornato ordine: 00290402
+FOUND 6
+Aggiornato ordine: 00290403
+FOUND 7
+Order file: order_ov_it_DW_SG_20161019075001.xml PROCESSED (294)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161011144001.xml
+
+FOUND 0
+Aggiornato ordine: 00286704
+FOUND 1
+FOUND 2
+Order file: order_ov_it_DW_SG_20161011144001.xml PROCESSED (295)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018055501.xml
+
+FOUND 0
+Aggiornato ordine: 00289240
+Order file: order_ov_it_DW_SG_20161018055501.xml PROCESSED (296)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019080001.xml
+
+FOUND 0
+Aggiornato ordine: 00290405
+FOUND 1
+Aggiornato ordine: 00290552
+FOUND 2
+Aggiornato ordine: 00290553
+Order file: order_ov_it_DW_SG_20161019080001.xml PROCESSED (297)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019120001.xml
+
+FOUND 0
+Aggiornato ordine: 00290695
+FOUND 1
+Aggiornato ordine: 00290800
+FOUND 2
+Aggiornato ordine: 00290801
+Order file: order_ov_it_DW_SG_20161019120001.xml PROCESSED (298)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019162001.xml
+
+FOUND 0
+Aggiornato ordine: 00290918
+FOUND 1
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00291020
+Order file: order_ov_it_DW_SG_20161019162001.xml PROCESSED (299)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018051501.xml
+
+FOUND 0
+Aggiornato ordine: 00289237
+Order file: order_ov_it_DW_SG_20161018051501.xml PROCESSED (300)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161005140501.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00283168
+FOUND 3
+FOUND 4
+FOUND 5
+Order file: order_ov_it_DW_SG_20161005140501.xml PROCESSED (301)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161017224001.xml
+
+FOUND 0
+Aggiornato ordine: 00289053
+Order file: order_ov_it_DW_SG_20161017224001.xml PROCESSED (302)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019174501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00291068
+FOUND 2
+Aggiornato ordine: 00291130
+Order file: order_ov_it_DW_SG_20161019174501.xml PROCESSED (303)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018043001.xml
+
+FOUND 0
+Aggiornato ordine: 00289230
+Order file: order_ov_it_DW_SG_20161018043001.xml PROCESSED (304)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018075001.xml
+
+FOUND 0
+Aggiornato ordine: 00289279
+FOUND 1
+Aggiornato ordine: 00289402
+FOUND 2
+Aggiornato ordine: 00289403
+FOUND 3
+Aggiornato ordine: 00289404
+FOUND 4
+Aggiornato ordine: 00289405
+FOUND 5
+Aggiornato ordine: 00289406
+FOUND 6
+Aggiornato ordine: 00289407
+FOUND 7
+Aggiornato ordine: 00289408
+FOUND 8
+Aggiornato ordine: 00289410
+FOUND 9
+Aggiornato ordine: 00289412
+Order file: order_ov_it_DW_SG_20161018075001.xml PROCESSED (305)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20160905190501.xml
+
+FOUND 0
+FOUND 1
+Order file: order_ov_it_DW_SG_20160905190501.xml PROCESSED (306)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018092001.xml
+
+FOUND 0
+Aggiornato ordine: 00289466
+FOUND 1
+Aggiornato ordine: 00289467
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00289535
+FOUND 4
+Aggiornato ordine: 00289536
+FOUND 5
+Aggiornato ordine: 00289537
+Order file: order_ov_it_DW_SG_20161018092001.xml PROCESSED (307)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018140001.xml
+
+FOUND 0
+Aggiornato ordine: 00289842
+FOUND 1
+Aggiornato ordine: 00289843
+FOUND 2
+Aggiornato ordine: 00289844
+FOUND 3
+Aggiornato ordine: 00289942
+FOUND 4
+Aggiornato ordine: 00289945
+FOUND 5
+Aggiornato ordine: 00289946
+FOUND 6
+Aggiornato ordine: 00289947
+FOUND 7
+Aggiornato ordine: 00289948
+Order file: order_ov_it_DW_SG_20161018140001.xml PROCESSED (308)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20160915134001.xml
+
+FOUND 0
+FOUND 1
+Order file: order_ov_it_DW_SG_20160915134001.xml PROCESSED (309)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018110001.xml
+
+FOUND 0
+Aggiornato ordine: 00289627
+FOUND 1
+Aggiornato ordine: 00289628
+FOUND 2
+Aggiornato ordine: 00289722
+Order file: order_ov_it_DW_SG_20161018110001.xml PROCESSED (310)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018221001.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00290345
+Order file: order_ov_it_DW_SG_20161018221001.xml PROCESSED (311)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019154001.xml
+
+FOUND 0
+Aggiornato ordine: 00290895
+FOUND 1
+Aggiornato ordine: 00290896
+FOUND 2
+Aggiornato ordine: 00290982
+FOUND 3
+Aggiornato ordine: 00290983
+Order file: order_ov_it_DW_SG_20161019154001.xml PROCESSED (312)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018154001.xml
+
+FOUND 0
+Aggiornato ordine: 00289895
+FOUND 1
+Aggiornato ordine: 00289896
+FOUND 2
+Aggiornato ordine: 00290001
+FOUND 3
+Aggiornato ordine: 00290002
+Order file: order_ov_it_DW_SG_20161018154001.xml PROCESSED (313)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019084501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00290582
+FOUND 2
+Aggiornato ordine: 00290583
+Order file: order_ov_it_DW_SG_20161019084501.xml PROCESSED (314)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019105501.xml
+
+FOUND 0
+Aggiornato ordine: 00290776
+Order file: order_ov_it_DW_SG_20161019105501.xml PROCESSED (315)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161010105501.xml
+
+FOUND 0
+Aggiornato ordine: 00286296
+FOUND 1
+FOUND 2
+Order file: order_ov_it_DW_SG_20161010105501.xml PROCESSED (316)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019192001.xml
+
+FOUND 0
+Aggiornato ordine: 00291086
+FOUND 1
+Aggiornato ordine: 00291087
+FOUND 2
+Aggiornato ordine: 00291088
+FOUND 3
+Aggiornato ordine: 00291089
+FOUND 4
+Aggiornato ordine: 00291090
+FOUND 5
+Aggiornato ordine: 00291091
+FOUND 6
+FOUND 7
+Aggiornato ordine: 00291156
+FOUND 8
+Aggiornato ordine: 00291157
+Order file: order_ov_it_DW_SG_20161019192001.xml PROCESSED (317)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019214001.xml
+
+FOUND 0
+Aggiornato ordine: 00291249
+FOUND 1
+Aggiornato ordine: 00291250
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00291328
+Order file: order_ov_it_DW_SG_20161019214001.xml PROCESSED (318)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019111501.xml
+
+FOUND 0
+Aggiornato ordine: 00290679
+FOUND 1
+Aggiornato ordine: 00290680
+FOUND 2
+Aggiornato ordine: 00290782
+FOUND 3
+FOUND 4
+Aggiornato ordine: 00290784
+Order file: order_ov_it_DW_SG_20161019111501.xml PROCESSED (319)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019110001.xml
+
+FOUND 0
+Aggiornato ordine: 00290673
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290779
+FOUND 3
+Aggiornato ordine: 00290780
+Order file: order_ov_it_DW_SG_20161019110001.xml PROCESSED (320)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019195001.xml
+
+FOUND 0
+Aggiornato ordine: 00291176
+Order file: order_ov_it_DW_SG_20161019195001.xml PROCESSED (321)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019120501.xml
+
+FOUND 0
+Aggiornato ordine: 00290696
+FOUND 1
+Aggiornato ordine: 00290697
+FOUND 2
+Aggiornato ordine: 00290699
+FOUND 3
+Aggiornato ordine: 00290802
+FOUND 4
+Aggiornato ordine: 00290803
+Order file: order_ov_it_DW_SG_20161019120501.xml PROCESSED (322)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019073501.xml
+
+FOUND 0
+Aggiornato ordine: 00290388
+FOUND 1
+Aggiornato ordine: 00290389
+Order file: order_ov_it_DW_SG_20161019073501.xml PROCESSED (323)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018211001.xml
+
+FOUND 0
+Aggiornato ordine: 00290279
+FOUND 1
+Aggiornato ordine: 00290280
+FOUND 2
+Aggiornato ordine: 00290281
+FOUND 3
+Aggiornato ordine: 00290330
+FOUND 4
+Aggiornato ordine: 00290331
+FOUND 5
+Aggiornato ordine: 00290332
+FOUND 6
+Aggiornato ordine: 00290333
+Order file: order_ov_it_DW_SG_20161018211001.xml PROCESSED (324)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018201001.xml
+
+FOUND 0
+Aggiornato ordine: 00290197
+FOUND 1
+Aggiornato ordine: 00290198
+FOUND 2
+Aggiornato ordine: 00290254
+Order file: order_ov_it_DW_SG_20161018201001.xml PROCESSED (325)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018172501.xml
+
+FOUND 0
+Aggiornato ordine: 00290057
+FOUND 1
+Aggiornato ordine: 00290135
+Order file: order_ov_it_DW_SG_20161018172501.xml PROCESSED (326)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018161501.xml
+
+FOUND 0
+Aggiornato ordine: 00289906
+FOUND 1
+Aggiornato ordine: 00289907
+Order file: order_ov_it_DW_SG_20161018161501.xml PROCESSED (327)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018074501.xml
+
+FOUND 0
+Aggiornato ordine: 00289274
+FOUND 1
+Aggiornato ordine: 00289275
+FOUND 2
+Aggiornato ordine: 00289276
+FOUND 3
+Aggiornato ordine: 00289277
+FOUND 4
+Aggiornato ordine: 00289278
+FOUND 5
+Aggiornato ordine: 00289396
+FOUND 6
+Aggiornato ordine: 00289397
+FOUND 7
+Aggiornato ordine: 00289398
+FOUND 8
+Aggiornato ordine: 00289399
+FOUND 9
+Aggiornato ordine: 00289401
+Order file: order_ov_it_DW_SG_20161018074501.xml PROCESSED (328)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161001135501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00281584
+Order file: order_ov_it_DW_SG_20161001135501.xml PROCESSED (329)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019101501.xml
+
+FOUND 0
+Aggiornato ordine: 00290658
+FOUND 1
+Aggiornato ordine: 00290750
+FOUND 2
+Aggiornato ordine: 00290751
+FOUND 3
+Aggiornato ordine: 00290752
+Order file: order_ov_it_DW_SG_20161019101501.xml PROCESSED (330)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018134001.xml
+
+FOUND 0
+Aggiornato ordine: 00289926
+FOUND 1
+Aggiornato ordine: 00289928
+FOUND 2
+Aggiornato ordine: 00289929
+Order file: order_ov_it_DW_SG_20161018134001.xml PROCESSED (331)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018202001.xml
+
+FOUND 0
+Aggiornato ordine: 00290204
+FOUND 1
+Aggiornato ordine: 00290205
+FOUND 2
+Aggiornato ordine: 00290258
+Order file: order_ov_it_DW_SG_20161018202001.xml PROCESSED (332)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018141501.xml
+
+FOUND 0
+Aggiornato ordine: 00289848
+FOUND 1
+Aggiornato ordine: 00289849
+FOUND 2
+Aggiornato ordine: 00289850
+FOUND 3
+Aggiornato ordine: 00289960
+FOUND 4
+Aggiornato ordine: 00289961
+FOUND 5
+Aggiornato ordine: 00289962
+Order file: order_ov_it_DW_SG_20161018141501.xml PROCESSED (333)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018091001.xml
+
+FOUND 0
+Aggiornato ordine: 00289458
+FOUND 1
+Aggiornato ordine: 00289459
+FOUND 2
+Aggiornato ordine: 00289460
+FOUND 3
+Aggiornato ordine: 00289461
+FOUND 4
+Aggiornato ordine: 00289523
+FOUND 5
+Aggiornato ordine: 00289524
+FOUND 6
+Aggiornato ordine: 00289525
+FOUND 7
+Aggiornato ordine: 00289526
+FOUND 8
+Aggiornato ordine: 00289527
+Order file: order_ov_it_DW_SG_20161018091001.xml PROCESSED (334)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018082501.xml
+
+FOUND 0
+Aggiornato ordine: 00289301
+FOUND 1
+Aggiornato ordine: 00289302
+FOUND 2
+Aggiornato ordine: 00289303
+FOUND 3
+Aggiornato ordine: 00289432
+FOUND 4
+Aggiornato ordine: 00289433
+Order file: order_ov_it_DW_SG_20161018082501.xml PROCESSED (335)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019144001.xml
+
+FOUND 0
+Aggiornato ordine: 00290872
+FOUND 1
+Aggiornato ordine: 00290873
+FOUND 2
+Aggiornato ordine: 00290874
+Order file: order_ov_it_DW_SG_20161019144001.xml PROCESSED (336)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019141501.xml
+
+FOUND 0
+Aggiornato ordine: 00290858
+FOUND 1
+Aggiornato ordine: 00290859
+FOUND 2
+Aggiornato ordine: 00290860
+FOUND 3
+Aggiornato ordine: 00290861
+FOUND 4
+Aggiornato ordine: 00290954
+FOUND 5
+Aggiornato ordine: 00290955
+Order file: order_ov_it_DW_SG_20161019141501.xml PROCESSED (337)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019152501.xml
+
+FOUND 0
+Aggiornato ordine: 00290890
+FOUND 1
+Aggiornato ordine: 00290977
+Order file: order_ov_it_DW_SG_20161019152501.xml PROCESSED (338)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018160501.xml
+
+FOUND 0
+Aggiornato ordine: 00289904
+FOUND 1
+Aggiornato ordine: 00289905
+FOUND 2
+Aggiornato ordine: 00290016
+FOUND 3
+Aggiornato ordine: 00290017
+Order file: order_ov_it_DW_SG_20161018160501.xml PROCESSED (339)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019092501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00290611
+FOUND 2
+Aggiornato ordine: 00290634
+FOUND 3
+Aggiornato ordine: 00290635
+FOUND 4
+Order file: order_ov_it_DW_SG_20161019092501.xml PROCESSED (340)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018142501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00289857
+FOUND 2
+Aggiornato ordine: 00289858
+FOUND 3
+Aggiornato ordine: 00289859
+FOUND 4
+Aggiornato ordine: 00289860
+FOUND 5
+Aggiornato ordine: 00289861
+FOUND 6
+Aggiornato ordine: 00289862
+FOUND 7
+Aggiornato ordine: 00289863
+FOUND 8
+Aggiornato ordine: 00289966
+Order file: order_ov_it_DW_SG_20161018142501.xml PROCESSED (341)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161010184001.xml
+
+FOUND 0
+Aggiornato ordine: 00286481
+Order file: order_ov_it_DW_SG_20161010184001.xml PROCESSED (342)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018123501.xml
+
+FOUND 0
+Aggiornato ordine: 00289684
+FOUND 1
+Aggiornato ordine: 00289685
+FOUND 2
+Aggiornato ordine: 00289686
+FOUND 3
+Aggiornato ordine: 00289775
+FOUND 4
+Aggiornato ordine: 00289776
+FOUND 5
+Aggiornato ordine: 00289777
+FOUND 6
+Aggiornato ordine: 00289778
+FOUND 7
+Aggiornato ordine: 00289779
+FOUND 8
+Aggiornato ordine: 00289780
+FOUND 9
+Aggiornato ordine: 00289781
+Order file: order_ov_it_DW_SG_20161018123501.xml PROCESSED (343)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018155001.xml
+
+FOUND 0
+Aggiornato ordine: 00289900
+FOUND 1
+Aggiornato ordine: 00290006
+FOUND 2
+Aggiornato ordine: 00290008
+FOUND 3
+Aggiornato ordine: 00290009
+FOUND 4
+Aggiornato ordine: 00290010
+Order file: order_ov_it_DW_SG_20161018155001.xml PROCESSED (344)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018194001.xml
+
+FOUND 0
+Aggiornato ordine: 00290183
+FOUND 1
+Aggiornato ordine: 00290227
+FOUND 2
+Aggiornato ordine: 00290228
+FOUND 3
+Aggiornato ordine: 00290229
+FOUND 4
+Aggiornato ordine: 00290230
+Order file: order_ov_it_DW_SG_20161018194001.xml PROCESSED (345)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018150001.xml
+
+FOUND 0
+Aggiornato ordine: 00289877
+FOUND 1
+Aggiornato ordine: 00289982
+FOUND 2
+Aggiornato ordine: 00289983
+FOUND 3
+Aggiornato ordine: 00289984
+Order file: order_ov_it_DW_SG_20161018150001.xml PROCESSED (346)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018050501.xml
+
+FOUND 0
+Aggiornato ordine: 00289236
+FOUND 1
+Aggiornato ordine: 00289323
+Order file: order_ov_it_DW_SG_20161018050501.xml PROCESSED (347)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018162001.xml
+
+FOUND 0
+Aggiornato ordine: 00289910
+FOUND 1
+Aggiornato ordine: 00289912
+FOUND 2
+Aggiornato ordine: 00289913
+FOUND 3
+Aggiornato ordine: 00289914
+FOUND 4
+Aggiornato ordine: 00289916
+FOUND 5
+Aggiornato ordine: 00290028
+Order file: order_ov_it_DW_SG_20161018162001.xml PROCESSED (348)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019191001.xml
+
+FOUND 0
+Aggiornato ordine: 00291152
+FOUND 1
+Aggiornato ordine: 00291153
+Order file: order_ov_it_DW_SG_20161019191001.xml PROCESSED (349)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018102501.xml
+
+FOUND 0
+Aggiornato ordine: 00289508
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00289510
+Order file: order_ov_it_DW_SG_20161018102501.xml PROCESSED (350)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018044503.xml
+
+FOUND 0
+Aggiornato ordine: 00289321
+Order file: order_ov_it_DW_SG_20161018044503.xml PROCESSED (351)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018104501.xml
+
+FOUND 0
+Aggiornato ordine: 00289513
+FOUND 1
+Aggiornato ordine: 00289514
+FOUND 2
+Aggiornato ordine: 00289617
+FOUND 3
+Aggiornato ordine: 00289618
+Order file: order_ov_it_DW_SG_20161018104501.xml PROCESSED (352)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018033501.xml
+
+FOUND 0
+Aggiornato ordine: 00289227
+Order file: order_ov_it_DW_SG_20161018033501.xml PROCESSED (353)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019081001.xml
+
+FOUND 0
+Aggiornato ordine: 00290409
+FOUND 1
+Aggiornato ordine: 00290410
+FOUND 2
+Aggiornato ordine: 00290555
+FOUND 3
+Aggiornato ordine: 00290556
+FOUND 4
+Aggiornato ordine: 00290558
+Order file: order_ov_it_DW_SG_20161019081001.xml PROCESSED (354)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018104008.xml
+
+FOUND 0
+Aggiornato ordine: 00289615
+FOUND 1
+Aggiornato ordine: 00289616
+Order file: order_ov_it_DW_SG_20161018104008.xml PROCESSED (355)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018193001.xml
+
+FOUND 0
+Aggiornato ordine: 00290179
+FOUND 1
+Aggiornato ordine: 00290224
+FOUND 2
+Aggiornato ordine: 00290225
+Order file: order_ov_it_DW_SG_20161018193001.xml PROCESSED (356)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018192001.xml
+
+FOUND 0
+Aggiornato ordine: 00290118
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290219
+FOUND 3
+Aggiornato ordine: 00290220
+FOUND 4
+Aggiornato ordine: 00290221
+Order file: order_ov_it_DW_SG_20161018192001.xml PROCESSED (357)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018092501.xml
+
+FOUND 0
+Aggiornato ordine: 00289469
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00289471
+FOUND 3
+Aggiornato ordine: 00289538
+FOUND 4
+Aggiornato ordine: 00289539
+FOUND 5
+Aggiornato ordine: 00289540
+Order file: order_ov_it_DW_SG_20161018092501.xml PROCESSED (358)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018080502.xml
+
+FOUND 0
+Aggiornato ordine: 00289285
+FOUND 1
+Aggiornato ordine: 00289286
+FOUND 2
+Aggiornato ordine: 00289287
+FOUND 3
+Aggiornato ordine: 00289288
+FOUND 4
+Aggiornato ordine: 00289289
+FOUND 5
+Aggiornato ordine: 00289290
+FOUND 6
+FOUND 7
+Order file: order_ov_it_DW_SG_20161018080502.xml PROCESSED (359)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019181501.xml
+
+FOUND 0
+Aggiornato ordine: 00291139
+Order file: order_ov_it_DW_SG_20161019181501.xml PROCESSED (360)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20160930202501.xml
+
+FOUND 0
+Aggiornato ordine: 00281113
+FOUND 1
+FOUND 2
+FOUND 3
+FOUND 4
+FOUND 5
+FOUND 6
+FOUND 7
+Order file: order_ov_it_DW_SG_20160930202501.xml PROCESSED (361)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161017223501.xml
+
+FOUND 0
+Aggiornato ordine: 00289015
+Order file: order_ov_it_DW_SG_20161017223501.xml PROCESSED (362)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019075501.xml
+
+FOUND 0
+Aggiornato ordine: 00290404
+FOUND 1
+Aggiornato ordine: 00290549
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00290551
+Order file: order_ov_it_DW_SG_20161019075501.xml PROCESSED (363)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161013134501.xml
+
+FOUND 0
+Aggiornato ordine: 00286057
+FOUND 1
+FOUND 2
+FOUND 3
+Order file: order_ov_it_DW_SG_20161013134501.xml PROCESSED (364)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018054001.xml
+
+FOUND 0
+Aggiornato ordine: 00289330
+Order file: order_ov_it_DW_SG_20161018054001.xml PROCESSED (365)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018111001.xml
+
+FOUND 0
+Aggiornato ordine: 00289632
+FOUND 1
+Aggiornato ordine: 00289633
+FOUND 2
+Aggiornato ordine: 00289634
+FOUND 3
+Aggiornato ordine: 00289635
+FOUND 4
+Aggiornato ordine: 00289636
+FOUND 5
+Aggiornato ordine: 00289732
+FOUND 6
+Aggiornato ordine: 00289733
+Order file: order_ov_it_DW_SG_20161018111001.xml PROCESSED (366)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018174501.xml
+
+FOUND 0
+Aggiornato ordine: 00290072
+FOUND 1
+Aggiornato ordine: 00290073
+FOUND 2
+Aggiornato ordine: 00290139
+Order file: order_ov_it_DW_SG_20161018174501.xml PROCESSED (367)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019165001.xml
+
+FOUND 0
+Aggiornato ordine: 00291006
+FOUND 1
+Aggiornato ordine: 00291008
+FOUND 2
+Aggiornato ordine: 00291009
+FOUND 3
+Aggiornato ordine: 00291010
+FOUND 4
+Aggiornato ordine: 00291037
+Order file: order_ov_it_DW_SG_20161019165001.xml PROCESSED (368)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019054001.xml
+
+FOUND 0
+Aggiornato ordine: 00290521
+Order file: order_ov_it_DW_SG_20161019054001.xml PROCESSED (369)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019210501.xml
+
+FOUND 0
+Aggiornato ordine: 00291218
+FOUND 1
+Aggiornato ordine: 00291244
+FOUND 2
+Aggiornato ordine: 00291319
+Order file: order_ov_it_DW_SG_20161019210501.xml PROCESSED (370)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018114001.xml
+
+FOUND 0
+Aggiornato ordine: 00289649
+FOUND 1
+Aggiornato ordine: 00289650
+FOUND 2
+Aggiornato ordine: 00289651
+FOUND 3
+Aggiornato ordine: 00289652
+FOUND 4
+Aggiornato ordine: 00289747
+FOUND 5
+Aggiornato ordine: 00289749
+FOUND 6
+Aggiornato ordine: 00289750
+Order file: order_ov_it_DW_SG_20161018114001.xml PROCESSED (371)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019152001.xml
+
+FOUND 0
+Aggiornato ordine: 00290976
+Order file: order_ov_it_DW_SG_20161019152001.xml PROCESSED (372)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018052001.xml
+
+FOUND 0
+Aggiornato ordine: 00289325
+FOUND 1
+Aggiornato ordine: 00289326
+Order file: order_ov_it_DW_SG_20161018052001.xml PROCESSED (373)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018200002.xml
+
+FOUND 0
+Aggiornato ordine: 00290195
+FOUND 1
+Aggiornato ordine: 00290244
+FOUND 2
+Aggiornato ordine: 00290245
+FOUND 3
+Aggiornato ordine: 00290246
+FOUND 4
+Aggiornato ordine: 00290247
+Order file: order_ov_it_DW_SG_20161018200002.xml PROCESSED (374)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018152501.xml
+
+FOUND 0
+Aggiornato ordine: 00289885
+FOUND 1
+Aggiornato ordine: 00289886
+FOUND 2
+Aggiornato ordine: 00289995
+FOUND 3
+Aggiornato ordine: 00289996
+Order file: order_ov_it_DW_SG_20161018152501.xml PROCESSED (375)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018064501.xml
+
+FOUND 0
+Aggiornato ordine: 00289249
+FOUND 1
+Aggiornato ordine: 00289250
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00289252
+FOUND 4
+Aggiornato ordine: 00289340
+FOUND 5
+Aggiornato ordine: 00289341
+FOUND 6
+Aggiornato ordine: 00289342
+Order file: order_ov_it_DW_SG_20161018064501.xml PROCESSED (376)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019160501.xml
+
+FOUND 0
+Aggiornato ordine: 00290907
+FOUND 1
+Aggiornato ordine: 00290909
+FOUND 2
+Aggiornato ordine: 00290987
+Order file: order_ov_it_DW_SG_20161019160501.xml PROCESSED (377)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018191001.xml
+
+FOUND 0
+Aggiornato ordine: 00290112
+FOUND 1
+Aggiornato ordine: 00290113
+FOUND 2
+Aggiornato ordine: 00290114
+FOUND 3
+FOUND 4
+Aggiornato ordine: 00290169
+FOUND 5
+Aggiornato ordine: 00290170
+FOUND 6
+Aggiornato ordine: 00290171
+FOUND 7
+Aggiornato ordine: 00290172
+Order file: order_ov_it_DW_SG_20161018191001.xml PROCESSED (378)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019133501.xml
+
+FOUND 0
+Aggiornato ordine: 00290842
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290940
+Order file: order_ov_it_DW_SG_20161019133501.xml PROCESSED (379)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019184501.xml
+
+FOUND 0
+Aggiornato ordine: 00291077
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00291144
+Order file: order_ov_it_DW_SG_20161019184501.xml PROCESSED (380)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019111001.xml
+
+FOUND 0
+Aggiornato ordine: 00290677
+FOUND 1
+Aggiornato ordine: 00290678
+FOUND 2
+Aggiornato ordine: 00290781
+Order file: order_ov_it_DW_SG_20161019111001.xml PROCESSED (381)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018070503.xml
+
+FOUND 0
+Aggiornato ordine: 00289260
+FOUND 1
+Aggiornato ordine: 00289354
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00289356
+FOUND 4
+Aggiornato ordine: 00289357
+Order file: order_ov_it_DW_SG_20161018070503.xml PROCESSED (382)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019112001.xml
+
+FOUND 0
+Aggiornato ordine: 00290681
+FOUND 1
+Aggiornato ordine: 00290682
+Order file: order_ov_it_DW_SG_20161019112001.xml PROCESSED (383)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019123001.xml
+
+FOUND 0
+Aggiornato ordine: 00290710
+FOUND 1
+Aggiornato ordine: 00290711
+FOUND 2
+Aggiornato ordine: 00290814
+Order file: order_ov_it_DW_SG_20161019123001.xml PROCESSED (384)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20160918145501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00275766
+Order file: order_ov_it_DW_SG_20160918145501.xml PROCESSED (385)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019082001.xml
+
+FOUND 0
+Aggiornato ordine: 00290565
+FOUND 1
+Aggiornato ordine: 00290566
+FOUND 2
+Aggiornato ordine: 00290567
+FOUND 3
+Aggiornato ordine: 00290568
+Order file: order_ov_it_DW_SG_20161019082001.xml PROCESSED (386)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018185001.xml
+
+FOUND 0
+Aggiornato ordine: 00290103
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290160
+FOUND 3
+Aggiornato ordine: 00290161
+Order file: order_ov_it_DW_SG_20161018185001.xml PROCESSED (387)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019181001.xml
+
+FOUND 0
+Aggiornato ordine: 00291138
+Order file: order_ov_it_DW_SG_20161019181001.xml PROCESSED (388)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019172501.xml
+
+FOUND 0
+Aggiornato ordine: 00291052
+FOUND 1
+Aggiornato ordine: 00291124
+FOUND 2
+Aggiornato ordine: 00291125
+FOUND 3
+Aggiornato ordine: 00291126
+FOUND 4
+Aggiornato ordine: 00291127
+Order file: order_ov_it_DW_SG_20161019172501.xml PROCESSED (389)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019114002.xml
+
+FOUND 0
+Aggiornato ordine: 00290687
+FOUND 1
+Aggiornato ordine: 00290792
+FOUND 2
+Aggiornato ordine: 00290793
+FOUND 3
+Aggiornato ordine: 00290794
+Order file: order_ov_it_DW_SG_20161019114002.xml PROCESSED (390)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161017221501.xml
+
+FOUND 0
+Aggiornato ordine: 00289007
+FOUND 1
+Aggiornato ordine: 00289008
+FOUND 2
+Aggiornato ordine: 00289009
+FOUND 3
+Aggiornato ordine: 00289010
+FOUND 4
+Aggiornato ordine: 00289048
+Order file: order_ov_it_DW_SG_20161017221501.xml PROCESSED (391)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161010105001.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00286295
+FOUND 2
+FOUND 3
+Order file: order_ov_it_DW_SG_20161010105001.xml PROCESSED (392)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018105001.xml
+
+FOUND 0
+Aggiornato ordine: 00289515
+FOUND 1
+Aggiornato ordine: 00289516
+FOUND 2
+Aggiornato ordine: 00289517
+FOUND 3
+Aggiornato ordine: 00289518
+FOUND 4
+Aggiornato ordine: 00289619
+FOUND 5
+Aggiornato ordine: 00289620
+FOUND 6
+Aggiornato ordine: 00289621
+FOUND 7
+FOUND 8
+Aggiornato ordine: 00289623
+FOUND 9
+Aggiornato ordine: 00289624
+Order file: order_ov_it_DW_SG_20161018105001.xml PROCESSED (393)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019163001.xml
+
+FOUND 0
+Aggiornato ordine: 00290993
+FOUND 1
+Aggiornato ordine: 00290994
+FOUND 2
+Aggiornato ordine: 00291026
+Order file: order_ov_it_DW_SG_20161019163001.xml PROCESSED (394)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_es_DW_SG_20161018213002.xml
+
+FOUND 0
+Aggiornato ordine: 00290288
+Order file: order_ov_es_DW_SG_20161018213002.xml PROCESSED (395)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018132501.xml
+
+FOUND 0
+Aggiornato ordine: 00289715
+FOUND 1
+Aggiornato ordine: 00289716
+FOUND 2
+Aggiornato ordine: 00289821
+FOUND 3
+Aggiornato ordine: 00289824
+FOUND 4
+Aggiornato ordine: 00289825
+FOUND 5
+Aggiornato ordine: 00289826
+FOUND 6
+Aggiornato ordine: 00289828
+Order file: order_ov_it_DW_SG_20161018132501.xml PROCESSED (396)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019101001.xml
+
+FOUND 0
+Aggiornato ordine: 00290657
+FOUND 1
+Aggiornato ordine: 00290745
+FOUND 2
+Aggiornato ordine: 00290747
+FOUND 3
+Aggiornato ordine: 00290749
+Order file: order_ov_it_DW_SG_20161019101001.xml PROCESSED (397)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018100501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00289490
+FOUND 2
+FOUND 3
+FOUND 4
+FOUND 5
+Aggiornato ordine: 00289494
+FOUND 6
+Aggiornato ordine: 00289581
+FOUND 7
+Aggiornato ordine: 00289582
+FOUND 8
+Aggiornato ordine: 00289583
+Order file: order_ov_it_DW_SG_20161018100501.xml PROCESSED (398)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019202501.xml
+
+FOUND 0
+Aggiornato ordine: 00291116
+FOUND 1
+Aggiornato ordine: 00291117
+FOUND 2
+Aggiornato ordine: 00291200
+FOUND 3
+Aggiornato ordine: 00291201
+FOUND 4
+FOUND 5
+Aggiornato ordine: 00291219
+Order file: order_ov_it_DW_SG_20161019202501.xml PROCESSED (399)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019185002.xml
+
+FOUND 0
+Aggiornato ordine: 00291145
+Order file: order_ov_it_DW_SG_20161019185002.xml PROCESSED (400)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161007212501.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+FOUND 3
+FOUND 4
+Aggiornato ordine: 00285278
+FOUND 5
+FOUND 6
+FOUND 7
+FOUND 8
+FOUND 9
+FOUND 10
+Order file: order_ov_it_DW_SG_20161007212501.xml PROCESSED (401)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018085001.xml
+
+FOUND 0
+Aggiornato ordine: 00289315
+FOUND 1
+Aggiornato ordine: 00289316
+FOUND 2
+Aggiornato ordine: 00289450
+FOUND 3
+Aggiornato ordine: 00289451
+Order file: order_ov_it_DW_SG_20161018085001.xml PROCESSED (402)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018082001.xml
+
+FOUND 0
+Aggiornato ordine: 00289430
+FOUND 1
+Aggiornato ordine: 00289431
+Order file: order_ov_it_DW_SG_20161018082001.xml PROCESSED (403)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019132501.xml
+
+FOUND 0
+Aggiornato ordine: 00290837
+FOUND 1
+Aggiornato ordine: 00290934
+FOUND 2
+Aggiornato ordine: 00290936
+Order file: order_ov_it_DW_SG_20161019132501.xml PROCESSED (404)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018133001.xml
+
+FOUND 0
+Aggiornato ordine: 00289717
+FOUND 1
+Aggiornato ordine: 00289718
+FOUND 2
+FOUND 3
+Aggiornato ordine: 00289830
+FOUND 4
+Aggiornato ordine: 00289919
+FOUND 5
+Aggiornato ordine: 00289920
+Order file: order_ov_it_DW_SG_20161018133001.xml PROCESSED (405)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018053001.xml
+
+FOUND 0
+Aggiornato ordine: 00289327
+FOUND 1
+Aggiornato ordine: 00289328
+Order file: order_ov_it_DW_SG_20161018053001.xml PROCESSED (406)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161006220001.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00284151
+FOUND 3
+Order file: order_ov_it_DW_SG_20161006220001.xml PROCESSED (407)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019170001.xml
+
+FOUND 0
+Aggiornato ordine: 00291011
+FOUND 1
+Aggiornato ordine: 00291044
+FOUND 2
+Aggiornato ordine: 00291045
+Order file: order_ov_it_DW_SG_20161019170001.xml PROCESSED (408)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018173501.xml
+
+FOUND 0
+Aggiornato ordine: 00290064
+FOUND 1
+Aggiornato ordine: 00290065
+FOUND 2
+Aggiornato ordine: 00290066
+Order file: order_ov_it_DW_SG_20161018173501.xml PROCESSED (409)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018183014.xml
+
+FOUND 0
+Aggiornato ordine: 00290095
+FOUND 1
+Aggiornato ordine: 00290096
+FOUND 2
+Aggiornato ordine: 00290156
+Order file: order_ov_it_DW_SG_20161018183014.xml PROCESSED (410)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161007203001.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00285236
+Order file: order_ov_it_DW_SG_20161007203001.xml PROCESSED (411)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_es_DW_SG_20160930193503.xml
+
+FOUND 0
+Aggiornato ordine: 00281175
+Order file: order_ov_es_DW_SG_20160930193503.xml PROCESSED (412)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019195501.xml
+
+FOUND 0
+Aggiornato ordine: 00291094
+FOUND 1
+Aggiornato ordine: 00291095
+FOUND 2
+Aggiornato ordine: 00291096
+FOUND 3
+Aggiornato ordine: 00291177
+FOUND 4
+Aggiornato ordine: 00291178
+FOUND 5
+Aggiornato ordine: 00291179
+FOUND 6
+Aggiornato ordine: 00291180
+FOUND 7
+Aggiornato ordine: 00291181
+Order file: order_ov_it_DW_SG_20161019195501.xml PROCESSED (413)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019154501.xml
+
+FOUND 0
+Aggiornato ordine: 00290984
+Order file: order_ov_it_DW_SG_20161019154501.xml PROCESSED (414)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161004082501.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00282545
+FOUND 3
+FOUND 4
+Order file: order_ov_it_DW_SG_20161004082501.xml PROCESSED (415)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019212501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00291324
+FOUND 2
+Aggiornato ordine: 00291325
+FOUND 3
+Aggiornato ordine: 00291326
+Order file: order_ov_it_DW_SG_20161019212501.xml PROCESSED (416)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018062001.xml
+
+FOUND 0
+Aggiornato ordine: 00289336
+FOUND 1
+Aggiornato ordine: 00289337
+Order file: order_ov_it_DW_SG_20161018062001.xml PROCESSED (417)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018034501.xml
+
+FOUND 0
+Aggiornato ordine: 00289319
+Order file: order_ov_it_DW_SG_20161018034501.xml PROCESSED (418)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018102001.xml
+
+FOUND 0
+Aggiornato ordine: 00289503
+FOUND 1
+Aggiornato ordine: 00289504
+FOUND 2
+Aggiornato ordine: 00289505
+FOUND 3
+Aggiornato ordine: 00289506
+FOUND 4
+Aggiornato ordine: 00289507
+FOUND 5
+Aggiornato ordine: 00289591
+FOUND 6
+Aggiornato ordine: 00289592
+FOUND 7
+Aggiornato ordine: 00289593
+FOUND 8
+Aggiornato ordine: 00289594
+FOUND 9
+Aggiornato ordine: 00289596
+Order file: order_ov_it_DW_SG_20161018102001.xml PROCESSED (419)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018164501.xml
+
+FOUND 0
+Aggiornato ordine: 00290041
+FOUND 1
+Aggiornato ordine: 00290042
+FOUND 2
+Aggiornato ordine: 00290126
+Order file: order_ov_it_DW_SG_20161018164501.xml PROCESSED (420)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019155001.xml
+
+FOUND 0
+Aggiornato ordine: 00290897
+FOUND 1
+Aggiornato ordine: 00290898
+Order file: order_ov_it_DW_SG_20161019155001.xml PROCESSED (421)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018065501.xml
+
+FOUND 0
+Aggiornato ordine: 00289253
+FOUND 1
+Aggiornato ordine: 00289254
+FOUND 2
+Aggiornato ordine: 00289255
+FOUND 3
+Aggiornato ordine: 00289256
+FOUND 4
+Aggiornato ordine: 00289346
+FOUND 5
+Aggiornato ordine: 00289349
+FOUND 6
+Aggiornato ordine: 00289350
+Order file: order_ov_it_DW_SG_20161018065501.xml PROCESSED (422)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018121501.xml
+
+FOUND 0
+Aggiornato ordine: 00289668
+FOUND 1
+Aggiornato ordine: 00289767
+Order file: order_ov_it_DW_SG_20161018121501.xml PROCESSED (423)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019142001.xml
+
+FOUND 0
+Aggiornato ordine: 00290862
+FOUND 1
+Aggiornato ordine: 00290863
+FOUND 2
+Aggiornato ordine: 00290864
+FOUND 3
+Aggiornato ordine: 00290956
+Order file: order_ov_it_DW_SG_20161019142001.xml PROCESSED (424)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_es_DW_SG_20161018101503.xml
+
+FOUND 0
+Aggiornato ordine: 00289586
+Order file: order_ov_es_DW_SG_20161018101503.xml PROCESSED (425)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018080001.xml
+
+FOUND 0
+Aggiornato ordine: 00289284
+FOUND 1
+Aggiornato ordine: 00289416
+FOUND 2
+Aggiornato ordine: 00289417
+FOUND 3
+Aggiornato ordine: 00289418
+FOUND 4
+Aggiornato ordine: 00289419
+Order file: order_ov_it_DW_SG_20161018080001.xml PROCESSED (426)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018093501.xml
+
+FOUND 0
+FOUND 1
+Aggiornato ordine: 00289474
+FOUND 2
+Aggiornato ordine: 00289475
+FOUND 3
+Aggiornato ordine: 00289476
+FOUND 4
+Aggiornato ordine: 00289477
+FOUND 5
+Aggiornato ordine: 00289548
+FOUND 6
+Aggiornato ordine: 00289549
+FOUND 7
+Aggiornato ordine: 00289550
+FOUND 8
+Aggiornato ordine: 00289551
+FOUND 9
+Aggiornato ordine: 00289552
+Order file: order_ov_it_DW_SG_20161018093501.xml PROCESSED (427)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018205501.xml
+
+FOUND 0
+Aggiornato ordine: 00290269
+FOUND 1
+Aggiornato ordine: 00290325
+Order file: order_ov_it_DW_SG_20161018205501.xml PROCESSED (428)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019063501.xml
+
+FOUND 0
+Aggiornato ordine: 00290368
+FOUND 1
+Aggiornato ordine: 00290528
+FOUND 2
+Aggiornato ordine: 00290529
+Order file: order_ov_it_DW_SG_20161019063501.xml PROCESSED (429)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018055001.xml
+
+FOUND 0
+Aggiornato ordine: 00289332
+Order file: order_ov_it_DW_SG_20161018055001.xml PROCESSED (430)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019103501.xml
+
+FOUND 0
+Aggiornato ordine: 00290664
+FOUND 1
+Aggiornato ordine: 00290665
+FOUND 2
+Aggiornato ordine: 00290666
+FOUND 3
+Aggiornato ordine: 00290667
+Order file: order_ov_it_DW_SG_20161019103501.xml PROCESSED (431)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019175001.xml
+
+FOUND 0
+Aggiornato ordine: 00291132
+Order file: order_ov_it_DW_SG_20161019175001.xml PROCESSED (432)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019185501.xml
+
+FOUND 0
+Aggiornato ordine: 00291079
+FOUND 1
+Aggiornato ordine: 00291080
+FOUND 2
+Aggiornato ordine: 00291146
+Order file: order_ov_it_DW_SG_20161019185501.xml PROCESSED (433)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019072001.xml
+
+FOUND 0
+Aggiornato ordine: 00290380
+FOUND 1
+Aggiornato ordine: 00290538
+Order file: order_ov_it_DW_SG_20161019072001.xml PROCESSED (434)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018203001.xml
+
+FOUND 0
+Aggiornato ordine: 00290213
+FOUND 1
+Aggiornato ordine: 00290214
+FOUND 2
+Aggiornato ordine: 00290215
+FOUND 3
+Aggiornato ordine: 00290261
+FOUND 4
+Aggiornato ordine: 00290263
+Order file: order_ov_it_DW_SG_20161018203001.xml PROCESSED (435)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161003203001.xml
+
+FOUND 0
+Aggiornato ordine: 00282399
+FOUND 1
+FOUND 2
+Order file: order_ov_it_DW_SG_20161003203001.xml PROCESSED (436)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_es_DW_SG_20161018175502.xml
+
+FOUND 0
+Aggiornato ordine: 00290145
+Order file: order_ov_es_DW_SG_20161018175502.xml PROCESSED (437)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20160930202001.xml
+
+FOUND 0
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00281204
+Order file: order_ov_it_DW_SG_20160930202001.xml PROCESSED (438)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018125501.xml
+
+FOUND 0
+Aggiornato ordine: 00289696
+FOUND 1
+Aggiornato ordine: 00289697
+FOUND 2
+Aggiornato ordine: 00289698
+FOUND 3
+Aggiornato ordine: 00289699
+FOUND 4
+Aggiornato ordine: 00289700
+FOUND 5
+Aggiornato ordine: 00289793
+FOUND 6
+Aggiornato ordine: 00289795
+FOUND 7
+Aggiornato ordine: 00289797
+Order file: order_ov_it_DW_SG_20161018125501.xml PROCESSED (439)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019125501.xml
+
+FOUND 0
+Aggiornato ordine: 00290822
+FOUND 1
+Aggiornato ordine: 00290923
+Order file: order_ov_it_DW_SG_20161019125501.xml PROCESSED (440)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019074501.xml
+
+FOUND 0
+Aggiornato ordine: 00290392
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290395
+FOUND 3
+Aggiornato ordine: 00290396
+FOUND 4
+Aggiornato ordine: 00290542
+FOUND 5
+Aggiornato ordine: 00290543
+FOUND 6
+Aggiornato ordine: 00290544
+FOUND 7
+FOUND 8
+Aggiornato ordine: 00290546
+FOUND 9
+Order file: order_ov_it_DW_SG_20161019074501.xml PROCESSED (441)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018064001.xml
+
+FOUND 0
+Aggiornato ordine: 00289248
+Order file: order_ov_it_DW_SG_20161018064001.xml PROCESSED (442)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019193001.xml
+
+FOUND 0
+Aggiornato ordine: 00291092
+FOUND 1
+Aggiornato ordine: 00291160
+FOUND 2
+Aggiornato ordine: 00291161
+FOUND 3
+Aggiornato ordine: 00291163
+Order file: order_ov_it_DW_SG_20161019193001.xml PROCESSED (443)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161004074001.xml
+
+FOUND 0
+Aggiornato ordine: 00282508
+Order file: order_ov_it_DW_SG_20161004074001.xml PROCESSED (444)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019093501.xml
+
+FOUND 0
+Aggiornato ordine: 00290638
+FOUND 1
+Aggiornato ordine: 00290639
+FOUND 2
+Order file: order_ov_it_DW_SG_20161019093501.xml PROCESSED (445)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018085501.xml
+
+FOUND 0
+Aggiornato ordine: 00289317
+FOUND 1
+Aggiornato ordine: 00289318
+FOUND 2
+Aggiornato ordine: 00289452
+FOUND 3
+Aggiornato ordine: 00289519
+Order file: order_ov_it_DW_SG_20161018085501.xml PROCESSED (446)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018224001.xml
+
+FOUND 0
+Aggiornato ordine: 00290318
+FOUND 1
+Aggiornato ordine: 00290347
+FOUND 2
+Aggiornato ordine: 00290419
+FOUND 3
+Aggiornato ordine: 00290420
+Order file: order_ov_it_DW_SG_20161018224001.xml PROCESSED (447)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018170001.xml
+
+FOUND 0
+Aggiornato ordine: 00290044
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00290129
+Order file: order_ov_it_DW_SG_20161018170001.xml PROCESSED (448)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_es_DW_SG_20161018180002.xml
+
+FOUND 0
+Aggiornato ordine: 00290078
+Order file: order_ov_es_DW_SG_20161018180002.xml PROCESSED (449)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019074001.xml
+
+FOUND 0
+Aggiornato ordine: 00290390
+FOUND 1
+Aggiornato ordine: 00290391
+FOUND 2
+Aggiornato ordine: 00290541
+Order file: order_ov_it_DW_SG_20161019074001.xml PROCESSED (450)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019164001.xml
+
+FOUND 0
+Aggiornato ordine: 00290998
+FOUND 1
+Aggiornato ordine: 00291000
+FOUND 2
+Aggiornato ordine: 00291030
+FOUND 3
+Aggiornato ordine: 00291031
+FOUND 4
+Aggiornato ordine: 00291032
+FOUND 5
+Aggiornato ordine: 00291033
+FOUND 6
+Aggiornato ordine: 00291034
+Order file: order_ov_it_DW_SG_20161019164001.xml PROCESSED (451)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019153002.xml
+
+FOUND 0
+Aggiornato ordine: 00290891
+FOUND 1
+Aggiornato ordine: 00290892
+FOUND 2
+Aggiornato ordine: 00290978
+Order file: order_ov_it_DW_SG_20161019153002.xml PROCESSED (452)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018174001.xml
+
+FOUND 0
+Aggiornato ordine: 00290067
+FOUND 1
+Aggiornato ordine: 00290069
+FOUND 2
+Aggiornato ordine: 00290070
+FOUND 3
+Aggiornato ordine: 00290071
+Order file: order_ov_it_DW_SG_20161018174001.xml PROCESSED (453)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018135501.xml
+
+FOUND 0
+Aggiornato ordine: 00289838
+FOUND 1
+Aggiornato ordine: 00289839
+FOUND 2
+Aggiornato ordine: 00289840
+FOUND 3
+Aggiornato ordine: 00289841
+FOUND 4
+Aggiornato ordine: 00289938
+FOUND 5
+Aggiornato ordine: 00289939
+FOUND 6
+Aggiornato ordine: 00289940
+FOUND 7
+Aggiornato ordine: 00289941
+Order file: order_ov_it_DW_SG_20161018135501.xml PROCESSED (454)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019163501.xml
+
+FOUND 0
+Aggiornato ordine: 00291029
+Order file: order_ov_it_DW_SG_20161019163501.xml PROCESSED (455)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019102501.xml
+
+FOUND 0
+Aggiornato ordine: 00290661
+FOUND 1
+Aggiornato ordine: 00290757
+FOUND 2
+Aggiornato ordine: 00290758
+FOUND 3
+Aggiornato ordine: 00290759
+FOUND 4
+Aggiornato ordine: 00290760
+Order file: order_ov_it_DW_SG_20161019102501.xml PROCESSED (456)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019221001.xml
+
+FOUND 0
+Aggiornato ordine: 00291255
+Order file: order_ov_it_DW_SG_20161019221001.xml PROCESSED (457)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20160930152501.xml
+
+FOUND 0
+Aggiornato ordine: 00280903
+FOUND 1
+FOUND 2
+Order file: order_ov_it_DW_SG_20160930152501.xml PROCESSED (458)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019021501.xml
+
+FOUND 0
+Aggiornato ordine: 00290360
+Order file: order_ov_it_DW_SG_20161019021501.xml PROCESSED (459)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018191501.xml
+
+FOUND 0
+Aggiornato ordine: 00290115
+FOUND 1
+Aggiornato ordine: 00290116
+FOUND 2
+Aggiornato ordine: 00290117
+FOUND 3
+Aggiornato ordine: 00290173
+FOUND 4
+FOUND 5
+Aggiornato ordine: 00290175
+Order file: order_ov_it_DW_SG_20161018191501.xml PROCESSED (460)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018131501.xml
+
+FOUND 0
+Aggiornato ordine: 00289708
+FOUND 1
+Aggiornato ordine: 00289709
+FOUND 2
+Aggiornato ordine: 00289710
+FOUND 3
+Aggiornato ordine: 00289711
+FOUND 4
+Aggiornato ordine: 00289712
+FOUND 5
+Aggiornato ordine: 00289812
+FOUND 6
+Aggiornato ordine: 00289813
+FOUND 7
+Aggiornato ordine: 00289814
+FOUND 8
+Aggiornato ordine: 00289815
+Order file: order_ov_it_DW_SG_20161018131501.xml PROCESSED (461)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019052501.xml
+
+FOUND 0
+Aggiornato ordine: 00290362
+Order file: order_ov_it_DW_SG_20161019052501.xml PROCESSED (462)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019174001.xml
+
+FOUND 0
+Aggiornato ordine: 00291063
+FOUND 1
+Aggiornato ordine: 00291129
+Order file: order_ov_it_DW_SG_20161019174001.xml PROCESSED (463)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018182001.xml
+
+FOUND 0
+Aggiornato ordine: 00290153
+FOUND 1
+Aggiornato ordine: 00290154
+Order file: order_ov_it_DW_SG_20161018182001.xml PROCESSED (464)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018101001.xml
+
+FOUND 0
+Aggiornato ordine: 00289495
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00289584
+FOUND 3
+Order file: order_ov_it_DW_SG_20161018101001.xml PROCESSED (465)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019093002.xml
+
+FOUND 0
+Aggiornato ordine: 00290616
+FOUND 1
+Aggiornato ordine: 00290637
+Order file: order_ov_it_DW_SG_20161019093002.xml PROCESSED (466)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018173001.xml
+
+FOUND 0
+Aggiornato ordine: 00290058
+FOUND 1
+Aggiornato ordine: 00290059
+FOUND 2
+Aggiornato ordine: 00290061
+FOUND 3
+Aggiornato ordine: 00290136
+FOUND 4
+Aggiornato ordine: 00290137
+FOUND 5
+Aggiornato ordine: 00290138
+Order file: order_ov_it_DW_SG_20161018173001.xml PROCESSED (467)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161002164001.xml
+
+FOUND 0
+Aggiornato ordine: 00281885
+FOUND 1
+Order file: order_ov_it_DW_SG_20161002164001.xml PROCESSED (468)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019131001.xml
+
+FOUND 0
+Aggiornato ordine: 00290828
+FOUND 1
+Aggiornato ordine: 00290829
+Order file: order_ov_it_DW_SG_20161019131001.xml PROCESSED (469)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019194001.xml
+
+FOUND 0
+Aggiornato ordine: 00291093
+FOUND 1
+Aggiornato ordine: 00291166
+FOUND 2
+Order file: order_ov_it_DW_SG_20161019194001.xml PROCESSED (470)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019153501.xml
+
+FOUND 0
+Aggiornato ordine: 00290893
+FOUND 1
+Aggiornato ordine: 00290894
+FOUND 2
+Aggiornato ordine: 00290979
+FOUND 3
+Aggiornato ordine: 00290980
+FOUND 4
+Aggiornato ordine: 00290981
+Order file: order_ov_it_DW_SG_20161019153501.xml PROCESSED (471)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019180501.xml
+
+FOUND 0
+Aggiornato ordine: 00291069
+FOUND 1
+Aggiornato ordine: 00291070
+FOUND 2
+Aggiornato ordine: 00291137
+Order file: order_ov_it_DW_SG_20161019180501.xml PROCESSED (472)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018225001.xml
+
+FOUND 0
+Aggiornato ordine: 00290349
+Order file: order_ov_it_DW_SG_20161018225001.xml PROCESSED (473)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018222501.xml
+
+FOUND 0
+Aggiornato ordine: 00290313
+FOUND 1
+Aggiornato ordine: 00290314
+FOUND 2
+Aggiornato ordine: 00290346
+Order file: order_ov_it_DW_SG_20161018222501.xml PROCESSED (474)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019200001.xml
+
+FOUND 0
+Aggiornato ordine: 00291097
+FOUND 1
+Aggiornato ordine: 00291098
+FOUND 2
+Aggiornato ordine: 00291099
+FOUND 3
+Aggiornato ordine: 00291100
+FOUND 4
+Aggiornato ordine: 00291101
+FOUND 5
+Aggiornato ordine: 00291182
+Order file: order_ov_it_DW_SG_20161019200001.xml PROCESSED (475)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018145501.xml
+
+FOUND 0
+Aggiornato ordine: 00289875
+FOUND 1
+Aggiornato ordine: 00289876
+FOUND 2
+Aggiornato ordine: 00289978
+FOUND 3
+Aggiornato ordine: 00289979
+FOUND 4
+Aggiornato ordine: 00289980
+FOUND 5
+Aggiornato ordine: 00289981
+Order file: order_ov_it_DW_SG_20161018145501.xml PROCESSED (476)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018181501.xml
+
+FOUND 0
+Aggiornato ordine: 00290084
+FOUND 1
+Aggiornato ordine: 00290085
+FOUND 2
+Aggiornato ordine: 00290086
+FOUND 3
+Aggiornato ordine: 00290087
+FOUND 4
+Aggiornato ordine: 00290088
+FOUND 5
+Aggiornato ordine: 00290150
+FOUND 6
+Aggiornato ordine: 00290151
+FOUND 7
+Aggiornato ordine: 00290152
+Order file: order_ov_it_DW_SG_20161018181501.xml PROCESSED (477)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018111501.xml
+
+FOUND 0
+Aggiornato ordine: 00289637
+FOUND 1
+FOUND 2
+Aggiornato ordine: 00289639
+FOUND 3
+Aggiornato ordine: 00289640
+FOUND 4
+Aggiornato ordine: 00289734
+FOUND 5
+Aggiornato ordine: 00289735
+Order file: order_ov_it_DW_SG_20161018111501.xml PROCESSED (478)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161019140002.xml
+
+FOUND 0
+Aggiornato ordine: 00290854
+FOUND 1
+Aggiornato ordine: 00290945
+FOUND 2
+Aggiornato ordine: 00290946
+FOUND 3
+Aggiornato ordine: 00290947
+FOUND 4
+Aggiornato ordine: 00290948
+FOUND 5
+Aggiornato ordine: 00290949
+Order file: order_ov_it_DW_SG_20161019140002.xml PROCESSED (479)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161018211501.xml
+
+FOUND 0
+Aggiornato ordine: 00290282
+FOUND 1
+Aggiornato ordine: 00290283
+FOUND 2
+Aggiornato ordine: 00290284
+FOUND 3
+Aggiornato ordine: 00290334
+FOUND 4
+Order file: order_ov_it_DW_SG_20161018211501.xml PROCESSED (480)
+Opening file: /home/OrderManagement/testFiles/order_to_update/order_ov_it_DW_SG_20161017222001.xml
+
+FOUND 0
+Aggiornato ordine: 00289011
+FOUND 1
+Aggiornato ordine: 00289012
+FOUND 2
+Aggiornato ordine: 00289049
+FOUND 3
+Aggiornato ordine: 00289050
+FOUND 4
+Aggiornato ordine: 00289051
+FOUND 5
+Aggiornato ordine: 00289052
+Order file: order_ov_it_DW_SG_20161017222001.xml PROCESSED (481)

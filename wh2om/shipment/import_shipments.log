@@ -1,0 +1,6 @@
+2015-05-03 9:40:45 - DEBUG --> Processing shipments file: 20150429101234-shipments_cc_it_WH_SG_20150429101053.xml 
+2015-05-03 9:40:45 - DEBUG --> Processing order file (fullname): /Users/vincenzosambucaro/PhpstormProjects/OrderManagement/testFiles/shipments_export/inbound/20150429101234-shipments_cc_it_WH_SG_20150429101053.xml 
+2015-05-03 9:41:34 - DEBUG --> Processing shipments file: 20150429101234-shipments_cc_it_WH_SG_20150429101053.xml 
+2015-05-03 9:41:34 - DEBUG --> Processing order file (fullname): /Users/vincenzosambucaro/PhpstormProjects/OrderManagement/testFiles/shipments_export/inbound/20150429101234-shipments_cc_it_WH_SG_20150429101053.xml 
+2015-05-05 6:13:55 - DEBUG --> Processing shipments file: 20150429101234-shipments_cc_it_WH_SG_20150429101053.xml 
+2015-05-05 6:13:55 - DEBUG --> Processing order file (fullname): /Users/vincenzosambucaro/PhpstormProjects/OrderManagement/testFiles/shipments_export/inbound/20150429101234-shipments_cc_it_WH_SG_20150429101053.xml 

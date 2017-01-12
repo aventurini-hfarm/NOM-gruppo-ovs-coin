@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:oh="http://104.155.22.149/soap" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="OrderHistory" targetNamespace="http://104.155.22.149/soap">
+    <types>
+        <xsd:schema targetNamespace="http://104.155.22.149/soap">
+            <xsd:element name="GetOrderByWebUserId">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="webuserid" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+                        <xsd:element name="site" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="GetOrderByWebUserIdResponse">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="order" type="oh:OrderType" maxOccurs="unbounded" minOccurs="0"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:complexType name="OrderType">
+                <xsd:sequence>
+                    <xsd:element name="brand" type="xsd:string"/>
+                    <xsd:element name="orderNumber" type="xsd:string"/>
+                    <xsd:element name="orderChannel" type="xsd:string"/>
+                    <xsd:element name="gift" type="xsd:string"/>
+                    <xsd:element name="orderDate" type="xsd:string"/>
+                    <xsd:element name="cancelledDate" type="xsd:string"/>
+                    <xsd:element name="cancelReason" type="xsd:string"/>
+                    <xsd:element name="orderStatus" type="xsd:string"/>
+                    <xsd:element name="deliveryDate" type="xsd:string"/>
+                    <xsd:element name="shipmentDate" type="xsd:string"/>
+                    <xsd:element name="shippingMethod" type="xsd:string"/>
+                    <xsd:element name="totalAmount" type="xsd:string"/>
+                    <xsd:element name="taxAmount" type="xsd:double"/>
+                    <xsd:element name="shippingChargesAmount" type="xsd:double"/>
+                    <xsd:element name="taxshippingChargesAmount" type="xsd:double"/>
+                    <xsd:element name="billToAddress1" type="xsd:string"/>
+                    <xsd:element name="billToAddress2" type="xsd:string"/>
+                    <xsd:element name="billToAddress3" type="xsd:string"/>
+                    <xsd:element name="billToAddress4" type="xsd:string"/>
+                    <xsd:element name="billToCity" type="xsd:string"/>
+                    <xsd:element name="billToPostalCode" type="xsd:string"/>
+                    <xsd:element name="billToState" type="xsd:string"/>
+                    <xsd:element name="billToProvince" type="xsd:string"/>
+                    <xsd:element name="billToCounty" type="xsd:string"/>
+                    <xsd:element name="billToCountry" type="xsd:string"/>
+                    <xsd:element name="billToContact" type="xsd:string"/>
+                    <xsd:element name="billToEmail" type="xsd:string"/>
+                    <xsd:element name="billToPhone" type="xsd:string"/>
+                    <xsd:element name="billToFirstName" type="xsd:string"/>
+                    <xsd:element name="billToLastName" type="xsd:string"/>
+                    <xsd:element name="billToTitle" type="xsd:string"/>
+                    <xsd:element name="shipToFirstName" type="xsd:string"/>
+                    <xsd:element name="shipToLastName" type="xsd:string"/>
+                    <xsd:element name="shipToTitle" type="xsd:string"/>
+                    <xsd:element name="shipToAddress1" type="xsd:string"/>
+                    <xsd:element name="shipToAddress2" type="xsd:string"/>
+                    <xsd:element name="shipToAddress3" type="xsd:string"/>
+                    <xsd:element name="shipToAddress4" type="xsd:string"/>
+                    <xsd:element name="shipToCity" type="xsd:string"/>
+                    <xsd:element name="shipToPostalCode" type="xsd:string"/>
+                    <xsd:element name="shipToState" type="xsd:string"/>
+                    <xsd:element name="shipToProvince" type="xsd:string"/>
+                    <xsd:element name="shipToCounty" type="xsd:string"/>
+                    <xsd:element name="shipToCountry" type="xsd:string"/>
+                    <xsd:element name="shipToContact" type="xsd:string"/>
+                    <xsd:element name="shipToPhone" type="xsd:string"/>
+                    <xsd:element name="customerNumber" type="xsd:string"/>
+                    <xsd:element name="registryId" type="xsd:string"/>
+                    <xsd:element name="trackingInformation" type="xsd:string"/>
+                    <xsd:element name="line" type="oh:LineType" maxOccurs="unbounded" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="LineType">
+                <xsd:sequence>
+                    <xsd:element name="sku" type="xsd:string"/>
+                    <xsd:element name="longDescription" type="xsd:string"/>
+                    <xsd:element name="itemStyle" type="xsd:string"/>
+                    <xsd:element name="quantity" type="xsd:int"/>
+                    <xsd:element name="unitPrice" type="xsd:string"/>
+                    <xsd:element name="extendedPrice" type="xsd:string"/>
+                    <xsd:element name="taxAmount" type="xsd:string"/>
+                    <xsd:element name="trackingInformation" type="xsd:string"/>
+                    <xsd:element name="billToAddress" type="xsd:string"/>
+                    <xsd:element name="billToContact" type="xsd:string"/>
+                    <xsd:element name="shipToAddress" type="xsd:string"/>
+                    <xsd:element name="shipToContact" type="xsd:string"/>
+                    <xsd:element name="lineStatus" type="xsd:string"/>
+                    <xsd:element name="shipmentDate" type="xsd:string"/>
+                    <xsd:element name="deliveredDate" type="xsd:string"/>
+                    <xsd:element name="returnDate" type="xsd:string"/>
+                    <xsd:element name="canceledDate" type="xsd:string"/>
+                    <xsd:element name="enableRefundFlag" type="xsd:boolean" maxOccurs="1" minOccurs="1"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:element name="GetOrderLinesByWebUserId">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="webuserid" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+                        <xsd:element name="site" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+                        <xsd:element name="ordernumber" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="GetOrderLinesByWebUserIdResponse">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="order" type="oh:OrderType" maxOccurs="1" minOccurs="1"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:schema>
+    </types>
+    <message name="GetOrderByWebUserIdRequest">
+        <part name="parameters" element="oh:GetOrderByWebUserId"/>
+    </message>
+    <message name="GetOrderByWebUserIdResponse">
+        <part name="parameters" element="oh:GetOrderByWebUserIdResponse"/>
+    </message>
+    <message name="GetOrderLinesByWebUserIdRequest">
+        <part name="parameters" element="oh:GetOrderLinesByWebUserId"/>
+    </message>
+    <message name="GetOrderLinesByWebUserIdResponse">
+        <part name="parameters" element="oh:GetOrderLinesByWebUserIdResponse"/>
+    </message>
+    <portType name="OrderHistory">
+        <operation name="GetOrderByWebUserId">
+            <input message="oh:GetOrderByWebUserIdRequest"/>
+            <output message="oh:GetOrderByWebUserIdResponse"/>
+        </operation>
+        <operation name="GetOrderLinesByWebUserId">
+            <input message="oh:GetOrderLinesByWebUserIdRequest"/>
+            <output message="oh:GetOrderLinesByWebUserIdResponse"/>
+        </operation>
+    </portType>
+    <binding name="OrderHistorySOAP" type="oh:OrderHistory">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="GetOrderByWebUserId">
+            <soap:operation soapAction="http://104.155.22.149/soap/test.php/GetOrderByWebUserId"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+        <operation name="GetOrderLinesByWebUserId">
+            <soap:operation soapAction="http://104.155.22.149/soap/test.php/GetOrderLinesByWebUserId"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+    </binding>
+    <service name="OrderHistory">
+        <port name="OrderHistorySOAP" binding="oh:OrderHistorySOAP">
+            <soap:address location="http://104.155.22.149/soap/OrderHistoryService.php"/>
+        </port>
+    </service>
+</definitions>

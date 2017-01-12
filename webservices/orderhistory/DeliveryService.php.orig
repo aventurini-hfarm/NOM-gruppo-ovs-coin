@@ -1,0 +1,294 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: vincenzosambucaro
+ * Date: 11/06/15
+ * Time: 11:02
+ */
+
+
+require_once '/home/OrderManagement/omdb/ShipmentDBHelper.php';
+require_once '/home/OrderManagement/dw2om/orders/MagentoOrderHelper.php';
+require_once "/home/OrderManagement/common/KLogger.php";
+require_once '/home/OrderManagement/omdb/DeliveryDBHelper.php';
+
+const DATE_FORMAT = 'Ymd'; #per la format dell'oggetto Date
+ini_set("soap.wsdl_cache_enabled", 0);
+
+function GetListDeliveries( $param) {
+    echo "\nCiao";
+    $log = new KLogger('/tmp/web_service.log',KLogger::DEBUG);
+    $log->LogDebug($param->webuserid);
+    $log->LogDebug($param->site);
+    $brand = $param->brand;
+    $storeCodePick =$param->storeCodePick;
+    $orderNumber = $param->orderNumber;
+    $customerFullName = $param->customerFullName;
+    $customerEmail = $param->customerEmail;
+    $orderStatus = $param->orderStatus;
+    $dateFrom = $param->dateFrom;
+    $dateTo = $param->dateTo;
+    $orderBy = $param->orderBy;
+    $orderType = $param->orderType;
+    $alertR = $param->alertR;
+    $alertG = $param->alertG;
+    $alertY = $param->alertY;
+    $offSet = $param->offSet;
+    $numLines = $param->numLines;
+
+    $log->LogDebug("Brand:".$brand);
+    $log->LogDebug("storeCodePick:".$storeCodePick);
+    $log->LogDebug("orderNumber".$orderNumber);
+    $log->LogDebug("customerFullName".$customerFullName);
+    $log->LogDebug("email".$customerEmail);
+    $log->LogDebug("order".$orderStatus);
+    $log->LogDebug("df:".$dateFrom);
+    $log->LogDebug("dt".$dateTo);
+    $log->LogDebug("orderby".$orderBy);
+    $log->LogDebug("ordertype".$orderType);
+    $log->LogDebug("alertR".$alertR);
+    $log->LogDebug("alertG".$alertG);
+    $log->LogDebug("alertY".$alertY);
+    $log->LogDebug("offset".$offSet);
+    $log->LogDebug("numlines".$numLines);
+
+    $obj = new stdClass();
+    $obj->totalLines="1";
+    $lines = array();
+
+    $line = new stdClass();
+    $line->brand="CC";
+    $line->orderStatus="In Elaborazione";
+    $line->storeCodePick="ALL";
+    $line->orderAmount="1200";
+    $line->billToPhoneNumber="";
+    $line->orderNumber="123";
+    $line->orderDate="25/07/2015";
+    $line->trackingUrl="http://www.test.it";
+    $line->deliveryNumber="10000";
+    $line->firstName="Vincenzo";
+    $line->lastName="Sambucaro";
+    $line->shippingDate="";
+    $line->deliveredDate="";
+    $line->custDeliveredDate="";
+    $line->fidelityFlag="";
+    $line->alertRGY="3";
+    $line->nColli="1";
+    $line->headerId="10";
+
+    array_push($lines, $line);
+
+    $obj->delivery = $lines;
+
+    $ret = new stdClass();
+    $ret->deliveryResponse =  $obj;
+
+    $header = "Content-Type:text/xml";
+
+    header($header);
+    echo "\nPROVA";
+    print_r($ret);
+    return $ret;
+}
+
+function GetDetailsDelivery($param) {
+
+    $log = new KLogger('/tmp/web_services.log',KLogger::DEBUG);
+    $log->LogDebug("Invocato Metodo GetDetailsDelivery");
+    $headerId = $param->headerId;
+    $deliveryNumber = $param->deliveryNumber;
+    $alertR = $param->alertR;
+    $alertG = $param->alertG;
+    $alertY = $param->alertY;
+
+    $log->LogDebug("HeaderID: ".$headerId);
+    $log->LogDebug("DeliveryNumber:".$deliveryNumber);
+    $log->LogDebug("AlertR:".$alertR);
+    $log->LogDebug("AlertG:".$alertG);
+    $log->LogDebug("AlertY".$alertY);
+
+    $dw_order_no = DeliveryDBHelper::getDWOrderNumberByDeliveryId(ltrim($deliveryNumber,'0'));
+    $helper = new MagentoOrderHelper();
+    $increment_id = $helper->getOrderIdByDWId($dw_order_no);
+    $log->LogDebug("Increment_ID: ".$increment_id);
+
+    $order = Mage::getModel('sales/order')->load($increment_id, 'increment_id');
+
+
+    $obj = new stdClass();
+
+    $obj->storeCodePick="123";
+    $obj->orderStatus="OK";
+    $obj->orderNumber=$dw_order_no;
+    $obj->nColli="1";
+    $obj->trackingUrl="";
+    $obj->firstName="Vincenzo";
+    $obj->lastName="Sambucaro";
+    $obj->billToPhoneNumber="";
+    $obj->orderDate="";
+    $obj->shippingDate="";
+    $obj->deliveredDate="";
+    $obj->custDeliveredDate="";
+    $obj->alertRGY="";
+    $obj->accountNumber="";
+    $obj->billToAddress="";
+    $obj->paymentType="";
+    $obj->paymentDetail="";
+    $obj->invoiceNumber="";
+    $obj->fidelityCard="";
+    $obj->loyaltyPoints="";
+    $obj->custDeliveredNote="";
+    $obj->totalQty="";
+    $obj->totalAmount="";
+    $obj->refundNote="";
+    $obj->enableRefundFlag="";
+    $obj->reasonCode="";
+
+
+
+
+    //ottiene le linee ordine
+    $log->LogDebug("Getting Details: ".$increment_id);
+    $lines = MagentoOrderHelper::getOrderLineDetails($increment_id);
+    $lines_list = array();
+    foreach ($lines as $line) {
+        $log->LogDebug("SKU: ".$line['sku']);
+        $lineObj = new stdClass();
+        $lineObj->sku=$line['sku'];
+        $lineObj->longDescription=$line['description'];
+
+        $lineObj->quantity=$line['order_quantity'];
+        $lineObj->unitSellingPrice= $line['unit_price'];
+        $lineObj->promotion="";
+        $lineObj->promotionAmount="";
+        $lineObj->lineAmount="";
+
+        array_push($lines_list, $lineObj);
+    }
+
+    $obj->lines = $lines_list;
+
+    $header = "Content-Type:text/xml";
+
+    header($header);
+
+    return $obj;
+}
+
+
+function UpdateDelivery($param) {
+
+    $log = new KLogger('/tmp/web_services.log',KLogger::DEBUG);
+    $log->LogDebug("Invocato Metodo UpdateDelivery");
+
+    $deliveryNumber = $param->deliveryNumber;
+    $orderStatus = $param->orderStatus;
+    $custDeliveredNote = $param->custDeliveredNote;
+    $clerckName = $param->clerckName;
+
+    $log->LogDebug("OrderStatus: ".$orderStatus);
+    $log->LogDebug("DeliveryNumber:".$deliveryNumber);
+    $log->LogDebug("custDeliveredNote:".$custDeliveredNote);
+    $log->LogDebug("clerckName:".$clerckName);
+
+
+    $dw_order_no = DeliveryDBHelper::getDWOrderNumberByDeliveryId(ltrim($deliveryNumber,'0'));
+
+    $resp = new stdClass();
+    $resp->status = "OK";
+    return $resp;
+}
+
+function RefundDelivery($param) {
+
+    $log = new KLogger('/tmp/web_services.log',KLogger::DEBUG);
+    $log->LogDebug("Invocato Metodo RefundDelivery");
+
+    $headerId = $param->headerId;
+    $refundStatus = $param->refundStatus;
+    $reasonCode = $param->reasonCode;
+    $refundNote = $param->refundNote;
+    $clerckName = $param->clerckName;
+
+
+
+    $log->LogDebug("headerId: ".$headerId);
+    $log->LogDebug("refundStatus:".$refundStatus);
+    $log->LogDebug("reasonCode:".$reasonCode);
+    $log->LogDebug("refundNote:".$refundNote);
+    $log->LogDebug("clerckName:".$clerckName);
+
+
+    //$dw_order_no = DeliveryDBHelper::getDWOrderNumberByDeliveryId(ltrim($deliveryNumber,'0'));
+
+    $resp = new stdClass();
+    $resp->status = "OK";
+    return $resp;
+}
+/*
+ob_start();
+
+var_dump($_GET); // Element 'foo' is string(1) "a"
+var_dump($_POST); // Element 'bar' is string(1) "b"
+var_dump($_REQUEST); // Does not contain elements 'foo' or 'bar'
+
+//ob_end_flush();
+$message = ob_get_contents();
+
+
+ob_end_clean();
+
+$handle = fopen("/tmp/richiesta.txt",  'a');
+fwrite($handle, $message);
+fclose($handle);
+*/
+
+//$message = file_get_contents("php://input");
+
+//$handle = fopen("/tmp/richiesta2.txt",  'a');
+//fwrite($handle, $message);
+//fclose($handle);
+
+//$log1 = new KLogger('/tmp/web_service.log',KLogger::DEBUG);
+//$log1->LogDebug("Arrivata Chiamata");
+// Set up the PHP SOAP server
+$server = new SoapServer("delivery.wsdl", array('cache_wsdl' => WSDL_CACHE_NONE));
+// Add the exposable functions
+$server->addFunction("GetListDeliveries");
+//$server->addFunction("GetDetailsDelivery");
+//$server->addFunction("UpdateDelivery");
+//$server->addFunction("RefundDelivery");
+
+//$log1->LogDebug("Fine chiamata");
+
+
+
+// Handle the request
+$server->handle();
+
+
+$obj = new stdClass();
+$obj->brand='CC';
+$obj->customerFullName="";
+$obj->customerEmail="";
+$obj->orderBy="9";
+$obj->orderType=false;
+$obj->alertR=999;
+$obj->alertG=3;
+$obj->alertY=5;
+$obj->offSet=1;
+$obj->numLines=30;
+//GetDetailsDelivery($obj);
+//$obj = new stdClass();
+//$obj->ordernumber = "00078849";
+//$obj->webuserid = "00008070";
+//$obj->site = "5463";
+
+//$t = GetOrderLinesByWebUserId($obj);
+//print_r($t);
+
+//$log1->LogDebug("End Server");
+
+
+
+GetListDeliveries($obj);

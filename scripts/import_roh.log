@@ -1,0 +1,146 @@
+2015-06-16 14:57:35 - DEBUG --> Processing roh file: 20150616122723-roh_cc_it_WH_SG_20150616122549.xml 
+2015-06-16 14:57:35 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150616122723-roh_cc_it_WH_SG_20150616122549.xml 
+2015-06-16 14:58:09 - DEBUG --> Processing roh file: 20150616122723-roh_cc_it_WH_SG_20150616122549.xml 
+2015-06-16 14:58:09 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150616122723-roh_cc_it_WH_SG_20150616122549.xml 
+2015-06-16 15:00:23 - DEBUG --> Processing roh file: 20150616122723-roh_cc_it_WH_SG_20150616122549.xml 
+2015-06-16 15:00:23 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150616122723-roh_cc_it_WH_SG_20150616122549.xml 
+2015-06-16 15:00:47 - DEBUG --> Processing roh file: 20150616122723-roh_cc_it_WH_SG_20150616122549.xml 
+2015-06-16 15:00:47 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150616122723-roh_cc_it_WH_SG_20150616122549.xml 
+2015-06-16 15:00:50 - DEBUG --> Creating Stock file due to ROH 
+2015-06-16 15:00:51 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-06-16 15:00:51 - INFO  --> roh file: 20150616122723-roh_cc_it_WH_SG_20150616122549.xml PROCESSED 
+2015-06-16 15:22:17 - DEBUG --> Processing roh file: 20150616122723-roh_cc_it_WH_SG_20150616122549.xml 
+2015-06-16 15:22:17 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150616122723-roh_cc_it_WH_SG_20150616122549.xml 
+2015-06-16 15:22:19 - DEBUG --> Creating Stock file due to ROH 
+2015-06-16 15:22:21 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-06-16 15:22:21 - INFO  --> roh file: 20150616122723-roh_cc_it_WH_SG_20150616122549.xml PROCESSED 
+2015-07-27 12:48:23 - INFO  --> Start importing inventory (roh) 
+2015-07-27 12:48:23 - INFO  --> Nessun file da processare 
+2015-07-27 12:49:15 - INFO  --> Start importing inventory (roh) 
+2015-07-27 12:49:15 - INFO  --> Processing roh file: 20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:49:15 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:49:15 - DEBUG --> Creating Stock file due to ROH 
+2015-07-27 12:49:16 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-27 12:49:16 - INFO  --> roh file: 20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup PROCESSED 
+2015-07-27 12:49:16 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:49:16 - INFO  --> ROH file20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup ARCHIVED 
+2015-07-27 12:53:09 - INFO  --> Start importing inventory (roh) 
+2015-07-27 12:53:09 - INFO  --> Processing roh file: 20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:53:09 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:53:09 - DEBUG --> Creating Stock file due to ROH 
+2015-07-27 12:53:10 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-27 12:53:10 - INFO  --> roh file: 20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup PROCESSED 
+2015-07-27 12:53:10 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:53:10 - INFO  --> ROH file20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup ARCHIVED 
+2015-07-27 12:54:06 - INFO  --> Start importing inventory (roh) 
+2015-07-27 12:54:06 - INFO  --> Nessun file da processare 
+2015-07-27 12:55:04 - INFO  --> Start importing inventory (roh) 
+2015-07-27 12:55:04 - INFO  --> Processing roh file: 20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:55:04 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:55:04 - DEBUG --> Creating Stock file due to ROH 
+2015-07-27 12:55:05 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-27 12:55:05 - INFO  --> roh file: 20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup PROCESSED 
+2015-07-27 12:55:05 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:55:05 - INFO  --> ROH file20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup ARCHIVED 
+2015-07-27 12:55:50 - INFO  --> Start importing inventory (roh) 
+2015-07-27 12:55:50 - INFO  --> Processing roh file: 20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:55:50 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:55:50 - DEBUG --> Creating Stock file due to ROH 
+2015-07-27 12:55:51 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-27 12:55:51 - INFO  --> roh file: 20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup PROCESSED 
+2015-07-27 12:55:51 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:55:51 - INFO  --> ROH file20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup ARCHIVED 
+2015-07-27 12:58:20 - INFO  --> Start importing inventory (roh) 
+2015-07-27 12:58:20 - INFO  --> Processing roh file: 20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:58:20 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:58:20 - DEBUG --> Creating Stock file due to ROH 
+2015-07-27 12:58:21 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-27 12:58:21 - INFO  --> roh file: 20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup PROCESSED 
+2015-07-27 12:58:21 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 12:58:21 - INFO  --> ROH file20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup ARCHIVED 
+2015-07-27 13:00:35 - INFO  --> Start importing inventory (roh) 
+2015-07-27 13:00:35 - INFO  --> Processing roh file: 20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 13:00:35 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 13:00:35 - DEBUG --> Creating Stock file due to ROH 
+2015-07-27 13:00:36 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-27 13:00:36 - INFO  --> roh file: 20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup PROCESSED 
+2015-07-27 13:00:36 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 13:00:36 - INFO  --> ROH file20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup ARCHIVED 
+2015-07-27 13:18:45 - INFO  --> Start importing inventory (roh) 
+2015-07-27 13:18:45 - INFO  --> Processing roh file: 20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 13:18:45 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 13:18:45 - DEBUG --> Creating Stock file due to ROH 
+2015-07-27 13:18:46 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-27 13:18:46 - INFO  --> roh file: 20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup PROCESSED 
+2015-07-27 13:18:46 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup 
+2015-07-27 13:18:46 - INFO  --> ROH file20150725010224-roh_cc_it_WH_SG_20150725010055.xml.backup ARCHIVED 
+2015-07-27 13:27:21 - INFO  --> Start importing inventory (roh) 
+2015-07-27 13:27:21 - INFO  --> Nessun file da processare 
+2015-07-28 05:45:46 - INFO  --> Start importing inventory (roh) 
+2015-07-28 05:45:46 - INFO  --> Processing roh file: 20150728011242-roh_cc_it_WH_SG_20150728011055.xml.backup 
+2015-07-28 05:45:46 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/20150728011242-roh_cc_it_WH_SG_20150728011055.xml.backup 
+2015-07-28 05:45:49 - DEBUG --> Creating Stock file due to ROH 
+2015-07-28 05:45:51 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-28 05:45:51 - INFO  --> roh file: 20150728011242-roh_cc_it_WH_SG_20150728011055.xml.backup PROCESSED 
+2015-07-28 05:45:51 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/20150728011242-roh_cc_it_WH_SG_20150728011055.xml.backup-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/20150728011242-roh_cc_it_WH_SG_20150728011055.xml.backup 
+2015-07-28 05:45:51 - INFO  --> ROH file20150728011242-roh_cc_it_WH_SG_20150728011055.xml.backup ARCHIVED 
+2015-07-28 09:12:06 - INFO  --> Start importing inventory (roh) 
+2015-07-28 09:12:06 - INFO  --> Processing roh file: roh_cc_it_WH_SG_20150728094050.xml 
+2015-07-28 09:12:06 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728094050.xml 
+2015-07-28 09:12:07 - DEBUG --> Creating Stock file due to ROH 
+2015-07-28 09:12:08 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-28 09:12:08 - INFO  --> roh file: roh_cc_it_WH_SG_20150728094050.xml PROCESSED 
+2015-07-28 09:12:08 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728094050.xml-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/roh_cc_it_WH_SG_20150728094050.xml 
+2015-07-28 09:12:08 - INFO  --> ROH fileroh_cc_it_WH_SG_20150728094050.xml ARCHIVED 
+2015-07-28 09:12:08 - INFO  --> Processing roh file: roh_cc_it_WH_SG_20150728110050.xml 
+2015-07-28 09:12:08 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728110050.xml 
+2015-07-28 09:12:08 - DEBUG --> Creating Stock file due to ROH 
+2015-07-28 09:12:09 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-28 09:12:09 - INFO  --> roh file: roh_cc_it_WH_SG_20150728110050.xml PROCESSED 
+2015-07-28 09:12:09 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728110050.xml-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/roh_cc_it_WH_SG_20150728110050.xml 
+2015-07-28 09:12:09 - INFO  --> ROH fileroh_cc_it_WH_SG_20150728110050.xml ARCHIVED 
+2015-07-28 09:18:04 - INFO  --> Start importing inventory (roh) 
+2015-07-28 09:18:04 - INFO  --> Processing roh file: roh_cc_it_WH_SG_20150728094050.xml 
+2015-07-28 09:18:04 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728094050.xml 
+2015-07-28 09:18:04 - DEBUG --> Creating Stock file due to ROH 
+2015-07-28 09:18:04 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-28 09:18:04 - INFO  --> roh file: roh_cc_it_WH_SG_20150728094050.xml PROCESSED 
+2015-07-28 09:18:04 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728094050.xml-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/roh_cc_it_WH_SG_20150728094050.xml 
+2015-07-28 09:18:04 - INFO  --> ROH fileroh_cc_it_WH_SG_20150728094050.xml ARCHIVED 
+2015-07-28 09:18:04 - INFO  --> Processing roh file: roh_cc_it_WH_SG_20150728110050.xml 
+2015-07-28 09:18:04 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728110050.xml 
+2015-07-28 09:18:04 - DEBUG --> Creating Stock file due to ROH 
+2015-07-28 09:18:04 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-28 09:18:04 - INFO  --> roh file: roh_cc_it_WH_SG_20150728110050.xml PROCESSED 
+2015-07-28 09:18:04 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728110050.xml-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/roh_cc_it_WH_SG_20150728110050.xml 
+2015-07-28 09:18:04 - INFO  --> ROH fileroh_cc_it_WH_SG_20150728110050.xml ARCHIVED 
+2015-07-28 09:20:06 - INFO  --> Start importing inventory (roh) 
+2015-07-28 09:20:06 - INFO  --> Processing roh file: roh_cc_it_WH_SG_20150728094050.xml 
+2015-07-28 09:20:06 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728094050.xml 
+2015-07-28 09:20:06 - DEBUG --> Creating Stock file due to ROH 
+2015-07-28 09:20:07 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-28 09:20:07 - INFO  --> roh file: roh_cc_it_WH_SG_20150728094050.xml PROCESSED 
+2015-07-28 09:20:07 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728094050.xml-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/roh_cc_it_WH_SG_20150728094050.xml 
+2015-07-28 09:20:07 - INFO  --> ROH fileroh_cc_it_WH_SG_20150728094050.xml ARCHIVED 
+2015-07-28 09:20:07 - INFO  --> Processing roh file: roh_cc_it_WH_SG_20150728110050.xml 
+2015-07-28 09:20:07 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728110050.xml 
+2015-07-28 09:20:07 - DEBUG --> Creating Stock file due to ROH 
+2015-07-28 09:20:08 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-28 09:20:08 - INFO  --> roh file: roh_cc_it_WH_SG_20150728110050.xml PROCESSED 
+2015-07-28 09:20:08 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728110050.xml-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/roh_cc_it_WH_SG_20150728110050.xml 
+2015-07-28 09:20:08 - INFO  --> ROH fileroh_cc_it_WH_SG_20150728110050.xml ARCHIVED 
+2015-07-28 09:20:53 - INFO  --> Start importing inventory (roh) 
+2015-07-28 09:20:53 - INFO  --> Processing roh file: roh_cc_it_WH_SG_20150728094050.xml 
+2015-07-28 09:20:53 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728094050.xml 
+2015-07-28 09:20:53 - DEBUG --> Creating Stock file due to ROH 
+2015-07-28 09:20:55 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-28 09:20:55 - INFO  --> roh file: roh_cc_it_WH_SG_20150728094050.xml PROCESSED 
+2015-07-28 09:20:55 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728094050.xml-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/roh_cc_it_WH_SG_20150728094050.xml 
+2015-07-28 09:20:55 - INFO  --> ROH fileroh_cc_it_WH_SG_20150728094050.xml ARCHIVED 
+2015-07-28 09:20:55 - INFO  --> Processing roh file: roh_cc_it_WH_SG_20150728110050.xml 
+2015-07-28 09:20:55 - DEBUG --> Processing roh file (fullname): /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728110050.xml 
+2015-07-28 09:20:55 - DEBUG --> Creating Stock file due to ROH 
+2015-07-28 09:20:56 - DEBUG --> Stock file due to ROH -> CRATED 
+2015-07-28 09:20:56 - INFO  --> roh file: roh_cc_it_WH_SG_20150728110050.xml PROCESSED 
+2015-07-28 09:20:56 - DEBUG --> Copio: /home/OrderManagement/testFiles/inventory_export/inbound/roh_cc_it_WH_SG_20150728110050.xml-> /home/OrderManagement/testFiles/inventory_export/inbound/archive/roh_cc_it_WH_SG_20150728110050.xml 
+2015-07-28 09:20:56 - INFO  --> ROH fileroh_cc_it_WH_SG_20150728110050.xml ARCHIVED 

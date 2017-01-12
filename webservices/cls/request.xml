@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:cls="http://cls.service.esb.sopragroup.com">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <cls:getPoints>
+            <!--Optional:-->
+            <cls:getPointsRequest>
+                <cardCode>000000002782</cardCode>
+            </cls:getPointsRequest>
+        </cls:getPoints>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:ns1="http://cls.service.esb.sopragroup.com">
+<SOAP-ENV:Body>
+    <ns1:getPoints/>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

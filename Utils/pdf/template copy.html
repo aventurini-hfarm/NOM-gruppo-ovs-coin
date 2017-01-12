@@ -1,0 +1,314 @@
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Stampa Fattura</title>
+		<style type="text/css">
+			body {
+				font-family: Arial,Helvetica,sans-serif;
+				font-size: 13px;
+				word-break:break-all;
+			}
+			
+			th {
+				border-bottom: 1px solid #CCCCCC;
+			}
+			
+			table {
+				border-spacing: 10px;
+				border-collapse: collapse;
+			}
+			
+			
+			td, th {
+				padding: 3px;
+			}
+			
+			tr {
+
+			}
+			
+			#top td {
+				padding: 0;
+			}
+			
+			#summary td, #partenza td, #destinazione td, #list td {
+				border: 1px solid #CCCCCC;
+				border-collapse: collapse;
+			}
+			
+			h2 {
+				text-align: center;
+				background-color: #505050;
+				color: white;
+				padding: 5px;
+				font-weight: normal;
+				font-size:15px;
+			}
+			
+			table {
+				margin-bottom:20px;
+			}
+			
+			#top {
+				margin-bottom: 0;
+			}
+			
+			hr {
+				border: none;
+				margin-bottom: 20px;
+				height: 1px;
+				background-color: #CCCCCC;
+			}
+			
+			@page { margin: 130px 30px 150px 30px}
+		
+			#header { 
+				position: fixed; 
+				left: 0px; 
+				top: -100px;
+				right: 0px; 
+				height: 180px; 
+				text-align: left; 
+			}
+
+			#footer { 
+				position: fixed; 
+				left: 0px; 
+				bottom: -180px; 
+				right: 0px; 
+				height: 150px;
+				border-top: 1px solid #CCCCCC;
+				/* background-color: #f9f9f9; */ 
+			}
+			
+			a {
+				color: #000000;
+			}
+			
+			a:hover {
+				color: #000000;
+			}
+
+			.with-border {
+				border: solid 1px black;
+			}			
+
+			.separator {
+				padding: 0px;
+				border-bottom: solid 1px;
+			}
+
+		</style>
+	</head>
+ 
+	<body>
+		<div id="header1" style="color:#a1a1a1; font-size:10px">
+			<!-- Header -->
+			<table width="100%" id="top" height="300">
+				<tr>					
+					<td  width="60%" valign="top">
+						<img src="/Users/vincenzosambucaro/Desktop/logo_ovs.png" alt="OVS" width="400" />
+					</td>
+					<td valign="top" width="40%">
+						Gruppo Coin SpA con socio unico<br/>						
+						Sede legale e amm. : Via Terraglio, 17, 30174 Venezia Mestre Italy<br/>
+						Tel. +390412398000, Fax +39 041-982722<br/>
+						Num. iscrizione Reg. Imprese Venezia,<br/>
+						C. Fisc. e Partita IVA 04850790967<br/>
+						Cap. Soc. Euro 18.081.484,30 i.v.<br/>			
+					</td>
+				</tr>
+			</table>
+			<!-- .Header -->	
+		</div>
+		<div id="testata">
+			<table style="font-size:12px; margin-top: 4px; " width="85%" align="center">
+				<tr>
+					<td valign="top" width="20%" style="font-size: 12px; color:#494948">
+						<strong>INFORMAZIONI CLIENTE</strong>
+						<?php echo $header_fattura['billing_firstname']." ".$header_fattura['billing_lastname']; ?><br/>
+						<?php echo $header_fattura['billing_street']; ?><br/>
+						<?php 
+							echo $header_fattura['billing_city']; 
+							if($header_fattura['billing_region_code']) {
+								echo " (".$header_fattura['billing_region_code'].")";
+							}
+							echo " - " .$header_fattura['billing_post_code']; 
+						?><br/>
+						<?php 
+							if($header_fattura['billing_vat_id'] != "") {
+								echo "P. Iva: ". $header_fattura['billing_vat_id']. "<br/>";
+							}
+							if($header_fattura['billing_cf'] != "") {
+								echo "C.F.: ". $header_fattura['billing_cf'];
+							}
+						?>
+					</td>
+
+					<td valign="top" width="18%">
+						<strong>INFORMAZIONI ORDINE</strong><br/>
+						Cliente: <br/>
+						Scontrino<br/>
+						Data documento: <br/>
+						Ordine: <br/>
+						Data ordine: <br/><br/>
+						Telefono: </br>
+						Email: 
+
+					</td>
+					<td valign="top" width="18%">
+						<strong>INFORMAZIONI DESTINATARIO</strong><br/>
+						Telefono: <br/>
+						
+					</td>
+					<td valign="top" width="20%">
+						<strong>INDIRIZZO DESTINATARIO</strong><br/>
+						<?php echo $header_fattura['shipping_firstname']." ".$header_fattura['shipping_lastname']; ?><br/>
+						<?php echo $header_fattura['shipping_street']; ?><br/>
+						<?php 
+							echo $header_fattura['shipping_city']; 
+							if($header_fattura['shipping_region_code']) {
+								echo " (".$header_fattura['shipping_region_code'].")";
+							}
+							echo " - " .$header_fattura['shipping_post_code']; 
+						?><br/>
+						<?php 
+							if($header_fattura['shipping_vat_id'] != "") {
+								echo "P. Iva: ". $header_fattura['shipping_vat_id']. "<br/>";
+							}
+							if($header_fattura['shipping_cf'] != "") {
+								echo "C.F.: ". $header_fattura['shipping_cf'];
+							}
+						?>
+						
+					</td>
+				</tr>
+			</table>
+
+		</div>
+		
+		<br/><br/>
+
+		
+		<table width="85%" align="center" style="border-spacing: 10px !important;  border: 1px solid;" >
+			<tr>
+				<th align="left">CODICE</th>
+				<th align="left">DESCRIZIONE PRODOTTO</th>
+				<th align="right">QTA</th>
+				<th align="center" class="with-border">PREZZO EUR</th>
+				<th align="center" class="with-border">% SC.</th>
+				<th align="center" class="with-border">PREZZO SC. EUR</th>
+				<th align="center" class="with-border">IVA%</th>
+				<th align="center" >IMPORTO EUR</th>
+			</tr>
+			
+			<?php 
+				// Stampa dettaglio fattura
+				$contatore_righe=0;
+
+				foreach($dettaglio_fattura as $prodotto) {
+					$contatore_righe++;
+			?>
+			<tr>
+				<td align="left"><?php echo $prodotto['YI6DESC1']; ?></td>
+				<td align="left"><?php echo $prodotto['YI6DESC1']; ?></td>
+				<td align="right"><?php echo $prodotto['YI6QUANT']; ?></td>
+				<td align="right" class="with-border"><?php echo number_format($prodotto['YI6PREZZ'], 2); ?></td>
+				<td align="right" class="with-border"><?php echo number_format($prodotto['YI6VALOR'], 2); ?></td>
+				<td align="left" class="with-border"><?php echo $prodotto['YI6DESC1']; ?></td>
+				<td align="right" class="with-border"><?php echo $prodotto['YI6QUANT']; ?></td>
+				<td align="right" class="with-border"><?php echo number_format($prodotto['YI6PREZZ'], 2); ?></td>
+				<td align="right" ><?php echo number_format($prodotto['YI6VALOR'], 2); ?></td>
+			</tr>	
+			<?php	
+				}
+			?>
+				
+			<!--aggiunge righe vuote per la size tabella corretta-->
+			<?php
+				$max_righe_tabella=20;
+				foreach ($contatore_righe < $max_righe_tabella ) {
+					$contatore_righe++; ?>
+					<tr>
+						<td colspan="8"/>
+					</tr>
+				<?php }
+			?>
+
+			<?php 
+				// Stampa informazioni extra
+				foreach($extra_info as $info) {
+			?>
+			<tr style="background: #CCCCCC">
+				<td align="left" colspan="3"><?php echo $info['YI6DESC1']; ?></td>
+				<td align="right" class="with-border"><?php echo number_format($info['YI6VALOR'], 2); ?></td>
+				<td align="right" class="with-border" colspan="2"><?php echo number_format($info['YI6PREZZ'], 2); ?></td>
+				<td align="right" class="with-border"><?php echo "22"; ?></td>
+				<td align="right"><?php echo number_format($info['YI6VALOR'], 2); ?></td>
+			</tr>	
+			<?php	
+				}
+			?>
+			
+		</table>
+
+		<br/><br/>
+
+<!-- blocco codice a barre e e totale-->
+		<table width="87%" align="center" >
+					
+			<tr>
+
+				<td class="with-border">
+					<table with="100%" >
+						<tr>
+							<td valign="center" align="center" width="60%" height="300">
+							<img width="50%" src="/Users/vincenzosambucaro/Desktop/codice_barre_ovs.png"/>
+							</td>
+						</tr>
+					<tr width="100%">
+						<td class="separator" width="100%"/>
+					</tr>
+						<tr>							
+							<td>
+								Se vuoi effettuare un reso o un cambio merci puoi farlo presentando i capi e questo documento stampato in</br>
+								qualsiasi negozio della rete Coin.</br>
+								Ulteriori informazioni sono disponibili al seguente indirizzo http://www.coincasa.it/Resi-e-cambi.html</br></br>
+								I dati personali da Lei forniti saranno trattati esclusivamente per ottemperare alla Sua richiesta.</br>
+								Il trattamento avverrà con modalità idonee a garantire la sicurezza e la riservatezza come previsto dal D.L.</br>
+								196/2003.</br>
+								Il titolare del trattamento dati è Gruppo Coin S.p.A. via Terraglio, 17 - 30174 Mestre – Venezia.</br>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td valign="top" width="2%" ></td>
+				<td valign="top" width="35%" class="with-border">
+					<table  width="100%">
+						<tr>
+							<td width="70%" height="100">IMPONIBILE:</td>
+							<td width="30%" height="100" align="right">218.69</td>
+						</tr>	
+						<tr>
+							<td width="70%">IVA: Aliquota ordinaria 22% INCLUSA</td>
+							<td width="30%" align="right">218.69</td>
+						</tr>	
+						<tr>
+							<td width="70%" height="200" valign="center">TOTALE EUR:</td>
+							<td width="30%" height="200" valign="center" align="right">218.69</td>
+						</tr>	
+						<tr>
+							<td colspan="2">PAGAMENTO: SGIT COIN - Credit Card</td>
+						</tr>	
+
+						<tr>
+							<td colspan="2">VISA|Evgenia Bogolyubova|9445</td>
+						</tr>	
+					</table>	
+				</td>
+			</tr>
+		</table>
+
+	</body>
+</html>
+
